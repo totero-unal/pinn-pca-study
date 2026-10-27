@@ -1,0 +1,7 @@
+{
+  "matching_checkpoint_keys": 800,
+  "expected_source_checkpoints": 800,
+  "max_absolute_validation_difference": 0.0,
+  "physical_initialization_max_abs_difference": 2.9802322387695312e-08,
+  "source_hashes_match": true
+}

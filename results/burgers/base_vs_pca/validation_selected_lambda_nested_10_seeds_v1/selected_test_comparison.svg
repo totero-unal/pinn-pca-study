@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:18px;font-weight:bold}.label{font-size:13px}.small{font-size:11px}</style>
+<text x="490.0" y="28" class="title" text-anchor="middle">PINN base vs. PCA como preprocesamiento — 10 semillas</text>
+<text x="125" y="58" class="label">Error relativo L2 en prueba</text>
+<line x1="125" y1="232.0" x2="935" y2="232.0" class="grid"/>
+<text x="117" y="236.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="190.8" x2="935" y2="190.8" class="grid"/>
+<text x="117" y="194.8" class="small" text-anchor="end">0.116</text>
+<line x1="125" y1="149.5" x2="935" y2="149.5" class="grid"/>
+<text x="117" y="153.5" class="small" text-anchor="end">0.232</text>
+<line x1="125" y1="108.2" x2="935" y2="108.2" class="grid"/>
+<text x="117" y="112.2" class="small" text-anchor="end">0.348</text>
+<line x1="125" y1="67.0" x2="935" y2="67.0" class="grid"/>
+<text x="117" y="71.0" class="small" text-anchor="end">0.465</text>
+<line x1="125" y1="67" x2="125" y2="232" class="axis"/>
+<line x1="125" y1="232" x2="935" y2="232" class="axis"/>
+<rect x="283.5" y="166.7" width="88" height="65.3" fill="#727b86"/>
+<line x1="327.5" y1="158.5" x2="327.5" y2="174.9" stroke="#222"/>
+<line x1="320.5" y1="158.5" x2="334.5" y2="158.5" stroke="#222"/>
+<line x1="320.5" y1="174.9" x2="334.5" y2="174.9" stroke="#222"/>
+<text x="327.5" y="251" class="small" text-anchor="middle">PINN base</text>
+<text x="327.5" y="151.5" class="small" text-anchor="middle">0.184 ± 0.023</text>
+<rect x="688.5" y="98.0" width="88" height="134.0" fill="#3584a8"/>
+<line x1="732.5" y1="94.5" x2="732.5" y2="101.4" stroke="#222"/>
+<line x1="725.5" y1="94.5" x2="739.5" y2="94.5" stroke="#222"/>
+<line x1="725.5" y1="101.4" x2="739.5" y2="101.4" stroke="#222"/>
+<text x="732.5" y="251" class="small" text-anchor="middle">PCA k=8, lambda_PDE=2</text>
+<text x="732.5" y="87.5" class="small" text-anchor="middle">0.3775 ± 0.0097</text>
+<text x="125" y="293" class="label">RMS del residuo de Burgers en prueba</text>
+<line x1="125" y1="467.0" x2="935" y2="467.0" class="grid"/>
+<text x="117" y="471.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="425.8" x2="935" y2="425.8" class="grid"/>
+<text x="117" y="429.8" class="small" text-anchor="end">0.288</text>
+<line x1="125" y1="384.5" x2="935" y2="384.5" class="grid"/>
+<text x="117" y="388.5" class="small" text-anchor="end">0.575</text>
+<line x1="125" y1="343.2" x2="935" y2="343.2" class="grid"/>
+<text x="117" y="347.2" class="small" text-anchor="end">0.863</text>
+<line x1="125" y1="302.0" x2="935" y2="302.0" class="grid"/>
+<text x="117" y="306.0" class="small" text-anchor="end">1.15</text>
+<line x1="125" y1="302" x2="125" y2="467" class="axis"/>
+<line x1="125" y1="467" x2="935" y2="467" class="axis"/>
+<rect x="283.5" y="348.9" width="88" height="118.1" fill="#727b86"/>
+<line x1="327.5" y1="329.5" x2="327.5" y2="368.3" stroke="#222"/>
+<line x1="320.5" y1="329.5" x2="334.5" y2="329.5" stroke="#222"/>
+<line x1="320.5" y1="368.3" x2="334.5" y2="368.3" stroke="#222"/>
+<text x="327.5" y="486" class="small" text-anchor="middle">PINN base</text>
+<text x="327.5" y="322.5" class="small" text-anchor="middle">0.8235 ± 0.14</text>
+<rect x="688.5" y="438.6" width="88" height="28.4" fill="#3584a8"/>
+<line x1="732.5" y1="436.1" x2="732.5" y2="441.1" stroke="#222"/>
+<line x1="725.5" y1="436.1" x2="739.5" y2="436.1" stroke="#222"/>
+<line x1="725.5" y1="441.1" x2="739.5" y2="441.1" stroke="#222"/>
+<text x="732.5" y="486" class="small" text-anchor="middle">PCA k=8, lambda_PDE=2</text>
+<text x="732.5" y="429.1" class="small" text-anchor="middle">0.1979 ± 0.017</text>
+<text x="125" y="528" class="label">Tiempo por corrida (PCA incluye ajuste)</text>
+<line x1="125" y1="702.0" x2="935" y2="702.0" class="grid"/>
+<text x="117" y="706.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="660.8" x2="935" y2="660.8" class="grid"/>
+<text x="117" y="664.8" class="small" text-anchor="end">3.56</text>
+<line x1="125" y1="619.5" x2="935" y2="619.5" class="grid"/>
+<text x="117" y="623.5" class="small" text-anchor="end">7.13</text>
+<line x1="125" y1="578.2" x2="935" y2="578.2" class="grid"/>
+<text x="117" y="582.2" class="small" text-anchor="end">10.7</text>
+<line x1="125" y1="537.0" x2="935" y2="537.0" class="grid"/>
+<text x="117" y="541.0" class="small" text-anchor="end">14.3</text>
+<line x1="125" y1="537" x2="125" y2="702" class="axis"/>
+<line x1="125" y1="702" x2="935" y2="702" class="axis"/>
+<rect x="283.5" y="569.5" width="88" height="132.5" fill="#727b86"/>
+<line x1="327.5" y1="564.5" x2="327.5" y2="574.5" stroke="#222"/>
+<line x1="320.5" y1="564.5" x2="334.5" y2="564.5" stroke="#222"/>
+<line x1="320.5" y1="574.5" x2="334.5" y2="574.5" stroke="#222"/>
+<text x="327.5" y="721" class="small" text-anchor="middle">PINN base</text>
+<text x="327.5" y="557.5" class="small" text-anchor="middle">11.44 ± 0.43</text>
+<rect x="688.5" y="618.7" width="88" height="83.3" fill="#3584a8"/>
+<line x1="732.5" y1="615.7" x2="732.5" y2="621.6" stroke="#222"/>
+<line x1="725.5" y1="615.7" x2="739.5" y2="615.7" stroke="#222"/>
+<line x1="725.5" y1="621.6" x2="739.5" y2="621.6" stroke="#222"/>
+<text x="732.5" y="721" class="small" text-anchor="middle">PCA k=8, lambda_PDE=2</text>
+<text x="732.5" y="608.7" class="small" text-anchor="middle">7.197 ± 0.25</text>
+</svg>

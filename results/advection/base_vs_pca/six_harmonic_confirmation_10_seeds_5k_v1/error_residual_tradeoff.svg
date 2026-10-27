@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:14px}.small{font-size:11px}</style>
+<text x="500.0" y="32" class="title" text-anchor="middle">Compromiso entre error de solución y residuo PDE</text>
+<line x1="110.0" y1="80" x2="110.0" y2="555" class="grid"/>
+<text x="110.0" y="576" class="small" text-anchor="middle">0.0257</text>
+<line x1="110" y1="555.0" x2="770" y2="555.0" class="grid"/>
+<text x="101" y="559.0" class="small" text-anchor="end">0</text>
+<line x1="242.0" y1="80" x2="242.0" y2="555" class="grid"/>
+<text x="242.0" y="576" class="small" text-anchor="middle">0.0907</text>
+<line x1="110" y1="460.0" x2="770" y2="460.0" class="grid"/>
+<text x="101" y="464.0" class="small" text-anchor="end">0.21</text>
+<line x1="374.0" y1="80" x2="374.0" y2="555" class="grid"/>
+<text x="374.0" y="576" class="small" text-anchor="middle">0.156</text>
+<line x1="110" y1="365.0" x2="770" y2="365.0" class="grid"/>
+<text x="101" y="369.0" class="small" text-anchor="end">0.421</text>
+<line x1="506.0" y1="80" x2="506.0" y2="555" class="grid"/>
+<text x="506.0" y="576" class="small" text-anchor="middle">0.221</text>
+<line x1="110" y1="270.0" x2="770" y2="270.0" class="grid"/>
+<text x="101" y="274.0" class="small" text-anchor="end">0.631</text>
+<line x1="638.0" y1="80" x2="638.0" y2="555" class="grid"/>
+<text x="638.0" y="576" class="small" text-anchor="middle">0.286</text>
+<line x1="110" y1="175.0" x2="770" y2="175.0" class="grid"/>
+<text x="101" y="179.0" class="small" text-anchor="end">0.841</text>
+<line x1="770.0" y1="80" x2="770.0" y2="555" class="grid"/>
+<text x="770.0" y="576" class="small" text-anchor="middle">0.351</text>
+<line x1="110" y1="80.0" x2="770" y2="80.0" class="grid"/>
+<text x="101" y="84.0" class="small" text-anchor="end">1.05</text>
+<line x1="110" y1="80" x2="110" y2="555" class="axis"/>
+<line x1="110" y1="555" x2="770" y2="555" class="axis"/>
+<text x="440.0" y="616" class="label" text-anchor="middle">Error relativo L2 de prueba</text>
+<text x="24" y="317.5" class="label" text-anchor="middle" transform="rotate(-90 24 317.5)">Residuo RMS de advección</text>
+<line x1="154.0" y1="538.2" x2="180.7" y2="538.2" stroke="#596775"/>
+<line x1="167.4" y1="535.5" x2="167.4" y2="540.9" stroke="#596775"/>
+<circle cx="167.4" cy="538.2" r="6" fill="#596775"><title>PINN base</title></circle>
+<line x1="785" y1="102" x2="805" y2="102" stroke="#596775" stroke-width="3"/>
+<text x="812" y="106" class="small">PINN base</text>
+<line x1="573.7" y1="175.4" x2="704.0" y2="175.4" stroke="#167caa"/>
+<line x1="638.8" y1="129.4" x2="638.8" y2="221.5" stroke="#167caa"/>
+<circle cx="638.8" cy="175.4" r="6" fill="#167caa"><title>PCA AD 99%</title></circle>
+<line x1="785" y1="130" x2="805" y2="130" stroke="#167caa" stroke-width="3"/>
+<text x="812" y="134" class="small">PCA AD 99%</text>
+<line x1="382.5" y1="355.5" x2="460.6" y2="355.5" stroke="#d08a27"/>
+<line x1="421.6" y1="324.8" x2="421.6" y2="386.3" stroke="#d08a27"/>
+<circle cx="421.6" cy="355.5" r="6" fill="#d08a27"><title>PCA AD k=8</title></circle>
+<line x1="785" y1="158" x2="805" y2="158" stroke="#d08a27" stroke-width="3"/>
+<text x="812" y="162" class="small">PCA AD k=8</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 590">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:14px}.small{font-size:11px}</style>
+<text x="520.0" y="30" class="title" text-anchor="middle">RMSE validación por peso físico</text>
+<line x1="100" y1="512.0" x2="1000" y2="512.0" class="grid"/>
+<text x="91" y="516.0" class="small" text-anchor="end">0</text>
+<line x1="100.0" y1="74" x2="100.0" y2="512" class="grid"/>
+<text x="100.0" y="533" class="small" text-anchor="middle">1000</text>
+<line x1="100" y1="424.4" x2="1000" y2="424.4" class="grid"/>
+<text x="91" y="428.4" class="small" text-anchor="end">0.07411</text>
+<line x1="280.0" y1="74" x2="280.0" y2="512" class="grid"/>
+<text x="280.0" y="533" class="small" text-anchor="middle">1800</text>
+<line x1="100" y1="336.8" x2="1000" y2="336.8" class="grid"/>
+<text x="91" y="340.8" class="small" text-anchor="end">0.1482</text>
+<line x1="460.0" y1="74" x2="460.0" y2="512" class="grid"/>
+<text x="460.0" y="533" class="small" text-anchor="middle">2600</text>
+<line x1="100" y1="249.2" x2="1000" y2="249.2" class="grid"/>
+<text x="91" y="253.2" class="small" text-anchor="end">0.2223</text>
+<line x1="640.0" y1="74" x2="640.0" y2="512" class="grid"/>
+<text x="640.0" y="533" class="small" text-anchor="middle">3400</text>
+<line x1="100" y1="161.6" x2="1000" y2="161.6" class="grid"/>
+<text x="91" y="165.6" class="small" text-anchor="end">0.2965</text>
+<line x1="820.0" y1="74" x2="820.0" y2="512" class="grid"/>
+<text x="820.0" y="533" class="small" text-anchor="middle">4200</text>
+<line x1="100" y1="74.0" x2="1000" y2="74.0" class="grid"/>
+<text x="91" y="78.0" class="small" text-anchor="end">0.3706</text>
+<line x1="1000.0" y1="74" x2="1000.0" y2="512" class="grid"/>
+<text x="1000.0" y="533" class="small" text-anchor="middle">5000</text>
+<line x1="100" y1="74" x2="100" y2="512" class="axis"/>
+<line x1="100" y1="512" x2="1000" y2="512" class="axis"/>
+<text x="550.0" y="566" class="label" text-anchor="middle">Pasos de optimización</text>
+<text x="24" y="293.0" class="label" text-anchor="middle" transform="rotate(-90 24 293.0)">RMSE</text>
+<line x1="100.0" y1="243.5" x2="100.0" y2="193.0" stroke="#596775"/>
+<circle cx="100.0" cy="218.2" r="4" fill="#596775"/>
+<line x1="437.5" y1="369.5" x2="437.5" y2="285.3" stroke="#596775"/>
+<circle cx="437.5" cy="327.4" r="4" fill="#596775"/>
+<line x1="1000.0" y1="406.1" x2="1000.0" y2="311.4" stroke="#596775"/>
+<circle cx="1000.0" cy="358.7" r="4" fill="#596775"/>
+<polyline points="100.0,218.2 437.5,327.4 1000.0,358.7" fill="none" stroke="#596775" stroke-width="2.4"/>
+<line x1="100.0" y1="291.1" x2="100.0" y2="243.0" stroke="#167caa"/>
+<circle cx="100.0" cy="267.1" r="4" fill="#167caa"/>
+<line x1="437.5" y1="287.2" x2="437.5" y2="249.4" stroke="#167caa"/>
+<circle cx="437.5" cy="268.3" r="4" fill="#167caa"/>
+<line x1="1000.0" y1="286.7" x2="1000.0" y2="243.5" stroke="#167caa"/>
+<circle cx="1000.0" cy="265.1" r="4" fill="#167caa"/>
+<polyline points="100.0,267.1 437.5,268.3 1000.0,265.1" fill="none" stroke="#167caa" stroke-width="2.4"/>
+<line x1="100.0" y1="264.8" x2="100.0" y2="213.2" stroke="#d08a27"/>
+<circle cx="100.0" cy="239.0" r="4" fill="#d08a27"/>
+<line x1="437.5" y1="253.7" x2="437.5" y2="213.1" stroke="#d08a27"/>
+<circle cx="437.5" cy="233.4" r="4" fill="#d08a27"/>
+<line x1="1000.0" y1="253.3" x2="1000.0" y2="208.1" stroke="#d08a27"/>
+<circle cx="1000.0" cy="230.7" r="4" fill="#d08a27"/>
+<polyline points="100.0,239.0 437.5,233.4 1000.0,230.7" fill="none" stroke="#d08a27" stroke-width="2.4"/>
+<line x1="100.0" y1="240.8" x2="100.0" y2="181.7" stroke="#7c65a3"/>
+<circle cx="100.0" cy="211.2" r="4" fill="#7c65a3"/>
+<line x1="437.5" y1="213.6" x2="437.5" y2="159.9" stroke="#7c65a3"/>
+<circle cx="437.5" cy="186.7" r="4" fill="#7c65a3"/>
+<line x1="1000.0" y1="206.7" x2="1000.0" y2="162.4" stroke="#7c65a3"/>
+<circle cx="1000.0" cy="184.6" r="4" fill="#7c65a3"/>
+<polyline points="100.0,211.2 437.5,186.7 1000.0,184.6" fill="none" stroke="#7c65a3" stroke-width="2.4"/>
+<line x1="100.0" y1="223.0" x2="100.0" y2="166.2" stroke="#2c8c62"/>
+<circle cx="100.0" cy="194.6" r="4" fill="#2c8c62"/>
+<line x1="437.5" y1="180.1" x2="437.5" y2="125.7" stroke="#2c8c62"/>
+<circle cx="437.5" cy="152.9" r="4" fill="#2c8c62"/>
+<line x1="1000.0" y1="180.0" x2="1000.0" y2="120.9" stroke="#2c8c62"/>
+<circle cx="1000.0" cy="150.5" r="4" fill="#2c8c62"/>
+<polyline points="100.0,194.6 437.5,152.9 1000.0,150.5" fill="none" stroke="#2c8c62" stroke-width="2.4"/>
+<line x1="100" y1="52" x2="124" y2="52" stroke="#596775" stroke-width="3"/>
+<text x="130" y="56" class="small">PINN base</text>
+<line x1="290" y1="52" x2="314" y2="52" stroke="#167caa" stroke-width="3"/>
+<text x="320" y="56" class="small">PCA k=8, lambda_PDE=1</text>
+<line x1="480" y1="52" x2="504" y2="52" stroke="#d08a27" stroke-width="3"/>
+<text x="510" y="56" class="small">PCA k=8, lambda_PDE=2</text>
+<line x1="670" y1="52" x2="694" y2="52" stroke="#7c65a3" stroke-width="3"/>
+<text x="700" y="56" class="small">PCA k=8, lambda_PDE=5</text>
+<line x1="860" y1="52" x2="884" y2="52" stroke="#2c8c62" stroke-width="3"/>
+<text x="890" y="56" class="small">PCA k=8, lambda_PDE=10</text>
+</svg>

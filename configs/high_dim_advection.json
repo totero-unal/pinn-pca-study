@@ -1,0 +1,23 @@
+{
+  "experiment_name": "high_dimensional_advection_input_pca",
+  "run_id": "aligned_low_intrinsic_advection_d5_10_20_10_seeds_v1",
+  "dimensions": [5, 10, 20],
+  "seeds": [3501, 3502, 3503, 3504, 3505, 3506, 3507, 3508, 3509, 3510],
+  "problem_seed": 31415,
+  "covariance_decay": 0.2,
+  "pca_variance_threshold": 0.99,
+  "training_spatial_points": 1024,
+  "validation_spatial_points": 256,
+  "test_spatial_points": 256,
+  "test_residual_points": 512,
+  "time_points": 80,
+  "final_time": 1.0,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "initial_condition_points": 64,
+  "steps": 2000,
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "baseline_width": 64,
+  "learning_rate": 0.001
+}

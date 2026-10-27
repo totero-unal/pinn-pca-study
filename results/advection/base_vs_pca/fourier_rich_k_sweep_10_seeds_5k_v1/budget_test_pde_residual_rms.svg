@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:14px}.small{font-size:11px}</style>
+<text x="560.0" y="32" class="title" text-anchor="middle">Residuo de prueba: 2000 vs. 5000 pasos</text>
+<line x1="110" y1="442.0" x2="1075" y2="442.0" class="grid"/>
+<text x="101" y="446.0" class="small" text-anchor="end">0</text>
+<line x1="110" y1="369.6" x2="1075" y2="369.6" class="grid"/>
+<text x="101" y="373.6" class="small" text-anchor="end">0.261</text>
+<line x1="110" y1="297.2" x2="1075" y2="297.2" class="grid"/>
+<text x="101" y="301.2" class="small" text-anchor="end">0.522</text>
+<line x1="110" y1="224.8" x2="1075" y2="224.8" class="grid"/>
+<text x="101" y="228.8" class="small" text-anchor="end">0.784</text>
+<line x1="110" y1="152.4" x2="1075" y2="152.4" class="grid"/>
+<text x="101" y="156.4" class="small" text-anchor="end">1.04</text>
+<line x1="110" y1="80.0" x2="1075" y2="80.0" class="grid"/>
+<text x="101" y="84.0" class="small" text-anchor="end">1.31</text>
+<line x1="110" y1="80" x2="110" y2="442" class="axis"/>
+<line x1="110" y1="442" x2="1075" y2="442" class="axis"/>
+<text x="24" y="261.0" class="label" text-anchor="middle" transform="rotate(-90 24 261.0)">Residuo RMS PDE</text>
+<rect x="160.5" y="435.7" width="42" height="6.3" fill="#a8b1bb"/>
+<line x1="181.5" y1="434.8" x2="181.5" y2="436.5" stroke="#222"/>
+<line x1="176.5" y1="434.8" x2="186.5" y2="434.8" stroke="#222"/>
+<line x1="176.5" y1="436.5" x2="186.5" y2="436.5" stroke="#222"/>
+<rect x="210.5" y="436.3" width="42" height="5.7" fill="#167caa"/>
+<line x1="231.5" y1="435.5" x2="231.5" y2="437.2" stroke="#222"/>
+<line x1="226.5" y1="435.5" x2="236.5" y2="435.5" stroke="#222"/>
+<line x1="226.5" y1="437.2" x2="236.5" y2="437.2" stroke="#222"/>
+<text x="206.5" y="466" class="small" text-anchor="middle">Base</text>
+<rect x="353.5" y="281.3" width="42" height="160.7" fill="#a8b1bb"/>
+<line x1="374.5" y1="261.1" x2="374.5" y2="301.6" stroke="#222"/>
+<line x1="369.5" y1="261.1" x2="379.5" y2="261.1" stroke="#222"/>
+<line x1="369.5" y1="301.6" x2="379.5" y2="301.6" stroke="#222"/>
+<rect x="403.5" y="281.3" width="42" height="160.7" fill="#167caa"/>
+<line x1="424.5" y1="259.8" x2="424.5" y2="302.9" stroke="#222"/>
+<line x1="419.5" y1="259.8" x2="429.5" y2="259.8" stroke="#222"/>
+<line x1="419.5" y1="302.9" x2="429.5" y2="302.9" stroke="#222"/>
+<text x="399.5" y="466" class="small" text-anchor="middle">99% (k=4)</text>
+<rect x="546.5" y="157.8" width="42" height="284.2" fill="#a8b1bb"/>
+<line x1="567.5" y1="129.9" x2="567.5" y2="185.7" stroke="#222"/>
+<line x1="562.5" y1="129.9" x2="572.5" y2="129.9" stroke="#222"/>
+<line x1="562.5" y1="185.7" x2="572.5" y2="185.7" stroke="#222"/>
+<rect x="596.5" y="163.0" width="42" height="279.0" fill="#167caa"/>
+<line x1="617.5" y1="138.5" x2="617.5" y2="187.4" stroke="#222"/>
+<line x1="612.5" y1="138.5" x2="622.5" y2="138.5" stroke="#222"/>
+<line x1="612.5" y1="187.4" x2="622.5" y2="187.4" stroke="#222"/>
+<text x="592.5" y="466" class="small" text-anchor="middle">k=2</text>
+<rect x="739.5" y="387.4" width="42" height="54.6" fill="#a8b1bb"/>
+<line x1="760.5" y1="374.9" x2="760.5" y2="399.9" stroke="#222"/>
+<line x1="755.5" y1="374.9" x2="765.5" y2="374.9" stroke="#222"/>
+<line x1="755.5" y1="399.9" x2="765.5" y2="399.9" stroke="#222"/>
+<rect x="789.5" y="403.2" width="42" height="38.8" fill="#167caa"/>
+<line x1="810.5" y1="394.7" x2="810.5" y2="411.8" stroke="#222"/>
+<line x1="805.5" y1="394.7" x2="815.5" y2="394.7" stroke="#222"/>
+<line x1="805.5" y1="411.8" x2="815.5" y2="411.8" stroke="#222"/>
+<text x="785.5" y="466" class="small" text-anchor="middle">k=6</text>
+<rect x="932.5" y="421.7" width="42" height="20.3" fill="#a8b1bb"/>
+<line x1="953.5" y1="417.6" x2="953.5" y2="425.9" stroke="#222"/>
+<line x1="948.5" y1="417.6" x2="958.5" y2="417.6" stroke="#222"/>
+<line x1="948.5" y1="425.9" x2="958.5" y2="425.9" stroke="#222"/>
+<rect x="982.5" y="434.7" width="42" height="7.3" fill="#167caa"/>
+<line x1="1003.5" y1="433.9" x2="1003.5" y2="435.5" stroke="#222"/>
+<line x1="998.5" y1="433.9" x2="1008.5" y2="433.9" stroke="#222"/>
+<line x1="998.5" y1="435.5" x2="1008.5" y2="435.5" stroke="#222"/>
+<text x="978.5" y="466" class="small" text-anchor="middle">k=8</text>
+<rect x="895" y="505" width="14" height="14" fill="#a8b1bb"/>
+<text x="916" y="516" class="small">2000 pasos</text>
+<rect x="895" y="524" width="14" height="14" fill="#167caa"/>
+<text x="916" y="535" class="small">5000 pasos</text>
+</svg>

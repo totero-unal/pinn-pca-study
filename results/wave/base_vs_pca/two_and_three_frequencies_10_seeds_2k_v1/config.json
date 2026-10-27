@@ -1,0 +1,76 @@
+{
+  "experiment_name": "standing_wave_multiscale_snapshot_pca",
+  "run_id": "two_and_three_frequencies_10_seeds_2k_v1",
+  "wave_speed": 2.0,
+  "nx": 256,
+  "nt": 100,
+  "final_time": 1.0,
+  "cases": [
+    {
+      "name": "two_frequencies",
+      "harmonics": [
+        1,
+        4
+      ],
+      "amplitudes": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "name": "three_frequencies",
+      "harmonics": [
+        1,
+        4,
+        9
+      ],
+      "amplitudes": [
+        1.0,
+        0.5,
+        0.25
+      ]
+    }
+  ],
+  "seeds": [
+    4501,
+    4502,
+    4503,
+    4504,
+    4505,
+    4506,
+    4507,
+    4508,
+    4509,
+    4510
+  ],
+  "steps": 2000,
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_variance_threshold": 0.99,
+  "learning_rate": 0.001,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "test_residual_points": 512,
+  "validation_rmse_targets": [
+    0.3,
+    0.2,
+    0.1
+  ],
+  "loss_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "reference": {
+    "title": "Fast Training of Accurate Physics-Informed Neural Networks without Gradient Descent",
+    "authors": "Datar et al.",
+    "year": 2026,
+    "section": "C.3; equations 27a-27h",
+    "arxiv": "2405.20836v3",
+    "protocol": "Same analytic PDE cases; supervised PINN/PCA protocol adapted from this repository. No direct replication of Frozen-PINN training or timing."
+  }
+}

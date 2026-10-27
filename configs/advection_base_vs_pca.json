@@ -1,0 +1,19 @@
+{
+  "experiment_name": "periodic_advection_base_vs_pca",
+  "run_id": "initial_pilot_10_seeds_v1",
+  "data_path": "data/generated/advection_periodic.npz",
+  "nx": 256,
+  "nt": 100,
+  "velocity": 1.0,
+  "seeds": [2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050],
+  "steps": 2000,
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_variance_threshold": 0.99,
+  "learning_rate": 0.001,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "validation_rmse_targets": [0.3, 0.2, 0.1]
+}

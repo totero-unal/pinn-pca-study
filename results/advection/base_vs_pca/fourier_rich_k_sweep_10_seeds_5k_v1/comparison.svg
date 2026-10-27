@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:18px;font-weight:bold}.label{font-size:13px}.small{font-size:11px}</style>
+<text x="490.0" y="28" class="title" text-anchor="middle">PINN base vs. PCA como preprocesamiento — 10 semillas</text>
+<text x="125" y="58" class="label">Error relativo L2 en prueba</text>
+<line x1="125" y1="232.0" x2="935" y2="232.0" class="grid"/>
+<text x="117" y="236.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="190.8" x2="935" y2="190.8" class="grid"/>
+<text x="117" y="194.8" class="small" text-anchor="end">0.154</text>
+<line x1="125" y1="149.5" x2="935" y2="149.5" class="grid"/>
+<text x="117" y="153.5" class="small" text-anchor="end">0.309</text>
+<line x1="125" y1="108.2" x2="935" y2="108.2" class="grid"/>
+<text x="117" y="112.2" class="small" text-anchor="end">0.463</text>
+<line x1="125" y1="67.0" x2="935" y2="67.0" class="grid"/>
+<text x="117" y="71.0" class="small" text-anchor="end">0.618</text>
+<line x1="125" y1="67" x2="125" y2="232" class="axis"/>
+<line x1="125" y1="232" x2="935" y2="232" class="axis"/>
+<rect x="165.5" y="220.9" width="81.0" height="11.1" fill="#727b86"/>
+<line x1="206.0" y1="219.0" x2="206.0" y2="222.9" stroke="#222"/>
+<line x1="199.0" y1="219.0" x2="213.0" y2="219.0" stroke="#222"/>
+<line x1="199.0" y1="222.9" x2="213.0" y2="222.9" stroke="#222"/>
+<text x="206.0" y="251" class="small" text-anchor="middle">PINN base</text>
+<text x="206.0" y="212.0" class="small" text-anchor="middle">0.04153 ± 0.0073</text>
+<rect x="327.5" y="187.5" width="81.0" height="44.5" fill="#3584a8"/>
+<line x1="368.0" y1="182.3" x2="368.0" y2="192.8" stroke="#222"/>
+<line x1="361.0" y1="182.3" x2="375.0" y2="182.3" stroke="#222"/>
+<line x1="361.0" y1="192.8" x2="375.0" y2="192.8" stroke="#222"/>
+<text x="368.0" y="251" class="small" text-anchor="middle">PCA AD 99%</text>
+<text x="368.0" y="175.3" class="small" text-anchor="middle">0.1664 ± 0.02</text>
+<rect x="489.5" y="103.3" width="81.0" height="128.7" fill="#d08a27"/>
+<line x1="530.0" y1="94.5" x2="530.0" y2="112.1" stroke="#222"/>
+<line x1="523.0" y1="94.5" x2="537.0" y2="94.5" stroke="#222"/>
+<line x1="523.0" y1="112.1" x2="537.0" y2="112.1" stroke="#222"/>
+<text x="530.0" y="251" class="small" text-anchor="middle">PCA AD k=2</text>
+<text x="530.0" y="87.5" class="small" text-anchor="middle">0.4818 ± 0.033</text>
+<rect x="651.5" y="225.3" width="81.0" height="6.7" fill="#7c65a3"/>
+<line x1="692.0" y1="223.2" x2="692.0" y2="227.5" stroke="#222"/>
+<line x1="685.0" y1="223.2" x2="699.0" y2="223.2" stroke="#222"/>
+<line x1="685.0" y1="227.5" x2="699.0" y2="227.5" stroke="#222"/>
+<text x="692.0" y="251" class="small" text-anchor="middle">PCA AD k=6</text>
+<text x="692.0" y="216.2" class="small" text-anchor="middle">0.02493 ± 0.008</text>
+<rect x="813.5" y="228.6" width="81.0" height="3.4" fill="#2c8c62"/>
+<line x1="854.0" y1="228.0" x2="854.0" y2="229.2" stroke="#222"/>
+<line x1="847.0" y1="228.0" x2="861.0" y2="228.0" stroke="#222"/>
+<line x1="847.0" y1="229.2" x2="861.0" y2="229.2" stroke="#222"/>
+<text x="854.0" y="251" class="small" text-anchor="middle">PCA AD k=8</text>
+<text x="854.0" y="221.0" class="small" text-anchor="middle">0.01256 ± 0.0022</text>
+<text x="125" y="293" class="label">RMS del residuo de advección en prueba</text>
+<line x1="125" y1="467.0" x2="935" y2="467.0" class="grid"/>
+<text x="117" y="471.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="425.8" x2="935" y2="425.8" class="grid"/>
+<text x="117" y="429.8" class="small" text-anchor="end">0.328</text>
+<line x1="125" y1="384.5" x2="935" y2="384.5" class="grid"/>
+<text x="117" y="388.5" class="small" text-anchor="end">0.657</text>
+<line x1="125" y1="343.2" x2="935" y2="343.2" class="grid"/>
+<text x="117" y="347.2" class="small" text-anchor="end">0.985</text>
+<line x1="125" y1="302.0" x2="935" y2="302.0" class="grid"/>
+<text x="117" y="306.0" class="small" text-anchor="end">1.31</text>
+<line x1="125" y1="302" x2="125" y2="467" class="axis"/>
+<line x1="125" y1="467" x2="935" y2="467" class="axis"/>
+<rect x="165.5" y="464.4" width="81.0" height="2.6" fill="#727b86"/>
+<line x1="206.0" y1="464.1" x2="206.0" y2="464.8" stroke="#222"/>
+<line x1="199.0" y1="464.1" x2="213.0" y2="464.1" stroke="#222"/>
+<line x1="199.0" y1="464.8" x2="213.0" y2="464.8" stroke="#222"/>
+<text x="206.0" y="486" class="small" text-anchor="middle">PINN base</text>
+<text x="206.0" y="457.1" class="small" text-anchor="middle">0.02039 ± 0.003</text>
+<rect x="327.5" y="394.2" width="81.0" height="72.8" fill="#3584a8"/>
+<line x1="368.0" y1="384.4" x2="368.0" y2="404.0" stroke="#222"/>
+<line x1="361.0" y1="384.4" x2="375.0" y2="384.4" stroke="#222"/>
+<line x1="361.0" y1="404.0" x2="375.0" y2="404.0" stroke="#222"/>
+<text x="368.0" y="486" class="small" text-anchor="middle">PCA AD 99%</text>
+<text x="368.0" y="377.4" class="small" text-anchor="middle">0.5797 ± 0.078</text>
+<rect x="489.5" y="340.6" width="81.0" height="126.4" fill="#d08a27"/>
+<line x1="530.0" y1="329.5" x2="530.0" y2="351.6" stroke="#222"/>
+<line x1="523.0" y1="329.5" x2="537.0" y2="329.5" stroke="#222"/>
+<line x1="523.0" y1="351.6" x2="537.0" y2="351.6" stroke="#222"/>
+<text x="530.0" y="486" class="small" text-anchor="middle">PCA AD k=2</text>
+<text x="530.0" y="322.5" class="small" text-anchor="middle">1.007 ± 0.088</text>
+<rect x="651.5" y="449.4" width="81.0" height="17.6" fill="#7c65a3"/>
+<line x1="692.0" y1="445.6" x2="692.0" y2="453.3" stroke="#222"/>
+<line x1="685.0" y1="445.6" x2="699.0" y2="445.6" stroke="#222"/>
+<line x1="685.0" y1="453.3" x2="699.0" y2="453.3" stroke="#222"/>
+<text x="692.0" y="486" class="small" text-anchor="middle">PCA AD k=6</text>
+<text x="692.0" y="438.6" class="small" text-anchor="middle">0.1399 ± 0.031</text>
+<rect x="813.5" y="463.7" width="81.0" height="3.3" fill="#2c8c62"/>
+<line x1="854.0" y1="463.3" x2="854.0" y2="464.0" stroke="#222"/>
+<line x1="847.0" y1="463.3" x2="861.0" y2="463.3" stroke="#222"/>
+<line x1="847.0" y1="464.0" x2="861.0" y2="464.0" stroke="#222"/>
+<text x="854.0" y="486" class="small" text-anchor="middle">PCA AD k=8</text>
+<text x="854.0" y="456.3" class="small" text-anchor="middle">0.02639 ± 0.0028</text>
+<text x="125" y="528" class="label">Tiempo por corrida (PCA incluye ajuste)</text>
+<line x1="125" y1="702.0" x2="935" y2="702.0" class="grid"/>
+<text x="117" y="706.0" class="small" text-anchor="end">0</text>
+<line x1="125" y1="660.8" x2="935" y2="660.8" class="grid"/>
+<text x="117" y="664.8" class="small" text-anchor="end">2.46</text>
+<line x1="125" y1="619.5" x2="935" y2="619.5" class="grid"/>
+<text x="117" y="623.5" class="small" text-anchor="end">4.91</text>
+<line x1="125" y1="578.2" x2="935" y2="578.2" class="grid"/>
+<text x="117" y="582.2" class="small" text-anchor="end">7.37</text>
+<line x1="125" y1="537.0" x2="935" y2="537.0" class="grid"/>
+<text x="117" y="541.0" class="small" text-anchor="end">9.83</text>
+<line x1="125" y1="537" x2="125" y2="702" class="axis"/>
+<line x1="125" y1="702" x2="935" y2="702" class="axis"/>
+<rect x="165.5" y="568.3" width="81.0" height="133.7" fill="#727b86"/>
+<line x1="206.0" y1="564.5" x2="206.0" y2="572.1" stroke="#222"/>
+<line x1="199.0" y1="564.5" x2="213.0" y2="564.5" stroke="#222"/>
+<line x1="199.0" y1="572.1" x2="213.0" y2="572.1" stroke="#222"/>
+<text x="206.0" y="721" class="small" text-anchor="middle">PINN base</text>
+<text x="206.0" y="557.5" class="small" text-anchor="middle">7.962 ± 0.23</text>
+<rect x="327.5" y="587.3" width="81.0" height="114.7" fill="#3584a8"/>
+<line x1="368.0" y1="582.3" x2="368.0" y2="592.4" stroke="#222"/>
+<line x1="361.0" y1="582.3" x2="375.0" y2="582.3" stroke="#222"/>
+<line x1="361.0" y1="592.4" x2="375.0" y2="592.4" stroke="#222"/>
+<text x="368.0" y="721" class="small" text-anchor="middle">PCA AD 99%</text>
+<text x="368.0" y="575.3" class="small" text-anchor="middle">6.83 ± 0.3</text>
+<rect x="489.5" y="587.5" width="81.0" height="114.5" fill="#d08a27"/>
+<line x1="530.0" y1="583.3" x2="530.0" y2="591.8" stroke="#222"/>
+<line x1="523.0" y1="583.3" x2="537.0" y2="583.3" stroke="#222"/>
+<line x1="523.0" y1="591.8" x2="537.0" y2="591.8" stroke="#222"/>
+<text x="530.0" y="721" class="small" text-anchor="middle">PCA AD k=2</text>
+<text x="530.0" y="576.3" class="small" text-anchor="middle">6.818 ± 0.25</text>
+<rect x="651.5" y="586.5" width="81.0" height="115.5" fill="#7c65a3"/>
+<line x1="692.0" y1="581.9" x2="692.0" y2="591.1" stroke="#222"/>
+<line x1="685.0" y1="581.9" x2="699.0" y2="581.9" stroke="#222"/>
+<line x1="685.0" y1="591.1" x2="699.0" y2="591.1" stroke="#222"/>
+<text x="692.0" y="721" class="small" text-anchor="middle">PCA AD k=6</text>
+<text x="692.0" y="574.9" class="small" text-anchor="middle">6.879 ± 0.27</text>
+<rect x="813.5" y="587.3" width="81.0" height="114.7" fill="#2c8c62"/>
+<line x1="854.0" y1="581.8" x2="854.0" y2="592.8" stroke="#222"/>
+<line x1="847.0" y1="581.8" x2="861.0" y2="581.8" stroke="#222"/>
+<line x1="847.0" y1="592.8" x2="861.0" y2="592.8" stroke="#222"/>
+<text x="854.0" y="721" class="small" text-anchor="middle">PCA AD k=8</text>
+<text x="854.0" y="574.8" class="small" text-anchor="middle">6.834 ± 0.33</text>
+</svg>

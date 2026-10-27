@@ -1,0 +1,18 @@
+{
+  "experiment_name": "burgers_longer_budget_pca_k_sweep",
+  "run_id": "longer_budget_k_sweep_10_seeds_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038],
+  "steps": 5000,
+  "checkpoint_steps": [1000, 2500, 5000],
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_variance_threshold": 0.99,
+  "pca_extra_components": [4, 8, 16],
+  "learning_rate": 0.001,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "validation_rmse_targets": [0.3, 0.25, 0.2]
+}

@@ -1,0 +1,212 @@
+{
+  "as_of": "2026-10-26",
+  "scope": "Síntesis de artefactos existentes; sin nuevos entrenamientos ni selección de ganadores por prueba.",
+  "benchmarks": [
+    {
+      "id": "burgers",
+      "name": "Burgers 1D",
+      "challenge": "No linealidad y gradientes pronunciados",
+      "status": "external_evaluation_completed",
+      "status_label": "Evaluación externa completada",
+      "pca_scope": "PCA espacial de snapshots; red de coeficientes temporales",
+      "pde_metric": "Diferencias finitas en prueba; AD durante entrenamiento",
+      "finding": "El peso físico seleccionado con validación reduce residuo y tiempo, pero aumenta el error de solución en prueba externa.",
+      "limitation": "k=8 fijado para esta fase; el tiempo corresponde al ajuste elegido y excluye el costo del barrido de pesos.",
+      "notebook": "notebooks/burgers/05_validation_selected_lambda.ipynb",
+      "comparisons": [
+        {
+          "case": "Prueba externa; lambda_PDE elegida con validación",
+          "evidence_role": "Selección con validación y evaluación externa fija",
+          "source": "results/burgers/base_vs_pca/validation_selected_lambda_nested_10_seeds_v1/summary.json",
+          "records_key": "selected_test_metrics",
+          "filters": {},
+          "baseline": "PINN base",
+          "variants": [
+            "PCA k=8, lambda_PDE=2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advection",
+      "name": "Advección periódica 1D",
+      "challenge": "Transporte y complejidad de la condición inicial",
+      "status": "closed_exploratory",
+      "status_label": "Cerrado exploratorio",
+      "pca_scope": "PCA espacial de snapshots; red de coeficientes temporales",
+      "pde_metric": "Diferencias finitas en prueba; AD durante entrenamiento",
+      "finding": "Las mejoras de precisión con ciertos k en condiciones anteriores no se replican en la confirmación de seis armónicos; los pipelines PCA son menores en esa corrida.",
+      "limitation": "Los barridos de k son exploratorios. Se muestran todas sus variantes; k=8 se fijó antes de la condición de seis armónicos.",
+      "notebook": "notebooks/advection/05_six_harmonic_confirmation.ipynb",
+      "comparisons": [
+        {
+          "case": "Dos frecuencias; barrido k",
+          "evidence_role": "Exploración de componentes",
+          "source": "results/advection/base_vs_pca/k_sweep_10_seeds_v1/summary.json",
+          "records_key": "runs",
+          "filters": {},
+          "baseline": "PINN base",
+          "variants": [
+            "PCA AD 99%",
+            "PCA AD k=2",
+            "PCA AD k=4",
+            "PCA AD k=6",
+            "PCA AD k=8"
+          ]
+        },
+        {
+          "case": "Cuatro armónicos; presupuesto extendido",
+          "evidence_role": "Exploración de k con 5000 pasos",
+          "source": "results/advection/base_vs_pca/fourier_rich_k_sweep_10_seeds_5k_v1/summary.json",
+          "records_key": "runs",
+          "filters": {},
+          "baseline": "PINN base",
+          "variants": [
+            "PCA AD 99%",
+            "PCA AD k=2",
+            "PCA AD k=6",
+            "PCA AD k=8"
+          ]
+        },
+        {
+          "case": "Seis armónicos; confirmación",
+          "evidence_role": "Condición inicial adicional; k=8 predefinido",
+          "source": "results/advection/base_vs_pca/six_harmonic_confirmation_10_seeds_5k_v1/summary.json",
+          "records_key": "runs",
+          "filters": {},
+          "baseline": "PINN base",
+          "variants": [
+            "PCA AD 99%",
+            "PCA AD k=8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high_dimensional",
+      "name": "Advección en dimensión alta",
+      "challenge": "Dimensión ambiental y alineación entre varianza y relevancia física",
+      "status": "closed_exploratory",
+      "status_label": "Cerrado exploratorio",
+      "pca_scope": "PCA de coordenadas de entrada; proyección lineal fija",
+      "pde_metric": "Autodiferenciación en prueba y entrenamiento",
+      "finding": "Conservar q4 con k=4 mejora precisión en el control desalineado a 5000 pasos, con alta dispersión; la aceleración a calidad equivalente sigue sin confirmarse.",
+      "limitation": "Caso gaussiano sintético de baja dimensión intrínseca. Umbral del análisis temporal elegido retrospectivamente con validación.",
+      "notebook": "notebooks/high_dimensional/03_time_to_target.ipynb",
+      "auxiliary_sources": [
+        "results/high_dimensional_advection/alignment_sensitivity/time_to_target_5k_v1/summary.json"
+      ],
+      "comparisons": [
+        {
+          "case": "Alineado; d=5",
+          "evidence_role": "Control favorable de dimensión intrínseca baja",
+          "source": "results/high_dimensional_advection/input_pca_vs_base/aligned_low_intrinsic_advection_d5_10_20_10_seeds_v1/summary.json",
+          "records_key": "runs",
+          "filters": {
+            "dimension": 5
+          },
+          "baseline": "PINN base",
+          "variants": [
+            "PCA input 99%"
+          ]
+        },
+        {
+          "case": "Alineado; d=10",
+          "evidence_role": "Control favorable de dimensión intrínseca baja",
+          "source": "results/high_dimensional_advection/input_pca_vs_base/aligned_low_intrinsic_advection_d5_10_20_10_seeds_v1/summary.json",
+          "records_key": "runs",
+          "filters": {
+            "dimension": 10
+          },
+          "baseline": "PINN base",
+          "variants": [
+            "PCA input 99%"
+          ]
+        },
+        {
+          "case": "Alineado; d=20",
+          "evidence_role": "Control favorable de dimensión intrínseca baja",
+          "source": "results/high_dimensional_advection/input_pca_vs_base/aligned_low_intrinsic_advection_d5_10_20_10_seeds_v1/summary.json",
+          "records_key": "runs",
+          "filters": {
+            "dimension": 20
+          },
+          "baseline": "PINN base",
+          "variants": [
+            "PCA input 99%"
+          ]
+        },
+        {
+          "case": "Desalineado; d=20; q4 físicamente activa",
+          "evidence_role": "Control de dirección activa de baja varianza",
+          "source": "results/high_dimensional_advection/alignment_sensitivity/low_variance_active_direction_d20_10_seeds_5k_v1/summary.json",
+          "records_key": "runs",
+          "filters": {},
+          "baseline": "PINN base",
+          "variants": [
+            "PCA input 99%",
+            "PCA input k=4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wave_multiscale",
+      "name": "Onda multiescala",
+      "challenge": "Frecuencias separadas y segundas derivadas",
+      "status": "closed_exploratory_negative",
+      "status_label": "Cerrado exploratorio; resultado negativo del protocolo",
+      "closed_on": "2026-10-26",
+      "closure_file": "reports/wave_multiscale_closure.md",
+      "closed_notebooks": [
+        {
+          "path": "notebooks/wave/01_multiscale_wave.ipynb",
+          "run_id": "two_and_three_frequencies_10_seeds_2k_v1"
+        },
+        {
+          "path": "notebooks/wave/02_diagnostic_round.ipynb",
+          "run_id": "diagnostic_standardized_coefficients_10_seeds_2k_v1"
+        }
+      ],
+      "pca_scope": "PCA espacial de snapshots; coeficientes originales y estandarizados",
+      "pde_metric": "Autodiferenciación; modos interpolados con splines C2",
+      "finding": "PCA conserva los datos, pero ambas redes reducidas siguen próximas a la solución nula. Estandarizar no aporta una mejora práctica; no se respalda aceleración a igual calidad.",
+      "limitation": "Adam, 2000 pasos y pesos uniformes. La base también conserva error alto. El desequilibrio de gradientes es una pista, no una causa demostrada; los splines mantienen residuo no nulo.",
+      "notebook": "notebooks/wave/02_diagnostic_round.ipynb",
+      "auxiliary_sources": [
+        "results/wave/diagnostics/diagnostic_standardized_coefficients_10_seeds_2k_v1/oracle_summary.json",
+        "results/wave/diagnostics/diagnostic_standardized_coefficients_10_seeds_2k_v1/reproduction_check.json"
+      ],
+      "comparisons": [
+        {
+          "case": "Dos frecuencias; diagnóstico final",
+          "evidence_role": "Ablación de escala; inicialización física equivalente",
+          "source": "results/wave/diagnostics/diagnostic_standardized_coefficients_10_seeds_2k_v1/summary.json",
+          "records_key": "runs",
+          "filters": {
+            "case": "two_frequencies"
+          },
+          "baseline": "PINN base",
+          "variants": [
+            "PCA espacial 99%",
+            "PCA estandarizada 99%"
+          ]
+        },
+        {
+          "case": "Tres frecuencias; diagnóstico final",
+          "evidence_role": "Ablación de escala; inicialización física equivalente",
+          "source": "results/wave/diagnostics/diagnostic_standardized_coefficients_10_seeds_2k_v1/summary.json",
+          "records_key": "runs",
+          "filters": {
+            "case": "three_frequencies"
+          },
+          "baseline": "PINN base",
+          "variants": [
+            "PCA espacial 99%",
+            "PCA estandarizada 99%"
+          ]
+        }
+      ]
+    }
+  ]
+}

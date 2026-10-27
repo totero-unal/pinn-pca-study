@@ -1,0 +1,151 @@
+case,model,seed,harmonic,coefficient_relative_l2
+two_frequencies,PINN base,4501,1,0.19140695682641945
+two_frequencies,PINN base,4501,4,1.0211696104613253
+two_frequencies,PCA espacial 99%,4501,1,0.9990329944193254
+two_frequencies,PCA espacial 99%,4501,4,0.9999527574041348
+two_frequencies,PCA estandarizada 99%,4501,1,0.9992739849892623
+two_frequencies,PCA estandarizada 99%,4501,4,0.9999905143801173
+two_frequencies,PINN base,4502,1,0.20165682408641827
+two_frequencies,PINN base,4502,4,1.008596357626142
+two_frequencies,PCA estandarizada 99%,4502,1,0.9997543723096813
+two_frequencies,PCA estandarizada 99%,4502,4,0.9999875678233371
+two_frequencies,PCA espacial 99%,4502,1,0.999783223300551
+two_frequencies,PCA espacial 99%,4502,4,0.9999850751091488
+two_frequencies,PCA espacial 99%,4503,1,0.9999942102245053
+two_frequencies,PCA espacial 99%,4503,4,0.9999980409188532
+two_frequencies,PINN base,4503,1,0.28437499747876516
+two_frequencies,PINN base,4503,4,1.0091135421715023
+two_frequencies,PCA estandarizada 99%,4503,1,0.9997455117837333
+two_frequencies,PCA estandarizada 99%,4503,4,0.999986467360339
+two_frequencies,PCA espacial 99%,4504,1,1.0010128689377267
+two_frequencies,PCA espacial 99%,4504,4,0.9999693177822002
+two_frequencies,PCA estandarizada 99%,4504,1,1.0009636591250868
+two_frequencies,PCA estandarizada 99%,4504,4,0.9999715891552088
+two_frequencies,PINN base,4504,1,0.31864285702912093
+two_frequencies,PINN base,4504,4,1.0060212939166273
+two_frequencies,PCA estandarizada 99%,4505,1,1.0003452419072512
+two_frequencies,PCA estandarizada 99%,4505,4,1.0000365208882989
+two_frequencies,PINN base,4505,1,0.27275937478571105
+two_frequencies,PINN base,4505,4,1.0106658459600495
+two_frequencies,PCA espacial 99%,4505,1,1.0004276675584596
+two_frequencies,PCA espacial 99%,4505,4,0.9999993749794225
+two_frequencies,PCA estandarizada 99%,4506,1,0.9999907449476533
+two_frequencies,PCA estandarizada 99%,4506,4,1.0000436145200367
+two_frequencies,PCA espacial 99%,4506,1,0.9998718775318042
+two_frequencies,PCA espacial 99%,4506,4,1.0000014643522772
+two_frequencies,PINN base,4506,1,0.21795249145797319
+two_frequencies,PINN base,4506,4,1.0159895164347599
+two_frequencies,PINN base,4507,1,0.25465651329656913
+two_frequencies,PINN base,4507,4,1.001931404962114
+two_frequencies,PCA espacial 99%,4507,1,0.9998561881331615
+two_frequencies,PCA espacial 99%,4507,4,0.9998918238308018
+two_frequencies,PCA estandarizada 99%,4507,1,0.9995906642527557
+two_frequencies,PCA estandarizada 99%,4507,4,0.9999987848973232
+two_frequencies,PINN base,4508,1,0.23932201963320204
+two_frequencies,PINN base,4508,4,1.0142912318169106
+two_frequencies,PCA estandarizada 99%,4508,1,1.0003143785268844
+two_frequencies,PCA estandarizada 99%,4508,4,0.9999916056756337
+two_frequencies,PCA espacial 99%,4508,1,1.0003919830019437
+two_frequencies,PCA espacial 99%,4508,4,0.999991168991745
+two_frequencies,PCA espacial 99%,4509,1,0.9989914329071974
+two_frequencies,PCA espacial 99%,4509,4,1.0000335628872006
+two_frequencies,PINN base,4509,1,0.22784892068115736
+two_frequencies,PINN base,4509,4,1.0058652903364722
+two_frequencies,PCA estandarizada 99%,4509,1,0.9988629398390763
+two_frequencies,PCA estandarizada 99%,4509,4,1.000027281799737
+two_frequencies,PCA espacial 99%,4510,1,1.0000931720612676
+two_frequencies,PCA espacial 99%,4510,4,0.9999975209409201
+two_frequencies,PCA estandarizada 99%,4510,1,0.999713265777435
+two_frequencies,PCA estandarizada 99%,4510,4,0.999993690982028
+two_frequencies,PINN base,4510,1,0.25197245135081975
+two_frequencies,PINN base,4510,4,1.0214869157852264
+three_frequencies,PINN base,4501,1,0.18812352506468316
+three_frequencies,PINN base,4501,4,1.022624632480289
+three_frequencies,PINN base,4501,9,0.9796044646601397
+three_frequencies,PCA espacial 99%,4501,1,0.999115204071284
+three_frequencies,PCA espacial 99%,4501,4,1.0000062546306667
+three_frequencies,PCA espacial 99%,4501,9,0.9999957944979563
+three_frequencies,PCA estandarizada 99%,4501,1,0.999696179264173
+three_frequencies,PCA estandarizada 99%,4501,4,0.9999844862178637
+three_frequencies,PCA estandarizada 99%,4501,9,0.9999955463175632
+three_frequencies,PINN base,4502,1,0.20970788812494998
+three_frequencies,PINN base,4502,4,1.0111604070502376
+three_frequencies,PINN base,4502,9,1.0697892731788998
+three_frequencies,PCA estandarizada 99%,4502,1,0.9997526591762311
+three_frequencies,PCA estandarizada 99%,4502,4,1.0000006821291045
+three_frequencies,PCA estandarizada 99%,4502,9,0.9999135107442952
+three_frequencies,PCA espacial 99%,4502,1,0.9998581596825863
+three_frequencies,PCA espacial 99%,4502,4,1.0000110386938519
+three_frequencies,PCA espacial 99%,4502,9,1.0000150675863868
+three_frequencies,PCA espacial 99%,4503,1,1.0002057501698107
+three_frequencies,PCA espacial 99%,4503,4,0.999996620235578
+three_frequencies,PCA espacial 99%,4503,9,1.0000063239596857
+three_frequencies,PINN base,4503,1,0.3010140281461819
+three_frequencies,PINN base,4503,4,1.0097392431258403
+three_frequencies,PINN base,4503,9,0.9922463300988044
+three_frequencies,PCA estandarizada 99%,4503,1,1.000199588409241
+three_frequencies,PCA estandarizada 99%,4503,4,1.000004003504186
+three_frequencies,PCA estandarizada 99%,4503,9,0.9999985616145344
+three_frequencies,PCA espacial 99%,4504,1,1.0013341697609903
+three_frequencies,PCA espacial 99%,4504,4,1.0000603444968164
+three_frequencies,PCA espacial 99%,4504,9,0.9999544603123028
+three_frequencies,PCA estandarizada 99%,4504,1,1.0008677206033234
+three_frequencies,PCA estandarizada 99%,4504,4,1.0000310054843229
+three_frequencies,PCA estandarizada 99%,4504,9,0.9999992530212525
+three_frequencies,PINN base,4504,1,0.32599386265351976
+three_frequencies,PINN base,4504,4,1.0020961619871545
+three_frequencies,PINN base,4504,9,1.03603397388513
+three_frequencies,PCA estandarizada 99%,4505,1,1.00032798182352
+three_frequencies,PCA estandarizada 99%,4505,4,1.0000593207501303
+three_frequencies,PCA estandarizada 99%,4505,9,0.9999307634854093
+three_frequencies,PINN base,4505,1,0.31669329903259075
+three_frequencies,PINN base,4505,4,1.012427001839459
+three_frequencies,PINN base,4505,9,0.9925766650880756
+three_frequencies,PCA espacial 99%,4505,1,1.0006139220571575
+three_frequencies,PCA espacial 99%,4505,4,1.000135721555679
+three_frequencies,PCA espacial 99%,4505,9,0.999947213535854
+three_frequencies,PCA estandarizada 99%,4506,1,0.999885773688878
+three_frequencies,PCA estandarizada 99%,4506,4,0.9999643228056693
+three_frequencies,PCA estandarizada 99%,4506,9,1.0000025644468022
+three_frequencies,PCA espacial 99%,4506,1,0.9998701836725264
+three_frequencies,PCA espacial 99%,4506,4,0.9999563332238413
+three_frequencies,PCA espacial 99%,4506,9,1.0000024949944506
+three_frequencies,PINN base,4506,1,0.22852546410682215
+three_frequencies,PINN base,4506,4,1.0179414557976016
+three_frequencies,PINN base,4506,9,1.0233910308204994
+three_frequencies,PINN base,4507,1,0.22425004007550522
+three_frequencies,PINN base,4507,4,1.0005232669979585
+three_frequencies,PINN base,4507,9,0.9795215190195321
+three_frequencies,PCA espacial 99%,4507,1,1.000152799178848
+three_frequencies,PCA espacial 99%,4507,4,0.9999042476132713
+three_frequencies,PCA espacial 99%,4507,9,0.9999415117261714
+three_frequencies,PCA estandarizada 99%,4507,1,1.000260975996539
+three_frequencies,PCA estandarizada 99%,4507,4,0.9998889003318949
+three_frequencies,PCA estandarizada 99%,4507,9,1.0000700468048418
+three_frequencies,PINN base,4508,1,0.24493528011237084
+three_frequencies,PINN base,4508,4,1.0176591882129644
+three_frequencies,PINN base,4508,9,1.002367856707127
+three_frequencies,PCA estandarizada 99%,4508,1,1.0003432116898614
+three_frequencies,PCA estandarizada 99%,4508,4,0.9999806522369699
+three_frequencies,PCA estandarizada 99%,4508,9,1.000002714592113
+three_frequencies,PCA espacial 99%,4508,1,1.0003947542253695
+three_frequencies,PCA espacial 99%,4508,4,0.9999720586519447
+three_frequencies,PCA espacial 99%,4508,9,0.9999850764125047
+three_frequencies,PCA espacial 99%,4509,1,0.9994196225165787
+three_frequencies,PCA espacial 99%,4509,4,0.9999347450863048
+three_frequencies,PCA espacial 99%,4509,9,1.000280968015737
+three_frequencies,PINN base,4509,1,0.2096562659898049
+three_frequencies,PINN base,4509,4,1.0158707543096082
+three_frequencies,PINN base,4509,9,1.0117994470790117
+three_frequencies,PCA estandarizada 99%,4509,1,0.99914153806873
+three_frequencies,PCA estandarizada 99%,4509,4,0.9997769211087656
+three_frequencies,PCA estandarizada 99%,4509,9,1.0002479428422466
+three_frequencies,PCA espacial 99%,4510,1,1.0001612989589082
+three_frequencies,PCA espacial 99%,4510,4,0.9993109104360482
+three_frequencies,PCA espacial 99%,4510,9,1.0004962208537087
+three_frequencies,PCA estandarizada 99%,4510,1,1.000197378321618
+three_frequencies,PCA estandarizada 99%,4510,4,0.9997542578989319
+three_frequencies,PCA estandarizada 99%,4510,9,0.9998947647416507
+three_frequencies,PINN base,4510,1,0.2786391729428724
+three_frequencies,PINN base,4510,4,1.029341375352812
+three_frequencies,PINN base,4510,9,1.0236265376452542

@@ -1,0 +1,20 @@
+{
+  "experiment_name": "burgers_validation_selected_pca_physics_weight",
+  "run_id": "validation_selected_lambda_nested_10_seeds_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038],
+  "outer_test_seed": 9401,
+  "outer_test_time_count": 20,
+  "steps": 5000,
+  "checkpoint_steps": [1000, 2500, 5000],
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_components": 8,
+  "physics_weights": [1.0, 2.0, 5.0, 10.0],
+  "selection_relative_rmse_tolerance": 0.15,
+  "learning_rate": 0.001,
+  "validation_time_count": 8,
+  "validation_rmse_targets": [0.3, 0.25, 0.2]
+}

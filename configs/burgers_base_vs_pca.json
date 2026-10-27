@@ -1,0 +1,16 @@
+{
+  "experiment_name": "burgers_base_vs_pca",
+  "run_id": "pilot_3_seeds_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [2026, 2027, 2028],
+  "steps": 1000,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_components": 4,
+  "pca_width": 63,
+  "learning_rate": 0.001,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "bootstrap_samples": 5000
+}

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 745">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:13px}.small{font-size:11px}</style>
+<text x="500.0" y="30" class="title" text-anchor="middle">Escalamiento al aumentar la dimensión de entrada</text>
+<text x="105" y="61" class="label">Error relativo L2 de prueba</text>
+<line x1="105" y1="230.0" x2="955" y2="230.0" class="grid"/>
+<text x="97" y="234.0" class="small" text-anchor="end">0</text>
+<line x1="105" y1="190.5" x2="955" y2="190.5" class="grid"/>
+<text x="97" y="194.5" class="small" text-anchor="end">0.0532</text>
+<line x1="105" y1="151.0" x2="955" y2="151.0" class="grid"/>
+<text x="97" y="155.0" class="small" text-anchor="end">0.106</text>
+<line x1="105" y1="111.5" x2="955" y2="111.5" class="grid"/>
+<text x="97" y="115.5" class="small" text-anchor="end">0.16</text>
+<line x1="105" y1="72.0" x2="955" y2="72.0" class="grid"/>
+<text x="97" y="76.0" class="small" text-anchor="end">0.213</text>
+<line x1="105" y1="72" x2="105" y2="230" class="axis"/>
+<line x1="105" y1="230" x2="955" y2="230" class="axis"/>
+<text x="105.0" y="249" class="small" text-anchor="middle">5</text>
+<text x="530.0" y="249" class="small" text-anchor="middle">10</text>
+<text x="955.0" y="249" class="small" text-anchor="middle">20</text>
+<line x1="105.0" y1="107.7" x2="105.0" y2="178.9" stroke="#596775"/>
+<circle cx="105.0" cy="143.3" r="5" fill="#596775"><title>PINN base, d=5: 0.1168 ± 0.048</title></circle>
+<line x1="530.0" y1="100.7" x2="530.0" y2="169.4" stroke="#596775"/>
+<circle cx="530.0" cy="135.1" r="5" fill="#596775"><title>PINN base, d=10: 0.128 ± 0.0463</title></circle>
+<line x1="955.0" y1="129.1" x2="955.0" y2="181.9" stroke="#596775"/>
+<circle cx="955.0" cy="155.5" r="5" fill="#596775"><title>PINN base, d=20: 0.1004 ± 0.0356</title></circle>
+<polyline points="105.0,143.3 530.0,135.1 955.0,155.5" fill="none" stroke="#596775" stroke-width="2.5"/>
+<line x1="105.0" y1="96.1" x2="105.0" y2="175.1" stroke="#167caa"/>
+<circle cx="105.0" cy="135.6" r="5" fill="#167caa"><title>PCA input 99%, d=5: 0.1272 ± 0.0533</title></circle>
+<line x1="530.0" y1="112.8" x2="530.0" y2="177.3" stroke="#167caa"/>
+<circle cx="530.0" cy="145.1" r="5" fill="#167caa"><title>PCA input 99%, d=10: 0.1145 ± 0.0435</title></circle>
+<line x1="955.0" y1="133.1" x2="955.0" y2="168.2" stroke="#167caa"/>
+<circle cx="955.0" cy="150.7" r="5" fill="#167caa"><title>PCA input 99%, d=20: 0.1069 ± 0.0236</title></circle>
+<polyline points="105.0,135.6 530.0,145.1 955.0,150.7" fill="none" stroke="#167caa" stroke-width="2.5"/>
+<line x1="745" y1="53" x2="767" y2="53" stroke="#596775" stroke-width="3"/>
+<text x="773" y="57" class="small">PINN base</text>
+<line x1="850" y1="53" x2="872" y2="53" stroke="#167caa" stroke-width="3"/>
+<text x="878" y="57" class="small">PCA input 99%</text>
+<text x="105" y="291" class="label">Residuo RMS PDE de prueba</text>
+<line x1="105" y1="460.0" x2="955" y2="460.0" class="grid"/>
+<text x="97" y="464.0" class="small" text-anchor="end">0</text>
+<line x1="105" y1="420.5" x2="955" y2="420.5" class="grid"/>
+<text x="97" y="424.5" class="small" text-anchor="end">0.0063</text>
+<line x1="105" y1="381.0" x2="955" y2="381.0" class="grid"/>
+<text x="97" y="385.0" class="small" text-anchor="end">0.0126</text>
+<line x1="105" y1="341.5" x2="955" y2="341.5" class="grid"/>
+<text x="97" y="345.5" class="small" text-anchor="end">0.0189</text>
+<line x1="105" y1="302.0" x2="955" y2="302.0" class="grid"/>
+<text x="97" y="306.0" class="small" text-anchor="end">0.0252</text>
+<line x1="105" y1="302" x2="105" y2="460" class="axis"/>
+<line x1="105" y1="460" x2="955" y2="460" class="axis"/>
+<text x="105.0" y="479" class="small" text-anchor="middle">5</text>
+<text x="530.0" y="479" class="small" text-anchor="middle">10</text>
+<text x="955.0" y="479" class="small" text-anchor="middle">20</text>
+<line x1="105.0" y1="340.9" x2="105.0" y2="382.6" stroke="#596775"/>
+<circle cx="105.0" cy="361.7" r="5" fill="#596775"><title>PINN base, d=5: 0.01567 ± 0.00333</title></circle>
+<line x1="530.0" y1="331.0" x2="530.0" y2="368.6" stroke="#596775"/>
+<circle cx="530.0" cy="349.8" r="5" fill="#596775"><title>PINN base, d=10: 0.01757 ± 0.00299</title></circle>
+<line x1="955.0" y1="326.1" x2="955.0" y2="386.5" stroke="#596775"/>
+<circle cx="955.0" cy="356.3" r="5" fill="#596775"><title>PINN base, d=20: 0.01654 ± 0.00482</title></circle>
+<polyline points="105.0,361.7 530.0,349.8 955.0,356.3" fill="none" stroke="#596775" stroke-width="2.5"/>
+<line x1="105.0" y1="357.3" x2="105.0" y2="386.8" stroke="#167caa"/>
+<circle cx="105.0" cy="372.1" r="5" fill="#167caa"><title>PCA input 99%, d=5: 0.01402 ± 0.00235</title></circle>
+<line x1="530.0" y1="356.8" x2="530.0" y2="397.2" stroke="#167caa"/>
+<circle cx="530.0" cy="377.0" r="5" fill="#167caa"><title>PCA input 99%, d=10: 0.01324 ± 0.00323</title></circle>
+<line x1="955.0" y1="343.5" x2="955.0" y2="398.5" stroke="#167caa"/>
+<circle cx="955.0" cy="371.0" r="5" fill="#167caa"><title>PCA input 99%, d=20: 0.0142 ± 0.00439</title></circle>
+<polyline points="105.0,372.1 530.0,377.0 955.0,371.0" fill="none" stroke="#167caa" stroke-width="2.5"/>
+<text x="105" y="521" class="label">Tiempo de pipeline (s)</text>
+<line x1="105" y1="690.0" x2="955" y2="690.0" class="grid"/>
+<text x="97" y="694.0" class="small" text-anchor="end">0</text>
+<line x1="105" y1="650.5" x2="955" y2="650.5" class="grid"/>
+<text x="97" y="654.5" class="small" text-anchor="end">0.844</text>
+<line x1="105" y1="611.0" x2="955" y2="611.0" class="grid"/>
+<text x="97" y="615.0" class="small" text-anchor="end">1.69</text>
+<line x1="105" y1="571.5" x2="955" y2="571.5" class="grid"/>
+<text x="97" y="575.5" class="small" text-anchor="end">2.53</text>
+<line x1="105" y1="532.0" x2="955" y2="532.0" class="grid"/>
+<text x="97" y="536.0" class="small" text-anchor="end">3.38</text>
+<line x1="105" y1="532" x2="105" y2="690" class="axis"/>
+<line x1="105" y1="690" x2="955" y2="690" class="axis"/>
+<text x="105.0" y="709" class="small" text-anchor="middle">5</text>
+<text x="530.0" y="709" class="small" text-anchor="middle">10</text>
+<text x="955.0" y="709" class="small" text-anchor="middle">20</text>
+<line x1="105.0" y1="571.8" x2="105.0" y2="574.0" stroke="#596775"/>
+<circle cx="105.0" cy="572.9" r="5" fill="#596775"><title>PINN base, d=5: 2.504 ± 0.0235</title></circle>
+<line x1="530.0" y1="567.6" x2="530.0" y2="571.6" stroke="#596775"/>
+<circle cx="530.0" cy="569.6" r="5" fill="#596775"><title>PINN base, d=10: 2.573 ± 0.0422</title></circle>
+<line x1="955.0" y1="557.8" x2="955.0" y2="571.3" stroke="#596775"/>
+<circle cx="955.0" cy="564.6" r="5" fill="#596775"><title>PINN base, d=20: 2.682 ± 0.145</title></circle>
+<polyline points="105.0,572.9 530.0,569.6 955.0,564.6" fill="none" stroke="#596775" stroke-width="2.5"/>
+<line x1="105.0" y1="573.8" x2="105.0" y2="575.9" stroke="#167caa"/>
+<circle cx="105.0" cy="574.9" r="5" fill="#167caa"><title>PCA input 99%, d=5: 2.461 ± 0.0229</title></circle>
+<line x1="530.0" y1="566.5" x2="530.0" y2="570.0" stroke="#167caa"/>
+<circle cx="530.0" cy="568.3" r="5" fill="#167caa"><title>PCA input 99%, d=10: 2.602 ± 0.0375</title></circle>
+<line x1="955.0" y1="556.1" x2="955.0" y2="566.9" stroke="#167caa"/>
+<circle cx="955.0" cy="561.5" r="5" fill="#167caa"><title>PCA input 99%, d=20: 2.747 ± 0.115</title></circle>
+<polyline points="105.0,574.9 530.0,568.3 955.0,561.5" fill="none" stroke="#167caa" stroke-width="2.5"/>
+<text x="500.0" y="728" class="label" text-anchor="middle">Dimensión de entrada d</text>
+</svg>

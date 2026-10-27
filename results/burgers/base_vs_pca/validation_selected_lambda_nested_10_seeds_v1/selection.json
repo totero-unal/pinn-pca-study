@@ -1,0 +1,61 @@
+{
+  "rule": "Among PCA weights with mean validation RMSE no more than tolerance above the best PCA mean validation RMSE, select the one with the lowest mean validation PDE residual; ties prefer lower validation RMSE, then lower lambda.",
+  "relative_rmse_tolerance": 0.15,
+  "best_validation_rmse": 0.20954431891441344,
+  "validation_rmse_cutoff": 0.24097596675157543,
+  "feasible_lambdas": [
+    1.0,
+    2.0
+  ],
+  "selected_lambda_pde": 2.0,
+  "candidates": [
+    {
+      "lambda_pde": 1.0,
+      "seed_count": 10,
+      "validation_rmse": {
+        "mean": 0.20954431891441344,
+        "std": 0.012796308624898564
+      },
+      "validation_pde_residual_rms": {
+        "mean": 0.2439765140414238,
+        "std": 0.030501327759789604
+      }
+    },
+    {
+      "lambda_pde": 2.0,
+      "seed_count": 10,
+      "validation_rmse": {
+        "mean": 0.23868499249219893,
+        "std": 0.014313403077891461
+      },
+      "validation_pde_residual_rms": {
+        "mean": 0.1871939092874527,
+        "std": 0.026085530198280565
+      }
+    },
+    {
+      "lambda_pde": 5.0,
+      "seed_count": 10,
+      "validation_rmse": {
+        "mean": 0.2779473602771759,
+        "std": 0.017629240256894853
+      },
+      "validation_pde_residual_rms": {
+        "mean": 0.13776583299040795,
+        "std": 0.026567514378085452
+      }
+    },
+    {
+      "lambda_pde": 10.0,
+      "seed_count": 10,
+      "validation_rmse": {
+        "mean": 0.30355702340602875,
+        "std": 0.0214015697576625
+      },
+      "validation_pde_residual_rms": {
+        "mean": 0.106131911277771,
+        "std": 0.01749166530031346
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 590">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:14px}.small{font-size:11px}</style>
+<text x="520.0" y="30" class="title" text-anchor="middle">Tiempo acumulado de pipeline</text>
+<line x1="100" y1="512.0" x2="1000" y2="512.0" class="grid"/>
+<text x="91" y="516.0" class="small" text-anchor="end">0</text>
+<line x1="100.0" y1="74" x2="100.0" y2="512" class="grid"/>
+<text x="100.0" y="533" class="small" text-anchor="middle">1000</text>
+<line x1="100" y1="424.4" x2="1000" y2="424.4" class="grid"/>
+<text x="91" y="428.4" class="small" text-anchor="end">3.722</text>
+<line x1="280.0" y1="74" x2="280.0" y2="512" class="grid"/>
+<text x="280.0" y="533" class="small" text-anchor="middle">1800</text>
+<line x1="100" y1="336.8" x2="1000" y2="336.8" class="grid"/>
+<text x="91" y="340.8" class="small" text-anchor="end">7.443</text>
+<line x1="460.0" y1="74" x2="460.0" y2="512" class="grid"/>
+<text x="460.0" y="533" class="small" text-anchor="middle">2600</text>
+<line x1="100" y1="249.2" x2="1000" y2="249.2" class="grid"/>
+<text x="91" y="253.2" class="small" text-anchor="end">11.16</text>
+<line x1="640.0" y1="74" x2="640.0" y2="512" class="grid"/>
+<text x="640.0" y="533" class="small" text-anchor="middle">3400</text>
+<line x1="100" y1="161.6" x2="1000" y2="161.6" class="grid"/>
+<text x="91" y="165.6" class="small" text-anchor="end">14.89</text>
+<line x1="820.0" y1="74" x2="820.0" y2="512" class="grid"/>
+<text x="820.0" y="533" class="small" text-anchor="middle">4200</text>
+<line x1="100" y1="74.0" x2="1000" y2="74.0" class="grid"/>
+<text x="91" y="78.0" class="small" text-anchor="end">18.61</text>
+<line x1="1000.0" y1="74" x2="1000.0" y2="512" class="grid"/>
+<text x="1000.0" y="533" class="small" text-anchor="middle">5000</text>
+<line x1="100" y1="74" x2="100" y2="512" class="axis"/>
+<line x1="100" y1="512" x2="1000" y2="512" class="axis"/>
+<text x="550.0" y="566" class="label" text-anchor="middle">Pasos de optimización</text>
+<text x="24" y="293.0" class="label" text-anchor="middle" transform="rotate(-90 24 293.0)">Segundos</text>
+<line x1="100.0" y1="461.2" x2="100.0" y2="435.1" stroke="#596775"/>
+<circle cx="100.0" cy="448.1" r="4" fill="#596775"/>
+<line x1="437.5" y1="389.0" x2="437.5" y2="307.5" stroke="#596775"/>
+<circle cx="437.5" cy="348.3" r="4" fill="#596775"/>
+<line x1="1000.0" y1="260.0" x2="1000.0" y2="120.9" stroke="#596775"/>
+<circle cx="1000.0" cy="190.5" r="4" fill="#596775"/>
+<polyline points="100.0,448.1 437.5,348.3 1000.0,190.5" fill="none" stroke="#596775" stroke-width="2.4"/>
+<line x1="100.0" y1="481.4" x2="100.0" y2="465.2" stroke="#167caa"/>
+<circle cx="100.0" cy="473.3" r="4" fill="#167caa"/>
+<line x1="437.5" y1="435.2" x2="437.5" y2="395.3" stroke="#167caa"/>
+<circle cx="437.5" cy="415.3" r="4" fill="#167caa"/>
+<line x1="1000.0" y1="360.7" x2="1000.0" y2="279.9" stroke="#167caa"/>
+<circle cx="1000.0" cy="320.3" r="4" fill="#167caa"/>
+<polyline points="100.0,473.3 437.5,415.3 1000.0,320.3" fill="none" stroke="#167caa" stroke-width="2.4"/>
+<line x1="100.0" y1="480.9" x2="100.0" y2="470.4" stroke="#d08a27"/>
+<circle cx="100.0" cy="475.7" r="4" fill="#d08a27"/>
+<line x1="437.5" y1="435.6" x2="437.5" y2="397.4" stroke="#d08a27"/>
+<circle cx="437.5" cy="416.5" r="4" fill="#d08a27"/>
+<line x1="1000.0" y1="364.8" x2="1000.0" y2="274.4" stroke="#d08a27"/>
+<circle cx="1000.0" cy="319.6" r="4" fill="#d08a27"/>
+<polyline points="100.0,475.7 437.5,416.5 1000.0,319.6" fill="none" stroke="#d08a27" stroke-width="2.4"/>
+<line x1="100.0" y1="480.0" x2="100.0" y2="470.3" stroke="#7c65a3"/>
+<circle cx="100.0" cy="475.2" r="4" fill="#7c65a3"/>
+<line x1="437.5" y1="432.9" x2="437.5" y2="409.2" stroke="#7c65a3"/>
+<circle cx="437.5" cy="421.1" r="4" fill="#7c65a3"/>
+<line x1="1000.0" y1="354.2" x2="1000.0" y2="306.1" stroke="#7c65a3"/>
+<circle cx="1000.0" cy="330.1" r="4" fill="#7c65a3"/>
+<polyline points="100.0,475.2 437.5,421.1 1000.0,330.1" fill="none" stroke="#7c65a3" stroke-width="2.4"/>
+<line x1="100.0" y1="477.0" x2="100.0" y2="470.0" stroke="#2c8c62"/>
+<circle cx="100.0" cy="473.5" r="4" fill="#2c8c62"/>
+<line x1="437.5" y1="425.5" x2="437.5" y2="407.4" stroke="#2c8c62"/>
+<circle cx="437.5" cy="416.4" r="4" fill="#2c8c62"/>
+<line x1="1000.0" y1="340.6" x2="1000.0" y2="305.3" stroke="#2c8c62"/>
+<circle cx="1000.0" cy="323.0" r="4" fill="#2c8c62"/>
+<polyline points="100.0,473.5 437.5,416.4 1000.0,323.0" fill="none" stroke="#2c8c62" stroke-width="2.4"/>
+<line x1="100" y1="52" x2="124" y2="52" stroke="#596775" stroke-width="3"/>
+<text x="130" y="56" class="small">PINN base</text>
+<line x1="290" y1="52" x2="314" y2="52" stroke="#167caa" stroke-width="3"/>
+<text x="320" y="56" class="small">PCA 99%</text>
+<line x1="480" y1="52" x2="504" y2="52" stroke="#d08a27" stroke-width="3"/>
+<text x="510" y="56" class="small">PCA k=4</text>
+<line x1="670" y1="52" x2="694" y2="52" stroke="#7c65a3" stroke-width="3"/>
+<text x="700" y="56" class="small">PCA k=8</text>
+<line x1="860" y1="52" x2="884" y2="52" stroke="#2c8c62" stroke-width="3"/>
+<text x="890" y="56" class="small">PCA k=16</text>
+</svg>

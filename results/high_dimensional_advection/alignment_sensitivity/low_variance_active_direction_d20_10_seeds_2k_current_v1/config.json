@@ -1,0 +1,46 @@
+{
+  "experiment_name": "high_dim_advection_variance_physics_misalignment_current_code_2k",
+  "run_id": "low_variance_active_direction_d20_10_seeds_2k_current_v1",
+  "dimension": 20,
+  "seeds": [
+    3501,
+    3502,
+    3503,
+    3504,
+    3505,
+    3506,
+    3507,
+    3508,
+    3509,
+    3510
+  ],
+  "problem_seed": 31415,
+  "covariance_decay": 0.2,
+  "active_directions": [
+    0,
+    3
+  ],
+  "temporal_rates": [
+    1.0,
+    0.5
+  ],
+  "scale_frequency_by_coordinate_std": true,
+  "pca_variance_threshold": 0.99,
+  "fixed_pca_components": [
+    4
+  ],
+  "training_spatial_points": 1024,
+  "validation_spatial_points": 256,
+  "test_spatial_points": 256,
+  "test_residual_points": 512,
+  "time_points": 80,
+  "final_time": 1.0,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "initial_condition_points": 64,
+  "steps": 2000,
+  "eval_every_steps": 100,
+  "batch_size": 256,
+  "baseline_width": 64,
+  "learning_rate": 0.001
+}

@@ -1,0 +1,31 @@
+{
+  "experiment_name": "burgers_base_vs_pca_controlled_ad",
+  "run_id": "controlled_ad_10_seeds_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038
+  ],
+  "steps": 1000,
+  "eval_every_steps": 50,
+  "batch_size": 256,
+  "initial_condition_points": 32,
+  "baseline_width": 64,
+  "pca_variance_threshold": 0.99,
+  "learning_rate": 0.001,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "validation_rmse_targets": [
+    0.3,
+    0.25,
+    0.2
+  ]
+}

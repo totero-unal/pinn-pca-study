@@ -1,0 +1,14 @@
+{
+  "source_config": "configs/wave_multiscale_pilot.json",
+  "source_run": "results/wave/base_vs_pca/two_and_three_frequencies_10_seeds_2k_v1",
+  "run_id": "diagnostic_standardized_coefficients_10_seeds_2k_v1",
+  "normalization_initialization": "match_raw_physical_function",
+  "oracle_gate": {
+    "max_validation_relative_l2": 0.0001,
+    "max_normalized_pde_residual": 0.001,
+    "max_oracle_to_null_loss_ratio": 0.1
+  },
+  "oracle_points": 512,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 1730
+}

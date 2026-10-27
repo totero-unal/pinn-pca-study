@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<style>text{font-family:Arial,sans-serif;fill:#222}.grid{stroke:#ddd}.axis{stroke:#555}.title{font-size:19px;font-weight:bold}.label{font-size:14px}.small{font-size:11px}</style>
+<text x="500.0" y="32" class="title" text-anchor="middle">Varianza y relevancia física: comparación en dimensión alta</text>
+<line x1="110.0" y1="80" x2="110.0" y2="555" class="grid"/>
+<text x="110.0" y="576" class="small" text-anchor="middle">0.501</text>
+<line x1="110" y1="555.0" x2="770" y2="555.0" class="grid"/>
+<text x="101" y="559.0" class="small" text-anchor="end">0.0346</text>
+<line x1="242.0" y1="80" x2="242.0" y2="555" class="grid"/>
+<text x="242.0" y="576" class="small" text-anchor="middle">0.513</text>
+<line x1="110" y1="460.0" x2="770" y2="460.0" class="grid"/>
+<text x="101" y="464.0" class="small" text-anchor="end">0.0401</text>
+<line x1="374.0" y1="80" x2="374.0" y2="555" class="grid"/>
+<text x="374.0" y="576" class="small" text-anchor="middle">0.524</text>
+<line x1="110" y1="365.0" x2="770" y2="365.0" class="grid"/>
+<text x="101" y="369.0" class="small" text-anchor="end">0.0455</text>
+<line x1="506.0" y1="80" x2="506.0" y2="555" class="grid"/>
+<text x="506.0" y="576" class="small" text-anchor="middle">0.536</text>
+<line x1="110" y1="270.0" x2="770" y2="270.0" class="grid"/>
+<text x="101" y="274.0" class="small" text-anchor="end">0.0509</text>
+<line x1="638.0" y1="80" x2="638.0" y2="555" class="grid"/>
+<text x="638.0" y="576" class="small" text-anchor="middle">0.547</text>
+<line x1="110" y1="175.0" x2="770" y2="175.0" class="grid"/>
+<text x="101" y="179.0" class="small" text-anchor="end">0.0564</text>
+<line x1="770.0" y1="80" x2="770.0" y2="555" class="grid"/>
+<text x="770.0" y="576" class="small" text-anchor="middle">0.558</text>
+<line x1="110" y1="80.0" x2="770" y2="80.0" class="grid"/>
+<text x="101" y="84.0" class="small" text-anchor="end">0.0618</text>
+<line x1="110" y1="80" x2="110" y2="555" class="axis"/>
+<line x1="110" y1="555" x2="770" y2="555" class="axis"/>
+<text x="440.0" y="616" class="label" text-anchor="middle">Error relativo L2 de prueba</text>
+<text x="24" y="317.5" class="label" text-anchor="middle" transform="rotate(-90 24 317.5)">Residuo RMS de advección</text>
+<line x1="163.9" y1="311.3" x2="538.5" y2="311.3" stroke="#596775"/>
+<line x1="351.2" y1="127.5" x2="351.2" y2="495.1" stroke="#596775"/>
+<circle cx="351.2" cy="311.3" r="6" fill="#596775"><title>PINN base</title></circle>
+<line x1="785" y1="102" x2="805" y2="102" stroke="#596775" stroke-width="3"/>
+<text x="812" y="106" class="small">PINN base</text>
+<line x1="290.0" y1="410.6" x2="498.8" y2="410.6" stroke="#167caa"/>
+<line x1="394.4" y1="301.1" x2="394.4" y2="520.0" stroke="#167caa"/>
+<circle cx="394.4" cy="410.6" r="6" fill="#167caa"><title>PCA input 99%</title></circle>
+<line x1="785" y1="130" x2="805" y2="130" stroke="#167caa" stroke-width="3"/>
+<text x="812" y="134" class="small">PCA input 99%</text>
+<line x1="154.0" y1="383.1" x2="704.0" y2="383.1" stroke="#d08a27"/>
+<line x1="429.0" y1="242.8" x2="429.0" y2="523.3" stroke="#d08a27"/>
+<circle cx="429.0" cy="383.1" r="6" fill="#d08a27"><title>PCA input k=4</title></circle>
+<line x1="785" y1="158" x2="805" y2="158" stroke="#d08a27" stroke-width="3"/>
+<text x="812" y="162" class="small">PCA input k=4</text>
+</svg>
