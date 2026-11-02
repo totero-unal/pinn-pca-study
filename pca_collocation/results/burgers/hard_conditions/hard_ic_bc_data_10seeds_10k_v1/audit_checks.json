@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "shared_hard_warmup": true,
+  "new_runs": 20,
+  "reused_runs": 20,
+  "analytic_constraints_checked": true,
+  "verified_active_sets": 2000,
+  "qr_reconstructions": 50,
+  "constraint_checkpoints": 80,
+  "max_ic_error": 5.960464477539063e-08
+}

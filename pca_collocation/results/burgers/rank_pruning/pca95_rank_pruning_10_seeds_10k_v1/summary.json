@@ -1,0 +1,86 @@
+{
+  "methods": {
+    "pca_partial": {
+      "test_rmse": {
+        "mean": 0.09869576022028922,
+        "std": 0.022016028323003648
+      },
+      "independent_residual_rms": {
+        "mean": 0.08080462738871574,
+        "std": 0.011569410342398969
+      },
+      "initial_condition_rmse": {
+        "mean": 0.12944083660840988,
+        "std": 0.043446719239042794
+      },
+      "boundary_rms": {
+        "mean": 0.0695096306502819,
+        "std": 0.01911936139000066
+      },
+      "pruning": {
+        "accepted": 990,
+        "attempts": 990,
+        "k_min": 2,
+        "k_max": 10,
+        "k_mean": 6.01010101010101
+      }
+    },
+    "sobol_partial": {
+      "test_rmse": {
+        "mean": 0.056735055334866044,
+        "std": 0.04707929882011702
+      },
+      "independent_residual_rms": {
+        "mean": 1.2393243491649628,
+        "std": 0.34194358078611325
+      },
+      "initial_condition_rmse": {
+        "mean": 0.026502751372754575,
+        "std": 0.01648516451100378
+      },
+      "boundary_rms": {
+        "mean": 0.01923923185095191,
+        "std": 0.011063658986189004
+      },
+      "pruning": {
+        "accepted": 990,
+        "attempts": 990,
+        "k_min": 2,
+        "k_max": 10,
+        "k_mean": 6.01010101010101
+      }
+    },
+    "reference": {
+      "test_rmse": {
+        "mean": 0.07143931016325951,
+        "std": 0.009772143233653111
+      },
+      "independent_residual_rms": {
+        "mean": 0.16801142692565918,
+        "std": 0.0286896416486862
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08990704342722892,
+        "std": 0.013346896262059774
+      },
+      "boundary_rms": {
+        "mean": 0.04527518264949322,
+        "std": 0.011320248715493923
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "pca_partial",
+      "reference": "reference",
+      "difference": 0.027256450057029723,
+      "wins": 0
+    },
+    {
+      "method": "pca_partial",
+      "reference": "sobol_partial",
+      "difference": 0.04196070488542318,
+      "wins": 1
+    }
+  ]
+}

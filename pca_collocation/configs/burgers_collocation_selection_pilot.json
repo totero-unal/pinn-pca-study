@@ -1,0 +1,21 @@
+{
+  "experiment_name": "burgers_residual_history_collocation_selection",
+  "run_id": "residual_history_selection_pilot_1_seed_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seed": 2041,
+  "width": 32,
+  "learning_rate": 0.001,
+  "warmup_steps": 100,
+  "train_steps": 300,
+  "batch_size": 128,
+  "update_every": 100,
+  "candidate_count": 4096,
+  "history_snapshots": 20,
+  "independent_count": 2048,
+  "initial_condition_points": 32,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "energy_threshold": 0.99,
+  "max_modes": 20,
+  "qr_point_count": 32
+}

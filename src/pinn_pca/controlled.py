@@ -261,7 +261,7 @@ def run_controlled_comparison(config: dict, project_root: str | Path):
     """Run a paired benchmark with AD used for both PDE residuals."""
     project_root = Path(project_root).resolve()
     data_path = project_root / config["data_path"]
-    output_dir = project_root / "results" / "burgers" / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / "burgers" / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     x, t, u = load_burgers_data(data_path)

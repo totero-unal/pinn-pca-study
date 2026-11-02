@@ -1,0 +1,245 @@
+{
+  "methods": {
+    "sobol": {
+      "test_rmse": {
+        "mean": 0.05722300559282303,
+        "std": 0.019612034666138284
+      },
+      "test_relative_l2": {
+        "mean": 0.09379204846918583,
+        "std": 0.03153562410714358
+      },
+      "independent_residual_rms": {
+        "mean": 0.31073965430259703,
+        "std": 0.04315682401661052
+      },
+      "initial_condition_rmse": {
+        "mean": 0.06559582129120826,
+        "std": 0.019159735946817066
+      },
+      "boundary_rms": {
+        "mean": 0.04200278986245394,
+        "std": 0.011574325538809284
+      }
+    },
+    "pod_qr": {
+      "test_rmse": {
+        "mean": 0.11303808391094208,
+        "std": 0.04235737854110155
+      },
+      "test_relative_l2": {
+        "mean": 0.18500947207212448,
+        "std": 0.06714269336984593
+      },
+      "independent_residual_rms": {
+        "mean": 0.12040843963623046,
+        "std": 0.01591792494127922
+      },
+      "initial_condition_rmse": {
+        "mean": 0.13508291095495223,
+        "std": 0.03425345204075512
+      },
+      "boundary_rms": {
+        "mean": 0.05117266662418842,
+        "std": 0.01162104708522671
+      }
+    },
+    "pca_qr": {
+      "test_rmse": {
+        "mean": 0.09507538452744484,
+        "std": 0.02142593506334829
+      },
+      "test_relative_l2": {
+        "mean": 0.15598424822092055,
+        "std": 0.03530695234600091
+      },
+      "independent_residual_rms": {
+        "mean": 0.13798569589853288,
+        "std": 0.02340280610108768
+      },
+      "initial_condition_rmse": {
+        "mean": 0.11766530498862267,
+        "std": 0.03200391629063916
+      },
+      "boundary_rms": {
+        "mean": 0.05175082311034203,
+        "std": 0.015820490130960756
+      }
+    },
+    "pca_mean_qr": {
+      "test_rmse": {
+        "mean": 0.08846250995993614,
+        "std": 0.014276554264545528
+      },
+      "test_relative_l2": {
+        "mean": 0.145014937967062,
+        "std": 0.022387471175721395
+      },
+      "independent_residual_rms": {
+        "mean": 0.12084390595555305,
+        "std": 0.014774175729663087
+      },
+      "initial_condition_rmse": {
+        "mean": 0.11681746765971183,
+        "std": 0.024849576099094967
+      },
+      "boundary_rms": {
+        "mean": 0.05404929928481579,
+        "std": 0.013034723446053019
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "pod_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean": 0.05581507831811905,
+      "std": 0.028319233692211843,
+      "better_count": 0,
+      "seeds": 10
+    },
+    {
+      "method": "pod_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean": -0.19033121466636657,
+      "std": 0.04936823856217198,
+      "better_count": 10,
+      "seeds": 10
+    },
+    {
+      "method": "pca_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean": 0.03785237893462181,
+      "std": 0.016591573859279334,
+      "better_count": 0,
+      "seeds": 10
+    },
+    {
+      "method": "pca_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean": -0.17275395840406418,
+      "std": 0.051057101079749104,
+      "better_count": 10,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean": 0.031239504367113112,
+      "std": 0.023191075333974482,
+      "better_count": 1,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean": -0.18989574834704398,
+      "std": 0.0464082621642503,
+      "better_count": 10,
+      "seeds": 10
+    },
+    {
+      "method": "pca_qr",
+      "reference": "pod_qr",
+      "metric": "test_rmse",
+      "mean": -0.01796269938349724,
+      "std": 0.034059936818476605,
+      "better_count": 7,
+      "seeds": 10
+    },
+    {
+      "method": "pca_qr",
+      "reference": "pod_qr",
+      "metric": "independent_residual_rms",
+      "mean": 0.017577256262302398,
+      "std": 0.01964639852796374,
+      "better_count": 2,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pod_qr",
+      "metric": "test_rmse",
+      "mean": -0.024575573951005937,
+      "std": 0.047165037489643125,
+      "better_count": 7,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pod_qr",
+      "metric": "independent_residual_rms",
+      "mean": 0.0004354663193225861,
+      "std": 0.02293266107827715,
+      "better_count": 5,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pca_qr",
+      "metric": "test_rmse",
+      "mean": -0.0066128745675086975,
+      "std": 0.028477806896373352,
+      "better_count": 5,
+      "seeds": 10
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pca_qr",
+      "metric": "independent_residual_rms",
+      "mean": -0.017141789942979813,
+      "std": 0.024603135662980117,
+      "better_count": 8,
+      "seeds": 10
+    }
+  ],
+  "config": {
+    "run_id": "fixed_dimension4_10_seeds_10k_v1",
+    "data_path": "data/raw/burgers_shock.mat",
+    "seeds": [
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060
+    ],
+    "width": 32,
+    "learning_rate": 0.001,
+    "warmup_steps": 100,
+    "train_steps": 10000,
+    "batch_size": 128,
+    "update_every": 100,
+    "candidate_count": 4096,
+    "history_snapshots": 20,
+    "independent_count": 2048,
+    "initial_condition_points": 32,
+    "initial_condition_strategy": "uniform_domain",
+    "test_time_count": 20,
+    "validation_time_count": 8,
+    "energy_threshold": 0.99,
+    "max_modes": 20,
+    "qr_point_count": 32,
+    "basis_dimension": 4,
+    "guided_points": 32,
+    "test_checkpoints": [
+      100,
+      2100,
+      5100,
+      10100
+    ],
+    "notebook_name": "15_basis_ablation.ipynb"
+  },
+  "selection": "orthonormal fixed dimension + QR + logdet + common Sobol",
+  "criterion": "terminal model at preset budgets"
+}

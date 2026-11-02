@@ -1,0 +1,302 @@
+[
+  {
+    "method": "f5_m100",
+    "seed": 2051,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2051",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2052,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2052",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2053,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2053",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2054,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2054",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2055,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2055",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2056,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2056",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2057,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2057",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2058,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2058",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2059,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2059",
+    "reused": true
+  },
+  {
+    "method": "f5_m100",
+    "seed": 2060,
+    "path": "pca_collocation/results/burgers/interval_history/interval20_every5_10_seeds_10k_v1/interval_fixed/seed_2060",
+    "reused": true
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2051,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2051",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2052,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2052",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2053,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2053",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2054,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2054",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2055,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2055",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2056,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2056",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2057,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2057",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2058,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2058",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2059,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2059",
+    "reused": false
+  },
+  {
+    "method": "f10_m100",
+    "seed": 2060,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f10_m100/seed_2060",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2051,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2051",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2052,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2052",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2053,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2053",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2054,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2054",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2055,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2055",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2056,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2056",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2057,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2057",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2058,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2058",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2059,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2059",
+    "reused": false
+  },
+  {
+    "method": "f20_m100",
+    "seed": 2060,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f20_m100/seed_2060",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2051,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2051",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2052,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2052",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2053,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2053",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2054,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2054",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2055,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2055",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2056,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2056",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2057,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2057",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2058,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2058",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2059,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2059",
+    "reused": false
+  },
+  {
+    "method": "f5_m200",
+    "seed": 2060,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m200/seed_2060",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2051,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2051",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2052,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2052",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2053,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2053",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2054,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2054",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2055,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2055",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2056,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2056",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2057,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2057",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2058,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2058",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2059,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2059",
+    "reused": false
+  },
+  {
+    "method": "f5_m400",
+    "seed": 2060,
+    "path": "pca_collocation/results/burgers/memory_cadence/cadence_memory_10_seeds_10k_v1/f5_m400/seed_2060",
+    "reused": false
+  }
+]

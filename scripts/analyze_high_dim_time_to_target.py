@@ -11,7 +11,7 @@ from pinn_pca.time_to_target import run_analysis
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/high_dim_time_to_target.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/high_dim_time_to_target.json")
     args = parser.parse_args()
     config = json.loads((ROOT / args.config).read_text(encoding="utf-8"))
     report = run_analysis(config, ROOT)

@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "method": "pca_qr",
+    "reference": "pod_qr",
+    "metric": "test_rmse",
+    "mean_difference": -0.005781847983598709,
+    "std": 0.09018987198032247,
+    "wins": 5,
+    "n": 10,
+    "bootstrap95": [
+      -0.061294843116775154,
+      0.04410279244184489
+    ]
+  },
+  "criterion": "negative mean and bootstrap95 upper endpoint below zero",
+  "advantage_confirmed": false,
+  "limitation": "Ten fresh seeds; failure to confirm does not establish equivalence; secondary contrasts are descriptive"
+}

@@ -1,0 +1,286 @@
+{
+  "methods": [
+    {
+      "stage": "development",
+      "objective": "baseline",
+      "selector": "pca",
+      "test_rmse": 0.07143931016325951,
+      "test_rmse_std": 0.009772143233653111,
+      "independent_residual_rms": 0.16801142692565918,
+      "independent_residual_rms_std": 0.0286896416486862,
+      "initial_condition_rmse": 0.08990704342722892,
+      "initial_condition_rmse_std": 0.013346896262059774,
+      "boundary_rms": 0.04527518264949322,
+      "boundary_rms_std": 0.011320248715493923,
+      "validation_rmse": 0.06700375452637672
+    },
+    {
+      "stage": "development",
+      "objective": "baseline",
+      "selector": "sobol",
+      "test_rmse": 0.05722300559282303,
+      "test_rmse_std": 0.019612034666138284,
+      "independent_residual_rms": 0.31073965430259703,
+      "independent_residual_rms_std": 0.04315682401661052,
+      "initial_condition_rmse": 0.06559582129120826,
+      "initial_condition_rmse_std": 0.019159735946817066,
+      "boundary_rms": 0.04200278986245394,
+      "boundary_rms_std": 0.011574325538809284,
+      "validation_rmse": 0.05530194491147995
+    },
+    {
+      "stage": "development",
+      "objective": "ic10",
+      "selector": "pca",
+      "test_rmse": 0.059412560611963275,
+      "test_rmse_std": 0.017687528383870728,
+      "independent_residual_rms": 0.23165103793144226,
+      "independent_residual_rms_std": 0.03526117051166291,
+      "initial_condition_rmse": 0.024725499004125594,
+      "initial_condition_rmse_std": 0.005211947750991244,
+      "boundary_rms": 0.01349256858229637,
+      "boundary_rms_std": 0.004355806078707763,
+      "validation_rmse": 0.061862687580287457
+    },
+    {
+      "stage": "development",
+      "objective": "ic10",
+      "selector": "sobol",
+      "test_rmse": 0.05765130259096622,
+      "test_rmse_std": 0.03961653063658907,
+      "independent_residual_rms": 0.40760794579982756,
+      "independent_residual_rms_std": 0.11792647778078441,
+      "initial_condition_rmse": 0.017201501037925483,
+      "initial_condition_rmse_std": 0.004483478485072435,
+      "boundary_rms": 0.011338445357978344,
+      "boundary_rms_std": 0.003675362899637976,
+      "validation_rmse": 0.05814539771527052
+    },
+    {
+      "stage": "confirmation",
+      "objective": "baseline",
+      "selector": "pca",
+      "test_rmse": 0.08235677517950535,
+      "test_rmse_std": 0.021520046367405676,
+      "independent_residual_rms": 0.16228603571653366,
+      "independent_residual_rms_std": 0.026074018166748873,
+      "initial_condition_rmse": 0.10331217795610428,
+      "initial_condition_rmse_std": 0.033654750466178274,
+      "boundary_rms": 0.0444864995777607,
+      "boundary_rms_std": 0.012862055369442167,
+      "validation_rmse": 0.07813721522688866
+    },
+    {
+      "stage": "confirmation",
+      "objective": "baseline",
+      "selector": "sobol",
+      "test_rmse": 0.06784734558314084,
+      "test_rmse_std": 0.03463965695479278,
+      "independent_residual_rms": 0.37839892208576204,
+      "independent_residual_rms_std": 0.11510599050902656,
+      "initial_condition_rmse": 0.0704710591584444,
+      "initial_condition_rmse_std": 0.020654514279701903,
+      "boundary_rms": 0.0418510464951396,
+      "boundary_rms_std": 0.015460585038423959,
+      "validation_rmse": 0.0631779097020626
+    },
+    {
+      "stage": "confirmation",
+      "objective": "ic10",
+      "selector": "pca",
+      "test_rmse": 0.061905718967318536,
+      "test_rmse_std": 0.014642211826602487,
+      "independent_residual_rms": 0.24613622725009918,
+      "independent_residual_rms_std": 0.04038885490609704,
+      "initial_condition_rmse": 0.022971489652991294,
+      "initial_condition_rmse_std": 0.004579768440171568,
+      "boundary_rms": 0.014871981553733348,
+      "boundary_rms_std": 0.0036397495193658644,
+      "validation_rmse": 0.060777520015835765
+    },
+    {
+      "stage": "confirmation",
+      "objective": "ic10",
+      "selector": "sobol",
+      "test_rmse": 0.059819222614169124,
+      "test_rmse_std": 0.04082590395237001,
+      "independent_residual_rms": 0.432129043340683,
+      "independent_residual_rms_std": 0.14806956402906235,
+      "initial_condition_rmse": 0.01974394144490361,
+      "initial_condition_rmse_std": 0.004480021537366982,
+      "boundary_rms": 0.013034559553489089,
+      "boundary_rms_std": 0.006469631877118972,
+      "validation_rmse": 0.05952775869518519
+    }
+  ],
+  "paired": [
+    {
+      "stage": "development",
+      "comparison": "PCA minus Sobol",
+      "objective": "baseline",
+      "metric": "test_rmse",
+      "mean_difference": 0.014216304570436478,
+      "std": 0.02288412488148979,
+      "wins": 2,
+      "n": 10,
+      "bootstrap95": [
+        -0.0003882734291255473,
+        0.026405160482972853
+      ]
+    },
+    {
+      "stage": "development",
+      "comparison": "PCA minus Sobol",
+      "objective": "baseline",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.14272822737693786,
+      "std": 0.044696986246542746,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.16912189330905675,
+        -0.11607002284377821
+      ]
+    },
+    {
+      "stage": "development",
+      "comparison": "PCA minus Sobol",
+      "objective": "ic10",
+      "metric": "test_rmse",
+      "mean_difference": 0.0017612580209970473,
+      "std": 0.03939837419538636,
+      "wins": 2,
+      "n": 10,
+      "bootstrap95": [
+        -0.023808632837608455,
+        0.02117352337576445
+      ]
+    },
+    {
+      "stage": "development",
+      "comparison": "PCA minus Sobol",
+      "objective": "ic10",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.1759569078683853,
+      "std": 0.10920097700109957,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.2441228375211358,
+        -0.11834058761596689
+      ]
+    },
+    {
+      "stage": "development",
+      "comparison": "IC10 minus baseline",
+      "selector": "pca",
+      "metric": "test_rmse",
+      "mean_difference": -0.012026749551296234,
+      "std": 0.021534414676860684,
+      "wins": 8,
+      "n": 10,
+      "bootstrap95": [
+        -0.02427072674036026,
+        0.0009110165759920868
+      ]
+    },
+    {
+      "stage": "development",
+      "comparison": "IC10 minus baseline",
+      "selector": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": 0.00042829699814319613,
+      "std": 0.03869239228012849,
+      "wins": 7,
+      "n": 10,
+      "bootstrap95": [
+        -0.019854741543531416,
+        0.02532304088585073
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "PCA minus Sobol",
+      "objective": "baseline",
+      "metric": "test_rmse",
+      "mean_difference": 0.014509429596364498,
+      "std": 0.029022032068795136,
+      "wins": 3,
+      "n": 10,
+      "bootstrap95": [
+        -0.0037632765527814624,
+        0.030732039739377787
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "PCA minus Sobol",
+      "objective": "baseline",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.21611288636922837,
+      "std": 0.12157565908662478,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.2936646343395114,
+        -0.1528275810182095
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "PCA minus Sobol",
+      "objective": "ic10",
+      "metric": "test_rmse",
+      "mean_difference": 0.002086496353149414,
+      "std": 0.04637620727105056,
+      "wins": 4,
+      "n": 10,
+      "bootstrap95": [
+        -0.02732824179343879,
+        0.026718605831265434
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "PCA minus Sobol",
+      "objective": "ic10",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.1859928160905838,
+      "std": 0.14369866446952712,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.27479482121765614,
+        -0.1069767962023616
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "IC10 minus baseline",
+      "selector": "pca",
+      "metric": "test_rmse",
+      "mean_difference": -0.020451056212186812,
+      "std": 0.025850105874452446,
+      "wins": 8,
+      "n": 10,
+      "bootstrap95": [
+        -0.03654090324416757,
+        -0.006335671059787318
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "comparison": "IC10 minus baseline",
+      "selector": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": -0.00802812296897173,
+      "std": 0.05927979292810939,
+      "wins": 7,
+      "n": 10,
+      "bootstrap95": [
+        -0.04209065992385149,
+        0.0277378344675526
+      ]
+    }
+  ]
+}

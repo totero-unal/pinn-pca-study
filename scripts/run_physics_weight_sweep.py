@@ -16,7 +16,7 @@ from pinn_pca.physics_weight import run_physics_weight_sweep  # noqa: E402
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/burgers_physics_weight_sweep.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/burgers_physics_weight_sweep.json")
     args = parser.parse_args()
     config_path = ROOT / args.config
     config = json.loads(config_path.read_text(encoding="utf-8"))

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "pruning_reconstructions": 80,
+  "matched_k": true,
+  "shared_initial_points_and_interval": true,
+  "hard_constraints": true
+}

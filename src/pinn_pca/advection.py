@@ -165,7 +165,7 @@ def run_advection_comparison(config: dict, project_root: str | Path):
             config["nx"], config["nt"], velocity)
         np.savez_compressed(data_path, x=x, t=t, u=u, velocity=velocity)
 
-    output_dir = project_root / "results" / "advection" / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / "advection" / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     baseline_width = int(config["baseline_width"])

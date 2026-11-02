@@ -133,7 +133,7 @@ def run_oracle_stage(config, project_root):
     settings, previous, source = load_sources(config, root)
     if settings["loss_weights"] != [1., 1., 1., 1., 1.]:
         raise ValueError("El control oráculo requiere los cinco pesos originales iguales a uno.")
-    output = root / "results/wave/diagnostics" / config["run_id"]
+    output = root / "pca_preprocessing/results/wave/diagnostics" / config["run_id"]
     output.mkdir(parents=True, exist_ok=True)
     rows = []
     for case in settings["cases"]:
@@ -245,7 +245,7 @@ def run_diagnostic_round(config, project_root):
     from .wave_diagnostic_report import create_report
     root = Path(project_root).resolve()
     oracle_report = run_oracle_stage(config, root)
-    output = root / "results/wave/diagnostics" / config["run_id"]
+    output = root / "pca_preprocessing/results/wave/diagnostics" / config["run_id"]
     if not oracle_report["gate"]["passed"]:
         create_report(root, output)
         print("Oracle gate failed; coefficient-scaling ablation was not run.", flush=True)

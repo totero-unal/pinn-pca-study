@@ -16,7 +16,7 @@ from pinn_pca.validation_selection import run_validation_selected_sweep  # noqa:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/burgers_validation_selected_lambda.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/burgers_validation_selected_lambda.json")
     args = parser.parse_args()
     config_path = ROOT / args.config
     config = json.loads(config_path.read_text(encoding="utf-8"))

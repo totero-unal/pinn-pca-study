@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "shared_warmup": true,
+  "new_runs": 40,
+  "reused_runs": 20,
+  "diagnostic_checkpoints": 160
+}

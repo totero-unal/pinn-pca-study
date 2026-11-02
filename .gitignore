@@ -8,3 +8,12 @@ __pycache__/
 results/**/checkpoints/
 results/**/*.npz
 results/**/*.npy
+
+# Separated research trees: retain summaries and embedded notebooks, not raw runs.
+pca_*/results/**/*.npz
+pca_*/results/**/*.npy
+pca_*/results/**/seed_*/
+# Distributed benchmark results travel as verified archives rather than Git commits.
+pca_collocation/results/benchmark/
+benchmark_artifacts/
+*.log

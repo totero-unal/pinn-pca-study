@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "disjoint_seed_groups": true,
+  "warmup_equal": true,
+  "new_runs": 50,
+  "reused_runs": 30,
+  "confirmation_runs": 40
+}

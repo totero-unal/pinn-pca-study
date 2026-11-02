@@ -1,0 +1,17 @@
+{
+  "method": "pca",
+  "reference": "pod_qr",
+  "budget": 100000,
+  "result": {
+    "step": 100100,
+    "metric": "test_rmse",
+    "mean_difference": -0.004691052157431841,
+    "std": 0.025986426631224236,
+    "wins": 5,
+    "n": 10,
+    "bootstrap95": [
+      -0.021673981577623635,
+      0.00856145912781357
+    ]
+  }
+}

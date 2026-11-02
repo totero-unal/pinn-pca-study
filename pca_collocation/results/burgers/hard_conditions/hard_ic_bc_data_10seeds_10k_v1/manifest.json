@@ -1,0 +1,282 @@
+[
+  {
+    "selector": "pca",
+    "seed": 2071,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2071",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2071,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2071",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2071,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2071",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2071,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2071",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2072,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2072",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2072,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2072",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2072,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2072",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2072,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2072",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2073,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2073",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2073,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2073",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2073,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2073",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2073,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2073",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2074,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2074",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2074,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2074",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2074,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2074",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2074,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2074",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2075,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2075",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2075,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2075",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2075,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2075",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2075,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2075",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2076,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2076",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2076,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2076",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2076,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2076",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2076,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2076",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2077,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2077",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2077,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2077",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2077,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2077",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2077,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2077",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2078,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2078",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2078,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2078",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2078,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2078",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2078,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2078",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2079,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2079",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2079,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2079",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2079,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2079",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2079,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2079",
+    "reused": true
+  },
+  {
+    "selector": "pca",
+    "seed": 2080,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/pca/seed_2080",
+    "reused": false
+  },
+  {
+    "selector": "pca",
+    "seed": 2080,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/pca/seed_2080",
+    "reused": true
+  },
+  {
+    "selector": "sobol",
+    "seed": 2080,
+    "conditions": "hard",
+    "path": "pca_collocation/results/burgers/hard_conditions/hard_ic_bc_data_10seeds_10k_v1/sobol/seed_2080",
+    "reused": false
+  },
+  {
+    "selector": "sobol",
+    "seed": 2080,
+    "conditions": "soft_ic10",
+    "path": "pca_collocation/results/burgers/ic_confirmation/ic10_sobol_confirmation_10new_v1/confirmation/ic10/sobol/seed_2080",
+    "reused": true
+  }
+]

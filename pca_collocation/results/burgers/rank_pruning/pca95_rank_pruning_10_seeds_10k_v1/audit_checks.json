@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "pruning_reconstructions": 80,
+  "matched_k_schedules": true,
+  "common_initial_state": true
+}

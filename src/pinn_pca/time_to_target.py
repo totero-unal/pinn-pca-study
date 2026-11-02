@@ -293,13 +293,15 @@ def _notebook(report, output, root, path):
         "Una confirmación debe mantener este umbral fijo, usar semillas nuevas y medir un presupuesto de tiempo "
         "común definido antes de correr. Estos datos no contienen el residuo PDE en el instante del cruce; "
         "la conclusión de calidad equivalente se limita al RMSE de validación.\n\n"
-        "Regenerar: `python scripts/analyze_high_dim_time_to_target.py --config configs/high_dim_time_to_target.json`. "
+        "Regenerar: `python scripts/analyze_high_dim_time_to_target.py --config pca_preprocessing/configs/high_dim_time_to_target.json`. "
         "Requiere Matplotlib, incluido en las dependencias opcionales de notebooks. Los CSV, el resumen y las "
         "figuras SVG/PNG se conservan en la carpeta de resultados del análisis.")]
     notebook = {"cells": cells, "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
                 "language_info": {"name": "python"}}, "nbformat": 4, "nbformat_minor": 5}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(notebook, ensure_ascii=False, indent=1), encoding="utf-8")
+    from .notebook_images import embed_notebook_images
+    embed_notebook_images(path, root)
 
 
 def run_analysis(config, root):

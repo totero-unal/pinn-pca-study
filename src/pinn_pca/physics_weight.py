@@ -42,7 +42,7 @@ from .training import make_update, warmup_update
 def run_physics_weight_sweep(config: dict, project_root: str | Path):
     """Compare PDE-loss weights for a fixed k=8 PCA model on paired runs."""
     project_root = Path(project_root).resolve()
-    output_dir = project_root / "results" / "burgers" / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / "burgers" / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     x, t, u = load_burgers_data(project_root / config["data_path"])

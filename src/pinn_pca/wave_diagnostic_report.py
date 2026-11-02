@@ -284,9 +284,11 @@ def create_report(project_root,output_dir):
             "Se conservan la corrida original, los CSV de oráculos, escaladores y gradientes, las diferencias pareadas "
             "y figuras SVG/PNG en la carpeta de esta ronda."))
     notebook={'cells':cells,'metadata':{'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python'}},'nbformat':4,'nbformat_minor':5}
-    path=root/'notebooks/wave/02_diagnostic_round.ipynb'
+    path=root/'pca_preprocessing/notebooks/wave/02_diagnostic_round.ipynb'
     if result is not None:
         from .benchmark_summary import apply_benchmark_closure
         apply_benchmark_closure(notebook,root,'wave_multiscale',result['configuration']['run_id'],path)
     path.write_text(json.dumps(notebook,ensure_ascii=False,indent=1),encoding='utf-8')
+    from .notebook_images import embed_notebook_images
+    embed_notebook_images(path, root)
     print(f'Updated diagnostic notebook: {path}',flush=True)

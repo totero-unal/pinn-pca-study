@@ -1,0 +1,7 @@
+problem,method,seed,step,rank,spectral_modes,guided_fraction,spectral_fraction
+burgers,pca_mean,3101,1000,7,6,0.0035,0.9572818866961721
+burgers,pca_mean,3101,2000,4,3,0.002,0.9606987183936616
+wave,pca_mean,3101,1000,5,4,0.0025,0.9663903475331933
+wave,pca_mean,3101,2000,6,5,0.003,0.9533418512121076
+allen_cahn,pca_mean,3101,1000,5,4,0.0025,0.9683944409042818
+allen_cahn,pca_mean,3101,2000,3,2,0.0015,0.9537321238844616

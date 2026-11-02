@@ -1,0 +1,1653 @@
+{
+  "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+  "seeds": [
+    2051,
+    2052,
+    2053,
+    2054,
+    2055,
+    2056,
+    2057,
+    2058,
+    2059,
+    2060
+  ],
+  "methods": [
+    {
+      "method": "uniform",
+      "label": "Aleatorio uniforme",
+      "seed_count": 10,
+      "test_rmse": {
+        "mean": 0.3354335784912109,
+        "std": 0.01874968583858016,
+        "n": 10
+      },
+      "test_relative_l2": {
+        "mean": 0.5499560952186584,
+        "std": 0.023242649075321826,
+        "n": 10
+      },
+      "independent_residual_rms": {
+        "mean": 0.2157556504011154,
+        "std": 0.021164344636608313,
+        "n": 10
+      },
+      "initial_condition_rmse": {
+        "mean": 0.3432364225387573,
+        "std": 0.01814423057798922,
+        "n": 10
+      },
+      "boundary_rms": {
+        "mean": 0.23334622979164124,
+        "std": 0.022270675224024174,
+        "n": 10
+      },
+      "training_seconds": {
+        "mean": 0.5191420800016203,
+        "std": 0.23122505555738185,
+        "n": 10
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": 1.5406853100001172,
+        "std": 0.8638684928293386,
+        "n": 10
+      }
+    },
+    {
+      "method": "sobol",
+      "label": "Sobol",
+      "seed_count": 10,
+      "test_rmse": {
+        "mean": 0.3393761157989502,
+        "std": 0.012344792877061247,
+        "n": 10
+      },
+      "test_relative_l2": {
+        "mean": 0.5566149294376374,
+        "std": 0.014969381267028159,
+        "n": 10
+      },
+      "independent_residual_rms": {
+        "mean": 0.20007760226726531,
+        "std": 0.008400691615158908,
+        "n": 10
+      },
+      "initial_condition_rmse": {
+        "mean": 0.3507293969392776,
+        "std": 0.012426973116423583,
+        "n": 10
+      },
+      "boundary_rms": {
+        "mean": 0.22834570705890656,
+        "std": 0.013767133675050412,
+        "n": 10
+      },
+      "training_seconds": {
+        "mean": 0.42936605000286365,
+        "std": 0.06702938573428639,
+        "n": 10
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": 1.4509092800013605,
+        "std": 0.6869094509065965,
+        "n": 10
+      }
+    },
+    {
+      "method": "rad",
+      "label": "RAD",
+      "seed_count": 10,
+      "test_rmse": {
+        "mean": 0.3675599813461304,
+        "std": 0.013046199657861688,
+        "n": 10
+      },
+      "test_relative_l2": {
+        "mean": 0.6028079211711883,
+        "std": 0.01384734563754162,
+        "n": 10
+      },
+      "independent_residual_rms": {
+        "mean": 0.1983298271894455,
+        "std": 0.02226846719670464,
+        "n": 10
+      },
+      "initial_condition_rmse": {
+        "mean": 0.38194707334041594,
+        "std": 0.01973961743456722,
+        "n": 10
+      },
+      "boundary_rms": {
+        "mean": 0.23541470766067504,
+        "std": 0.02966254479769287,
+        "n": 10
+      },
+      "training_seconds": {
+        "mean": 0.4236872700013919,
+        "std": 0.063398001995397,
+        "n": 10
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": 1.4452304999998886,
+        "std": 0.6816210417349877,
+        "n": 10
+      }
+    },
+    {
+      "method": "pod_qr",
+      "label": "POD + QR",
+      "seed_count": 10,
+      "test_rmse": {
+        "mean": 0.3430603891611099,
+        "std": 0.012277446253306276,
+        "n": 10
+      },
+      "test_relative_l2": {
+        "mean": 0.5626337409019471,
+        "std": 0.013587073012066457,
+        "n": 10
+      },
+      "independent_residual_rms": {
+        "mean": 0.19313522875308992,
+        "std": 0.006302360694533164,
+        "n": 10
+      },
+      "initial_condition_rmse": {
+        "mean": 0.3565892457962036,
+        "std": 0.010195249598903925,
+        "n": 10
+      },
+      "boundary_rms": {
+        "mean": 0.23043710440397264,
+        "std": 0.01220328548037747,
+        "n": 10
+      },
+      "training_seconds": {
+        "mean": 0.4351898099994287,
+        "std": 0.05303041049361209,
+        "n": 10
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": 1.4567330399979255,
+        "std": 0.6376520134127617,
+        "n": 10
+      }
+    },
+    {
+      "method": "pca_mean_qr",
+      "label": "PCA centrado + media + QR",
+      "seed_count": 10,
+      "test_rmse": {
+        "mean": 0.3432141035795212,
+        "std": 0.011394057250867506,
+        "n": 10
+      },
+      "test_relative_l2": {
+        "mean": 0.562907737493515,
+        "std": 0.01242403958181924,
+        "n": 10
+      },
+      "independent_residual_rms": {
+        "mean": 0.19333382397890092,
+        "std": 0.006693964129395595,
+        "n": 10
+      },
+      "initial_condition_rmse": {
+        "mean": 0.35625343322753905,
+        "std": 0.010140090101952602,
+        "n": 10
+      },
+      "boundary_rms": {
+        "mean": 0.22868965715169906,
+        "std": 0.01646561449611859,
+        "n": 10
+      },
+      "training_seconds": {
+        "mean": 0.44173488000087674,
+        "std": 0.05391255994954655,
+        "n": 10
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": 1.4632781099993735,
+        "std": 0.6165100417052246,
+        "n": 10
+      }
+    }
+  ],
+  "paired_differences_vs_uniform": {
+    "sobol": {
+      "test_rmse": {
+        "mean": 0.003942537307739258,
+        "std": 0.009479344263255092,
+        "n": 10,
+        "method_better_count": 4
+      },
+      "test_relative_l2": {
+        "mean": 0.006658834218978882,
+        "std": 0.01582757628630691,
+        "n": 10,
+        "method_better_count": 4
+      },
+      "independent_residual_rms": {
+        "mean": -0.015678048133850098,
+        "std": 0.018049822856879692,
+        "n": 10,
+        "method_better_count": 8
+      },
+      "initial_condition_rmse": {
+        "mean": 0.007492974400520325,
+        "std": 0.011990386538735263,
+        "n": 10,
+        "method_better_count": 3
+      },
+      "boundary_rms": {
+        "mean": -0.0050005227327346805,
+        "std": 0.01816116508540548,
+        "n": 10,
+        "method_better_count": 6
+      },
+      "training_seconds": {
+        "mean": -0.08977602999875671,
+        "std": 0.18199141764755566,
+        "n": 10,
+        "method_better_count": 9
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": -0.08977602999875671,
+        "std": 0.18199141764755566,
+        "n": 10,
+        "method_better_count": 9
+      }
+    },
+    "rad": {
+      "test_rmse": {
+        "mean": 0.03212640285491943,
+        "std": 0.012604736891015522,
+        "n": 10,
+        "method_better_count": 0
+      },
+      "test_relative_l2": {
+        "mean": 0.05285182595252991,
+        "std": 0.021340089381946203,
+        "n": 10,
+        "method_better_count": 0
+      },
+      "independent_residual_rms": {
+        "mean": -0.01742582321166992,
+        "std": 0.03222882551570571,
+        "n": 10,
+        "method_better_count": 8
+      },
+      "initial_condition_rmse": {
+        "mean": 0.03871065080165863,
+        "std": 0.020114417880013988,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "boundary_rms": {
+        "mean": 0.0020684778690338137,
+        "std": 0.03696284821158057,
+        "n": 10,
+        "method_better_count": 5
+      },
+      "training_seconds": {
+        "mean": -0.09545481000022846,
+        "std": 0.1873371816043036,
+        "n": 10,
+        "method_better_count": 9
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": -0.09545481000022846,
+        "std": 0.1873371816043036,
+        "n": 10,
+        "method_better_count": 9
+      }
+    },
+    "pod_qr": {
+      "test_rmse": {
+        "mean": 0.0076268106698989865,
+        "std": 0.008796193877979003,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "test_relative_l2": {
+        "mean": 0.012677645683288575,
+        "std": 0.014771106211831832,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "independent_residual_rms": {
+        "mean": -0.022620421648025513,
+        "std": 0.017702528600972683,
+        "n": 10,
+        "method_better_count": 9
+      },
+      "initial_condition_rmse": {
+        "mean": 0.01335282325744629,
+        "std": 0.011654468201254728,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "boundary_rms": {
+        "mean": -0.0029091253876686097,
+        "std": 0.018734641584060553,
+        "n": 10,
+        "method_better_count": 5
+      },
+      "training_seconds": {
+        "mean": -0.08395227000219166,
+        "std": 0.2346624179470729,
+        "n": 10,
+        "method_better_count": 7
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": -0.08395227000219166,
+        "std": 0.2346624179470729,
+        "n": 10,
+        "method_better_count": 7
+      }
+    },
+    "pca_mean_qr": {
+      "test_rmse": {
+        "mean": 0.007780525088310242,
+        "std": 0.010447509798363806,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "test_relative_l2": {
+        "mean": 0.012951642274856567,
+        "std": 0.017511622535885063,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "independent_residual_rms": {
+        "mean": -0.02242182642221451,
+        "std": 0.019257721672596786,
+        "n": 10,
+        "method_better_count": 9
+      },
+      "initial_condition_rmse": {
+        "mean": 0.013017010688781739,
+        "std": 0.012007390477049623,
+        "n": 10,
+        "method_better_count": 1
+      },
+      "boundary_rms": {
+        "mean": -0.004656572639942169,
+        "std": 0.01804593209895916,
+        "n": 10,
+        "method_better_count": 4
+      },
+      "training_seconds": {
+        "mean": -0.07740720000074361,
+        "std": 0.2535001599473601,
+        "n": 10,
+        "method_better_count": 5
+      },
+      "pipeline_seconds_including_shared_setup": {
+        "mean": -0.07740720000074361,
+        "std": 0.2535001599473601,
+        "n": 10,
+        "method_better_count": 5
+      }
+    }
+  },
+  "validation_target": {
+    "rmse": 0.35,
+    "by_method": {
+      "uniform": {
+        "reached_count": 7,
+        "seed_count": 10,
+        "time_to_target_seconds_among_hits": {
+          "mean": 1.3935862428562749,
+          "std": 0.6356037486918262,
+          "n": 7
+        },
+        "final_validation_rmse": {
+          "mean": 0.33433507680892943,
+          "std": 0.024477877285451723,
+          "n": 10
+        },
+        "censored_count": 3
+      },
+      "sobol": {
+        "reached_count": 7,
+        "seed_count": 10,
+        "time_to_target_seconds_among_hits": {
+          "mean": 1.3810705000006627,
+          "std": 0.6403270842287183,
+          "n": 7
+        },
+        "final_validation_rmse": {
+          "mean": 0.33873299062252044,
+          "std": 0.022794842261881894,
+          "n": 10
+        },
+        "censored_count": 3
+      },
+      "rad": {
+        "reached_count": 3,
+        "seed_count": 10,
+        "time_to_target_seconds_among_hits": {
+          "mean": 1.705195099998188,
+          "std": 0.974654937533335,
+          "n": 3
+        },
+        "final_validation_rmse": {
+          "mean": 0.3655765801668167,
+          "std": 0.017849464232770833,
+          "n": 10
+        },
+        "censored_count": 7
+      },
+      "pod_qr": {
+        "reached_count": 6,
+        "seed_count": 10,
+        "time_to_target_seconds_among_hits": {
+          "mean": 1.4157514999981988,
+          "std": 0.6999421094953564,
+          "n": 6
+        },
+        "final_validation_rmse": {
+          "mean": 0.341673544049263,
+          "std": 0.022255503000091662,
+          "n": 10
+        },
+        "censored_count": 4
+      },
+      "pca_mean_qr": {
+        "reached_count": 5,
+        "seed_count": 10,
+        "time_to_target_seconds_among_hits": {
+          "mean": 1.4320196799963014,
+          "std": 0.7820830906790472,
+          "n": 5
+        },
+        "final_validation_rmse": {
+          "mean": 0.34224381744861604,
+          "std": 0.02212427610368026,
+          "n": 10
+        },
+        "censored_count": 5
+      }
+    },
+    "rule": "first recorded validation checkpoint at or below the fixed threshold; no interpolation"
+  },
+  "protocol": {
+    "warmup_steps": 100,
+    "continuation_steps": 300,
+    "active_points": 128,
+    "update_every": 100,
+    "candidate_count": 4096,
+    "history_snapshots": 20,
+    "energy_threshold": 0.99,
+    "max_modes": 20,
+    "qr_point_count_cap": 32,
+    "fixed_candidate_pool_per_seed": true,
+    "rad_rule": "sample without replacement with probabilities proportional to (|r|-min(|r|)+1e-8)^2",
+    "qr_rule": "SVD modes retained to the squared-singular-value energy threshold; pivoted QR selects distinct pool indices; Sobol fills remaining active slots",
+    "note": "All methods share the per-seed warm-up weights, Adam state, supervised batches, held-out time split, candidate pool, and independent residual evaluation pool."
+  },
+  "per_seed_summaries": [
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2051,
+      "warmup_seconds_shared": 1.7314540000006673,
+      "shared_setup_seconds_including_warmup": 2.817786100000376,
+      "wall_seconds": 10.181193800002802,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2051,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 1.7314540000006673,
+          "shared_setup_seconds_including_warmup": 2.817786100000376,
+          "training_seconds": 1.1721930999992765,
+          "pipeline_seconds_including_shared_setup": 3.9899791999996523,
+          "warmup_validation_rmse": 0.3455847203731537,
+          "final_training_loss": 0.18798476457595825,
+          "test_rmse": 0.32934319972991943,
+          "test_relative_l2": 0.5380624532699585,
+          "independent_residual_rms": 0.2168591171503067,
+          "initial_condition_rmse": 0.3368619680404663,
+          "boundary_rms": 0.267606645822525
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2051,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 1.7314540000006673,
+          "shared_setup_seconds_including_warmup": 2.817786100000376,
+          "training_seconds": 0.5737513000058243,
+          "pipeline_seconds_including_shared_setup": 3.3915374000062,
+          "warmup_validation_rmse": 0.3455847203731537,
+          "final_training_loss": 0.18994863331317902,
+          "test_rmse": 0.33075687289237976,
+          "test_relative_l2": 0.5403720736503601,
+          "independent_residual_rms": 0.20647892355918884,
+          "initial_condition_rmse": 0.3298097252845764,
+          "boundary_rms": 0.23337313532829285
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2051,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 1.7314540000006673,
+          "shared_setup_seconds_including_warmup": 2.817786100000376,
+          "training_seconds": 0.5546835000059218,
+          "pipeline_seconds_including_shared_setup": 3.3724696000062977,
+          "warmup_validation_rmse": 0.3455847203731537,
+          "final_training_loss": 0.22787275910377502,
+          "test_rmse": 0.3748354911804199,
+          "test_relative_l2": 0.6123852729797363,
+          "independent_residual_rms": 0.17460963129997253,
+          "initial_condition_rmse": 0.3931884467601776,
+          "boundary_rms": 0.2183789312839508
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2051,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 1.7314540000006673,
+          "shared_setup_seconds_including_warmup": 2.817786100000376,
+          "training_seconds": 0.4346245999986422,
+          "pipeline_seconds_including_shared_setup": 3.252410699999018,
+          "warmup_validation_rmse": 0.3455847203731537,
+          "final_training_loss": 0.1888299286365509,
+          "test_rmse": 0.33784982562065125,
+          "test_relative_l2": 0.5519601702690125,
+          "independent_residual_rms": 0.18949256837368011,
+          "initial_condition_rmse": 0.34130969643592834,
+          "boundary_rms": 0.22918365895748138
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2051,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 1.7314540000006673,
+          "shared_setup_seconds_including_warmup": 2.817786100000376,
+          "training_seconds": 0.3871962999983225,
+          "pipeline_seconds_including_shared_setup": 3.2049823999986984,
+          "warmup_validation_rmse": 0.3455847203731537,
+          "final_training_loss": 0.18796537816524506,
+          "test_rmse": 0.33702701330184937,
+          "test_relative_l2": 0.5506159067153931,
+          "independent_residual_rms": 0.19082926213741302,
+          "initial_condition_rmse": 0.3408147394657135,
+          "boundary_rms": 0.22774650156497955
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2052,
+      "warmup_seconds_shared": 0.812032800000452,
+      "shared_setup_seconds_including_warmup": 0.8249551999979303,
+      "wall_seconds": 9.149769900002866,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2052,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.812032800000452,
+          "shared_setup_seconds_including_warmup": 0.8249551999979303,
+          "training_seconds": 0.3884567000059178,
+          "pipeline_seconds_including_shared_setup": 1.2134119000038481,
+          "warmup_validation_rmse": 0.48995935916900635,
+          "final_training_loss": 0.20204536616802216,
+          "test_rmse": 0.32328400015830994,
+          "test_relative_l2": 0.535772442817688,
+          "independent_residual_rms": 0.22296850383281708,
+          "initial_condition_rmse": 0.33627718687057495,
+          "boundary_rms": 0.22771930694580078
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2052,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.812032800000452,
+          "shared_setup_seconds_including_warmup": 0.8249551999979303,
+          "training_seconds": 0.3707133000061731,
+          "pipeline_seconds_including_shared_setup": 1.1956685000041034,
+          "warmup_validation_rmse": 0.48995935916900635,
+          "final_training_loss": 0.20458626747131348,
+          "test_rmse": 0.331654816865921,
+          "test_relative_l2": 0.549645185470581,
+          "independent_residual_rms": 0.20266582071781158,
+          "initial_condition_rmse": 0.35193318128585815,
+          "boundary_rms": 0.21521830558776855
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2052,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.812032800000452,
+          "shared_setup_seconds_including_warmup": 0.8249551999979303,
+          "training_seconds": 0.36662369999976363,
+          "pipeline_seconds_including_shared_setup": 1.191578899997694,
+          "warmup_validation_rmse": 0.48995935916900635,
+          "final_training_loss": 0.23015379905700684,
+          "test_rmse": 0.35663849115371704,
+          "test_relative_l2": 0.5910502076148987,
+          "independent_residual_rms": 0.17452096939086914,
+          "initial_condition_rmse": 0.37306493520736694,
+          "boundary_rms": 0.25256815552711487
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2052,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.812032800000452,
+          "shared_setup_seconds_including_warmup": 0.8249551999979303,
+          "training_seconds": 0.3999123999965377,
+          "pipeline_seconds_including_shared_setup": 1.224867599994468,
+          "warmup_validation_rmse": 0.48995935916900635,
+          "final_training_loss": 0.20845863223075867,
+          "test_rmse": 0.3347635865211487,
+          "test_relative_l2": 0.5547972917556763,
+          "independent_residual_rms": 0.1966182291507721,
+          "initial_condition_rmse": 0.35298892855644226,
+          "boundary_rms": 0.22397586703300476
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2052,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.812032800000452,
+          "shared_setup_seconds_including_warmup": 0.8249551999979303,
+          "training_seconds": 0.46114050000323914,
+          "pipeline_seconds_including_shared_setup": 1.2860957000011695,
+          "warmup_validation_rmse": 0.48995935916900635,
+          "final_training_loss": 0.20947802066802979,
+          "test_rmse": 0.336384654045105,
+          "test_relative_l2": 0.5574839115142822,
+          "independent_residual_rms": 0.19320134818553925,
+          "initial_condition_rmse": 0.3578554391860962,
+          "boundary_rms": 0.2238737940788269
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2053,
+      "warmup_seconds_shared": 0.7473977999979979,
+      "shared_setup_seconds_including_warmup": 0.7618269000013242,
+      "wall_seconds": 8.937320099998033,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2053,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7473977999979979,
+          "shared_setup_seconds_including_warmup": 0.7618269000013242,
+          "training_seconds": 0.4540675000025658,
+          "pipeline_seconds_including_shared_setup": 1.21589440000389,
+          "warmup_validation_rmse": 0.43942368030548096,
+          "final_training_loss": 0.16344496607780457,
+          "test_rmse": 0.34152308106422424,
+          "test_relative_l2": 0.5636672973632812,
+          "independent_residual_rms": 0.20561060309410095,
+          "initial_condition_rmse": 0.35704272985458374,
+          "boundary_rms": 0.2318568229675293
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2053,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7473977999979979,
+          "shared_setup_seconds_including_warmup": 0.7618269000013242,
+          "training_seconds": 0.39859250000154134,
+          "pipeline_seconds_including_shared_setup": 1.1604194000028656,
+          "warmup_validation_rmse": 0.43942368030548096,
+          "final_training_loss": 0.17791998386383057,
+          "test_rmse": 0.3446807861328125,
+          "test_relative_l2": 0.5688790082931519,
+          "independent_residual_rms": 0.18250638246536255,
+          "initial_condition_rmse": 0.36974987387657166,
+          "boundary_rms": 0.23576916754245758
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2053,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7473977999979979,
+          "shared_setup_seconds_including_warmup": 0.7618269000013242,
+          "training_seconds": 0.43534920000092825,
+          "pipeline_seconds_including_shared_setup": 1.1971761000022525,
+          "warmup_validation_rmse": 0.43942368030548096,
+          "final_training_loss": 0.18891936540603638,
+          "test_rmse": 0.35817068815231323,
+          "test_relative_l2": 0.5911434292793274,
+          "independent_residual_rms": 0.19542111456394196,
+          "initial_condition_rmse": 0.3796757757663727,
+          "boundary_rms": 0.25089290738105774
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2053,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7473977999979979,
+          "shared_setup_seconds_including_warmup": 0.7618269000013242,
+          "training_seconds": 0.4333459000044968,
+          "pipeline_seconds_including_shared_setup": 1.195172800005821,
+          "warmup_validation_rmse": 0.43942368030548096,
+          "final_training_loss": 0.17968477308750153,
+          "test_rmse": 0.34567755460739136,
+          "test_relative_l2": 0.5705240964889526,
+          "independent_residual_rms": 0.18132548034191132,
+          "initial_condition_rmse": 0.37163877487182617,
+          "boundary_rms": 0.23806098103523254
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2053,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7473977999979979,
+          "shared_setup_seconds_including_warmup": 0.7618269000013242,
+          "training_seconds": 0.46118209999985993,
+          "pipeline_seconds_including_shared_setup": 1.2230090000011842,
+          "warmup_validation_rmse": 0.43942368030548096,
+          "final_training_loss": 0.18072864413261414,
+          "test_rmse": 0.34552207589149475,
+          "test_relative_l2": 0.5702674388885498,
+          "independent_residual_rms": 0.17999476194381714,
+          "initial_condition_rmse": 0.3707036077976227,
+          "boundary_rms": 0.2358449399471283
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2054,
+      "warmup_seconds_shared": 0.8481564999965485,
+      "shared_setup_seconds_including_warmup": 0.864008599994122,
+      "wall_seconds": 9.202455899998313,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2054,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8481564999965485,
+          "shared_setup_seconds_including_warmup": 0.864008599994122,
+          "training_seconds": 0.4542808999976842,
+          "pipeline_seconds_including_shared_setup": 1.3182894999918062,
+          "warmup_validation_rmse": 0.43139222264289856,
+          "final_training_loss": 0.16754357516765594,
+          "test_rmse": 0.34810495376586914,
+          "test_relative_l2": 0.551629900932312,
+          "independent_residual_rms": 0.21962901949882507,
+          "initial_condition_rmse": 0.3417086601257324,
+          "boundary_rms": 0.20886042714118958
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2054,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8481564999965485,
+          "shared_setup_seconds_including_warmup": 0.864008599994122,
+          "training_seconds": 0.3902328000040143,
+          "pipeline_seconds_including_shared_setup": 1.2542413999981363,
+          "warmup_validation_rmse": 0.43139222264289856,
+          "final_training_loss": 0.182630717754364,
+          "test_rmse": 0.3449012339115143,
+          "test_relative_l2": 0.5465531349182129,
+          "independent_residual_rms": 0.21055245399475098,
+          "initial_condition_rmse": 0.3421795666217804,
+          "boundary_rms": 0.22159136831760406
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2054,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8481564999965485,
+          "shared_setup_seconds_including_warmup": 0.864008599994122,
+          "training_seconds": 0.3947639000034542,
+          "pipeline_seconds_including_shared_setup": 1.2587724999975762,
+          "warmup_validation_rmse": 0.43139222264289856,
+          "final_training_loss": 0.21342110633850098,
+          "test_rmse": 0.37698742747306824,
+          "test_relative_l2": 0.5973989963531494,
+          "independent_residual_rms": 0.18952612578868866,
+          "initial_condition_rmse": 0.3663688004016876,
+          "boundary_rms": 0.25477421283721924
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2054,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8481564999965485,
+          "shared_setup_seconds_including_warmup": 0.864008599994122,
+          "training_seconds": 0.5517220999972778,
+          "pipeline_seconds_including_shared_setup": 1.4157306999913999,
+          "warmup_validation_rmse": 0.43139222264289856,
+          "final_training_loss": 0.1858384758234024,
+          "test_rmse": 0.3502129912376404,
+          "test_relative_l2": 0.5549705028533936,
+          "independent_residual_rms": 0.19911210238933563,
+          "initial_condition_rmse": 0.35084643959999084,
+          "boundary_rms": 0.22619380056858063
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2054,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8481564999965485,
+          "shared_setup_seconds_including_warmup": 0.864008599994122,
+          "training_seconds": 0.47997720000421396,
+          "pipeline_seconds_including_shared_setup": 1.343985799998336,
+          "warmup_validation_rmse": 0.43139222264289856,
+          "final_training_loss": 0.1860889494419098,
+          "test_rmse": 0.3540113866329193,
+          "test_relative_l2": 0.5609896183013916,
+          "independent_residual_rms": 0.19885799288749695,
+          "initial_condition_rmse": 0.3527984917163849,
+          "boundary_rms": 0.21166998147964478
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2055,
+      "warmup_seconds_shared": 0.8040285999959451,
+      "shared_setup_seconds_including_warmup": 0.8179284999932861,
+      "wall_seconds": 8.70386139999755,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2055,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8040285999959451,
+          "shared_setup_seconds_including_warmup": 0.8179284999932861,
+          "training_seconds": 0.4778280000027735,
+          "pipeline_seconds_including_shared_setup": 1.2957564999960596,
+          "warmup_validation_rmse": 0.4353983700275421,
+          "final_training_loss": 0.19460265338420868,
+          "test_rmse": 0.35212498903274536,
+          "test_relative_l2": 0.5725113749504089,
+          "independent_residual_rms": 0.19282343983650208,
+          "initial_condition_rmse": 0.35741057991981506,
+          "boundary_rms": 0.22822055220603943
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2055,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8040285999959451,
+          "shared_setup_seconds_including_warmup": 0.8179284999932861,
+          "training_seconds": 0.4246382999990601,
+          "pipeline_seconds_including_shared_setup": 1.2425667999923462,
+          "warmup_validation_rmse": 0.4353983700275421,
+          "final_training_loss": 0.19250963628292084,
+          "test_rmse": 0.3443710207939148,
+          "test_relative_l2": 0.5599043369293213,
+          "independent_residual_rms": 0.19529449939727783,
+          "initial_condition_rmse": 0.35607147216796875,
+          "boundary_rms": 0.23284666240215302
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2055,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8040285999959451,
+          "shared_setup_seconds_including_warmup": 0.8179284999932861,
+          "training_seconds": 0.3659157000001869,
+          "pipeline_seconds_including_shared_setup": 1.183844199993473,
+          "warmup_validation_rmse": 0.4353983700275421,
+          "final_training_loss": 0.227790966629982,
+          "test_rmse": 0.3802313208580017,
+          "test_relative_l2": 0.6182087063789368,
+          "independent_residual_rms": 0.20911042392253876,
+          "initial_condition_rmse": 0.41573187708854675,
+          "boundary_rms": 0.17799125611782074
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2055,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8040285999959451,
+          "shared_setup_seconds_including_warmup": 0.8179284999932861,
+          "training_seconds": 0.4302887000012561,
+          "pipeline_seconds_including_shared_setup": 1.2482171999945422,
+          "warmup_validation_rmse": 0.4353983700275421,
+          "final_training_loss": 0.194800466299057,
+          "test_rmse": 0.348324179649353,
+          "test_relative_l2": 0.566331684589386,
+          "independent_residual_rms": 0.1891198456287384,
+          "initial_condition_rmse": 0.36115193367004395,
+          "boundary_rms": 0.23203666508197784
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2055,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8040285999959451,
+          "shared_setup_seconds_including_warmup": 0.8179284999932861,
+          "training_seconds": 0.4542712000038591,
+          "pipeline_seconds_including_shared_setup": 1.2721996999971452,
+          "warmup_validation_rmse": 0.4353983700275421,
+          "final_training_loss": 0.1933821141719818,
+          "test_rmse": 0.3443487584590912,
+          "test_relative_l2": 0.5598681569099426,
+          "independent_residual_rms": 0.1942937672138214,
+          "initial_condition_rmse": 0.3627009093761444,
+          "boundary_rms": 0.2328067421913147
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2056,
+      "warmup_seconds_shared": 0.8282418999951915,
+      "shared_setup_seconds_including_warmup": 0.8442382999928668,
+      "wall_seconds": 8.968851400000858,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2056,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8282418999951915,
+          "shared_setup_seconds_including_warmup": 0.8442382999928668,
+          "training_seconds": 0.4831443000002764,
+          "pipeline_seconds_including_shared_setup": 1.3273825999931432,
+          "warmup_validation_rmse": 0.3857434391975403,
+          "final_training_loss": 0.1687382161617279,
+          "test_rmse": 0.30086514353752136,
+          "test_relative_l2": 0.5099696516990662,
+          "independent_residual_rms": 0.24050192534923553,
+          "initial_condition_rmse": 0.3125544786453247,
+          "boundary_rms": 0.2070915848016739
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2056,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8282418999951915,
+          "shared_setup_seconds_including_warmup": 0.8442382999928668,
+          "training_seconds": 0.4337031000031857,
+          "pipeline_seconds_including_shared_setup": 1.2779413999960525,
+          "warmup_validation_rmse": 0.3857434391975403,
+          "final_training_loss": 0.17900873720645905,
+          "test_rmse": 0.3116281032562256,
+          "test_relative_l2": 0.5282129645347595,
+          "independent_residual_rms": 0.21003375947475433,
+          "initial_condition_rmse": 0.3362318277359009,
+          "boundary_rms": 0.23261010646820068
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2056,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8282418999951915,
+          "shared_setup_seconds_including_warmup": 0.8442382999928668,
+          "training_seconds": 0.4685352000014973,
+          "pipeline_seconds_including_shared_setup": 1.312773499994364,
+          "warmup_validation_rmse": 0.3857434391975403,
+          "final_training_loss": 0.19732408225536346,
+          "test_rmse": 0.34411752223968506,
+          "test_relative_l2": 0.5832828879356384,
+          "independent_residual_rms": 0.19544777274131775,
+          "initial_condition_rmse": 0.358699232339859,
+          "boundary_rms": 0.2674342691898346
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2056,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8282418999951915,
+          "shared_setup_seconds_including_warmup": 0.8442382999928668,
+          "training_seconds": 0.49381159999757074,
+          "pipeline_seconds_including_shared_setup": 1.3380498999904376,
+          "warmup_validation_rmse": 0.3857434391975403,
+          "final_training_loss": 0.1812637895345688,
+          "test_rmse": 0.316020667552948,
+          "test_relative_l2": 0.5356584191322327,
+          "independent_residual_rms": 0.2025635987520218,
+          "initial_condition_rmse": 0.3457474708557129,
+          "boundary_rms": 0.23058553040027618
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2056,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.8282418999951915,
+          "shared_setup_seconds_including_warmup": 0.8442382999928668,
+          "training_seconds": 0.4289167000024463,
+          "pipeline_seconds_including_shared_setup": 1.2731549999953131,
+          "warmup_validation_rmse": 0.3857434391975403,
+          "final_training_loss": 0.18159107863903046,
+          "test_rmse": 0.3177643120288849,
+          "test_relative_l2": 0.5386139154434204,
+          "independent_residual_rms": 0.2066253274679184,
+          "initial_condition_rmse": 0.33886095881462097,
+          "boundary_rms": 0.22760429978370667
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2057,
+      "warmup_seconds_shared": 0.9655024000021513,
+      "shared_setup_seconds_including_warmup": 0.9805555999992066,
+      "wall_seconds": 9.437058799994702,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2057,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.9655024000021513,
+          "shared_setup_seconds_including_warmup": 0.9805555999992066,
+          "training_seconds": 0.4455165000035777,
+          "pipeline_seconds_including_shared_setup": 1.4260721000027843,
+          "warmup_validation_rmse": 0.42991021275520325,
+          "final_training_loss": 0.15171445906162262,
+          "test_rmse": 0.3100475072860718,
+          "test_relative_l2": 0.5201363563537598,
+          "independent_residual_rms": 0.259125679731369,
+          "initial_condition_rmse": 0.3152044713497162,
+          "boundary_rms": 0.2215721607208252
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2057,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.9655024000021513,
+          "shared_setup_seconds_including_warmup": 0.9805555999992066,
+          "training_seconds": 0.44093520000024,
+          "pipeline_seconds_including_shared_setup": 1.4214907999994466,
+          "warmup_validation_rmse": 0.42991021275520325,
+          "final_training_loss": 0.17532631754875183,
+          "test_rmse": 0.33615586161613464,
+          "test_relative_l2": 0.5639358162879944,
+          "independent_residual_rms": 0.2021564394235611,
+          "initial_condition_rmse": 0.34376466274261475,
+          "boundary_rms": 0.2003326565027237
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2057,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.9655024000021513,
+          "shared_setup_seconds_including_warmup": 0.9805555999992066,
+          "training_seconds": 0.40240389999962645,
+          "pipeline_seconds_including_shared_setup": 1.382959499998833,
+          "warmup_validation_rmse": 0.42991021275520325,
+          "final_training_loss": 0.20124121010303497,
+          "test_rmse": 0.36396825313568115,
+          "test_relative_l2": 0.6105939149856567,
+          "independent_residual_rms": 0.22160689532756805,
+          "initial_condition_rmse": 0.371955543756485,
+          "boundary_rms": 0.21914421021938324
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2057,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.9655024000021513,
+          "shared_setup_seconds_including_warmup": 0.9805555999992066,
+          "training_seconds": 0.3821938000037335,
+          "pipeline_seconds_including_shared_setup": 1.36274940000294,
+          "warmup_validation_rmse": 0.42991021275520325,
+          "final_training_loss": 0.17453427612781525,
+          "test_rmse": 0.3372667133808136,
+          "test_relative_l2": 0.5657994151115417,
+          "independent_residual_rms": 0.19878119230270386,
+          "initial_condition_rmse": 0.34772905707359314,
+          "boundary_rms": 0.20610478520393372
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2057,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.9655024000021513,
+          "shared_setup_seconds_including_warmup": 0.9805555999992066,
+          "training_seconds": 0.4143977999992785,
+          "pipeline_seconds_including_shared_setup": 1.394953399998485,
+          "warmup_validation_rmse": 0.42991021275520325,
+          "final_training_loss": 0.17065440118312836,
+          "test_rmse": 0.34063202142715454,
+          "test_relative_l2": 0.5714450478553772,
+          "independent_residual_rms": 0.19341295957565308,
+          "initial_condition_rmse": 0.3527224659919739,
+          "boundary_rms": 0.19809338450431824
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2058,
+      "warmup_seconds_shared": 0.7608947000044282,
+      "shared_setup_seconds_including_warmup": 0.7757926000049338,
+      "wall_seconds": 9.362377699995704,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2058,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7608947000044282,
+          "shared_setup_seconds_including_warmup": 0.7757926000049338,
+          "training_seconds": 0.456404399999883,
+          "pipeline_seconds_including_shared_setup": 1.2321970000048168,
+          "warmup_validation_rmse": 0.4808124899864197,
+          "final_training_loss": 0.1995481699705124,
+          "test_rmse": 0.3556903898715973,
+          "test_relative_l2": 0.5782361626625061,
+          "independent_residual_rms": 0.20540104806423187,
+          "initial_condition_rmse": 0.3549197316169739,
+          "boundary_rms": 0.22485393285751343
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2058,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7608947000044282,
+          "shared_setup_seconds_including_warmup": 0.7757926000049338,
+          "training_seconds": 0.4999625000054948,
+          "pipeline_seconds_including_shared_setup": 1.2757551000104286,
+          "warmup_validation_rmse": 0.4808124899864197,
+          "final_training_loss": 0.19788190722465515,
+          "test_rmse": 0.35423463582992554,
+          "test_relative_l2": 0.5758695602416992,
+          "independent_residual_rms": 0.20003831386566162,
+          "initial_condition_rmse": 0.3584190309047699,
+          "boundary_rms": 0.2238491028547287
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2058,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7608947000044282,
+          "shared_setup_seconds_including_warmup": 0.7757926000049338,
+          "training_seconds": 0.49172550000366755,
+          "pipeline_seconds_including_shared_setup": 1.2675181000086013,
+          "warmup_validation_rmse": 0.4808124899864197,
+          "final_training_loss": 0.21383361518383026,
+          "test_rmse": 0.3852127492427826,
+          "test_relative_l2": 0.6262298226356506,
+          "independent_residual_rms": 0.17900875210762024,
+          "initial_condition_rmse": 0.4023793339729309,
+          "boundary_rms": 0.22176219522953033
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2058,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7608947000044282,
+          "shared_setup_seconds_including_warmup": 0.7757926000049338,
+          "training_seconds": 0.44166640000185,
+          "pipeline_seconds_including_shared_setup": 1.2174590000067838,
+          "warmup_validation_rmse": 0.4808124899864197,
+          "final_training_loss": 0.20030951499938965,
+          "test_rmse": 0.3594474494457245,
+          "test_relative_l2": 0.5843439102172852,
+          "independent_residual_rms": 0.19071075320243835,
+          "initial_condition_rmse": 0.3667632043361664,
+          "boundary_rms": 0.22364158928394318
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2058,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7608947000044282,
+          "shared_setup_seconds_including_warmup": 0.7757926000049338,
+          "training_seconds": 0.5390878999969573,
+          "pipeline_seconds_including_shared_setup": 1.314880500001891,
+          "warmup_validation_rmse": 0.4808124899864197,
+          "final_training_loss": 0.20099090039730072,
+          "test_rmse": 0.35827070474624634,
+          "test_relative_l2": 0.5824308395385742,
+          "independent_residual_rms": 0.1933833509683609,
+          "initial_condition_rmse": 0.3622334599494934,
+          "boundary_rms": 0.22488602995872498
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2059,
+      "warmup_seconds_shared": 0.7926997999966261,
+      "shared_setup_seconds_including_warmup": 0.807851199999277,
+      "wall_seconds": 8.986080700000457,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2059,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7926997999966261,
+          "shared_setup_seconds_including_warmup": 0.807851199999277,
+          "training_seconds": 0.40911050000431715,
+          "pipeline_seconds_including_shared_setup": 1.2169617000035942,
+          "warmup_validation_rmse": 0.49839335680007935,
+          "final_training_loss": 0.21072758734226227,
+          "test_rmse": 0.34620773792266846,
+          "test_relative_l2": 0.5715687870979309,
+          "independent_residual_rms": 0.19212700426578522,
+          "initial_condition_rmse": 0.3647380471229553,
+          "boundary_rms": 0.27412503957748413
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2059,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7926997999966261,
+          "shared_setup_seconds_including_warmup": 0.807851199999277,
+          "training_seconds": 0.33727039999939734,
+          "pipeline_seconds_including_shared_setup": 1.1451215999986744,
+          "warmup_validation_rmse": 0.49839335680007935,
+          "final_training_loss": 0.20835648477077484,
+          "test_rmse": 0.3449762761592865,
+          "test_relative_l2": 0.5695357322692871,
+          "independent_residual_rms": 0.19474539160728455,
+          "initial_condition_rmse": 0.3621493875980377,
+          "boundary_rms": 0.250183641910553
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2059,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7926997999966261,
+          "shared_setup_seconds_including_warmup": 0.807851199999277,
+          "training_seconds": 0.36706689999846276,
+          "pipeline_seconds_including_shared_setup": 1.1749180999977398,
+          "warmup_validation_rmse": 0.49839335680007935,
+          "final_training_loss": 0.21535499393939972,
+          "test_rmse": 0.3591195344924927,
+          "test_relative_l2": 0.5928853750228882,
+          "independent_residual_rms": 0.24531570076942444,
+          "initial_condition_rmse": 0.3587152063846588,
+          "boundary_rms": 0.27508479356765747
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2059,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7926997999966261,
+          "shared_setup_seconds_including_warmup": 0.807851199999277,
+          "training_seconds": 0.4074784999975236,
+          "pipeline_seconds_including_shared_setup": 1.2153296999968006,
+          "warmup_validation_rmse": 0.49839335680007935,
+          "final_training_loss": 0.2098846733570099,
+          "test_rmse": 0.34662410616874695,
+          "test_relative_l2": 0.5722562074661255,
+          "independent_residual_rms": 0.19411881268024445,
+          "initial_condition_rmse": 0.3625290095806122,
+          "boundary_rms": 0.24971243739128113
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2059,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.7926997999966261,
+          "shared_setup_seconds_including_warmup": 0.807851199999277,
+          "training_seconds": 0.34008190000167815,
+          "pipeline_seconds_including_shared_setup": 1.1479331000009552,
+          "warmup_validation_rmse": 0.49839335680007935,
+          "final_training_loss": 0.20980986952781677,
+          "test_rmse": 0.34683284163475037,
+          "test_relative_l2": 0.5726008415222168,
+          "independent_residual_rms": 0.190097838640213,
+          "initial_condition_rmse": 0.3638147711753845,
+          "boundary_rms": 0.2532499432563782
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    },
+    {
+      "run_id": "residual_history_selection_confirmation_10_seeds_v1",
+      "seed": 2060,
+      "warmup_seconds_shared": 0.708245399997395,
+      "shared_setup_seconds_including_warmup": 0.7204893000016455,
+      "wall_seconds": 8.809176800001296,
+      "methods": [
+        {
+          "method": "uniform",
+          "label": "Aleatorio uniforme",
+          "seed": 2060,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.708245399997395,
+          "shared_setup_seconds_including_warmup": 0.7204893000016455,
+          "training_seconds": 0.45041889999993145,
+          "pipeline_seconds_including_shared_setup": 1.170908200001577,
+          "warmup_validation_rmse": 0.49874696135520935,
+          "final_training_loss": 0.1744501292705536,
+          "test_rmse": 0.3471447825431824,
+          "test_relative_l2": 0.5580065250396729,
+          "independent_residual_rms": 0.20251016318798065,
+          "initial_condition_rmse": 0.35564637184143066,
+          "boundary_rms": 0.2415558248758316
+        },
+        {
+          "method": "sobol",
+          "label": "Sobol",
+          "seed": 2060,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.708245399997395,
+          "shared_setup_seconds_including_warmup": 0.7204893000016455,
+          "training_seconds": 0.42386110000370536,
+          "pipeline_seconds_including_shared_setup": 1.1443504000053508,
+          "warmup_validation_rmse": 0.49874696135520935,
+          "final_training_loss": 0.1766427904367447,
+          "test_rmse": 0.35040155053138733,
+          "test_relative_l2": 0.5632414817810059,
+          "independent_residual_rms": 0.19630403816699982,
+          "initial_condition_rmse": 0.3569852411746979,
+          "boundary_rms": 0.23768292367458344
+        },
+        {
+          "method": "rad",
+          "label": "RAD",
+          "seed": 2060,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.708245399997395,
+          "shared_setup_seconds_including_warmup": 0.7204893000016455,
+          "training_seconds": 0.38980520000040997,
+          "pipeline_seconds_including_shared_setup": 1.1102945000020554,
+          "warmup_validation_rmse": 0.49874696135520935,
+          "final_training_loss": 0.18806105852127075,
+          "test_rmse": 0.3763183355331421,
+          "test_relative_l2": 0.604900598526001,
+          "independent_residual_rms": 0.19873088598251343,
+          "initial_condition_rmse": 0.3996915817260742,
+          "boundary_rms": 0.21611614525318146
+        },
+        {
+          "method": "pod_qr",
+          "label": "POD + QR",
+          "seed": 2060,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.708245399997395,
+          "shared_setup_seconds_including_warmup": 0.7204893000016455,
+          "training_seconds": 0.37685409999539843,
+          "pipeline_seconds_including_shared_setup": 1.097343399997044,
+          "warmup_validation_rmse": 0.49874696135520935,
+          "final_training_loss": 0.17952167987823486,
+          "test_rmse": 0.3544168174266815,
+          "test_relative_l2": 0.5696957111358643,
+          "independent_residual_rms": 0.18950970470905304,
+          "initial_condition_rmse": 0.36518794298171997,
+          "boundary_rms": 0.2448757290840149
+        },
+        {
+          "method": "pca_mean_qr",
+          "label": "PCA centrado + media + QR",
+          "seed": 2060,
+          "warmup_steps": 100,
+          "train_steps": 300,
+          "active_points": 128,
+          "update_every": 100,
+          "warmup_seconds_shared": 0.708245399997395,
+          "shared_setup_seconds_including_warmup": 0.7204893000016455,
+          "training_seconds": 0.4510971999989124,
+          "pipeline_seconds_including_shared_setup": 1.1715865000005579,
+          "warmup_validation_rmse": 0.49874696135520935,
+          "final_training_loss": 0.18106961250305176,
+          "test_rmse": 0.35134726762771606,
+          "test_relative_l2": 0.5647616982460022,
+          "independent_residual_rms": 0.19264163076877594,
+          "initial_condition_rmse": 0.3600294888019562,
+          "boundary_rms": 0.2511209547519684
+        }
+      ],
+      "candidate_count": 4096,
+      "history_snapshots": 20,
+      "history_matrix_shape": [
+        4096,
+        20
+      ],
+      "qr_count_note": "QR chooses distinct snapshot-pool indices; the active batch is padded to a fixed size using Sobol background points."
+    }
+  ]
+}

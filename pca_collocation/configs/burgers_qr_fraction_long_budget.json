@@ -1,0 +1,41 @@
+{
+  "experiment_name": "burgers_qr_fraction_long_budget",
+  "run_id": "qr_fraction_ablation_10_seeds_2k_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [
+    2051,
+    2052,
+    2053,
+    2054,
+    2055,
+    2056,
+    2057,
+    2058,
+    2059,
+    2060
+  ],
+  "width": 32,
+  "learning_rate": 0.001,
+  "warmup_steps": 100,
+  "train_steps": 2000,
+  "batch_size": 128,
+  "update_every": 100,
+  "candidate_count": 4096,
+  "history_snapshots": 20,
+  "independent_count": 2048,
+  "initial_condition_points": 32,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "energy_threshold": 0.99,
+  "max_modes": 20,
+  "qr_point_count": 32,
+  "validation_rmse_target": 0.35,
+  "basis_point_counts": [
+    32,
+    64,
+    128
+  ],
+  "stability_checkpoints": 5,
+  "reference_run_id": "qr_fraction_ablation_10_seeds_v1",
+  "notebook_name": "09_qr_fraction_long_budget.ipynb"
+}

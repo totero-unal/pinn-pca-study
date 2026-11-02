@@ -1,0 +1,7 @@
+{
+  "stage": "pilot_only",
+  "completed_runs": 15,
+  "max_guided_fraction": 0.0035,
+  "warning": "QR selects a small fraction: inspect dilution before freezing full study",
+  "full_study_authorized_or_started": false
+}

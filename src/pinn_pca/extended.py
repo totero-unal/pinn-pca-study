@@ -168,7 +168,7 @@ def _time_to_thresholds(trajectories, targets):
 def run_longer_k_sweep(config: dict, project_root: str | Path):
     """Train baseline and PCA variants to a longer budget with paired batches."""
     project_root = Path(project_root).resolve()
-    output_dir = project_root / "results" / "burgers" / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / "burgers" / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     x, t, u = load_burgers_data(project_root / config["data_path"])

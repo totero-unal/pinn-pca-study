@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "completed_runs": 40,
+  "active_sets": 40000,
+  "budget_rows": 240,
+  "constraint_rows": 240,
+  "embedded_pngs": 3,
+  "code_cells": 3,
+  "max_ic": 5.960464477539063e-08,
+  "max_bc": 0.0
+}

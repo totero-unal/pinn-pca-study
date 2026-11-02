@@ -1,0 +1,70 @@
+{
+  "run_id": "three_pdes_five_selectors_10seeds_100k_v1",
+  "stage": "full_benchmark",
+  "problems": [
+    "burgers",
+    "wave",
+    "allen_cahn"
+  ],
+  "methods": [
+    "random",
+    "hammersley",
+    "random_r",
+    "rad",
+    "pca_mean"
+  ],
+  "hidden_layers": 5,
+  "width": 64,
+  "learning_rate": 0.001,
+  "schedule_horizon": 100000,
+  "full_study_steps": 100000,
+  "active_count": 2000,
+  "update_every": 1000,
+  "snapshot_every": 50,
+  "pca_candidates": 4096,
+  "rad_candidates": 10000,
+  "pca_threshold": 0.95,
+  "validation_count": 10000,
+  "validation_every": 250,
+  "test_shape": [
+    256,
+    100
+  ],
+  "reference_intervals": [
+    512,
+    1024
+  ],
+  "reference_rtol": 1e-08,
+  "reference_atol": 1e-10,
+  "reference_relative_tolerance": 0.02,
+  "allen_cahn_reaction_sign": 1,
+  "source": "https://arxiv.org/html/2501.07700v4",
+  "pca_rule": "centered_variance_95pct_plus_mean_direct_qr_uniform_remainder",
+  "checkpoint_policy": "lowest_independent_residual_validation_mse; terminal_also_saved",
+  "hammersley_rule": "base2_radical_inverse_and_stratified_first_coordinate_with_seeded_mod1_shift",
+  "train_steps": 100000,
+  "seeds": [
+    3201,
+    3202,
+    3203,
+    3204,
+    3205,
+    3206,
+    3207,
+    3208,
+    3209,
+    3210
+  ],
+  "state_checkpoints": [
+    0,
+    25000,
+    50000,
+    75000,
+    100000
+  ],
+  "primary_metric": "relative_l2",
+  "primary_checkpoint": "best_validation",
+  "comparisons": "pca_mean_minus_each_of_four_baselines_per_problem",
+  "inference_note": "Paired bootstrap95 intervals are unadjusted; no global winner inferred from twelve contrasts",
+  "implementation_note": "Original pilot selector definitions retained, including direct rank-sized QR and uniform remainder"
+}

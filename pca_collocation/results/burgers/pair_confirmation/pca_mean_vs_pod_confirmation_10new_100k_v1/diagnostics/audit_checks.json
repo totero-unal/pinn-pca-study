@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "embedded_pngs": 2,
+  "rows": {
+    "seed_summary.csv": 10,
+    "selection_diagnostics.csv": 10000,
+    "same_history_basis_comparison.csv": 100
+  },
+  "training_executed": false
+}

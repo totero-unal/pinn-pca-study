@@ -274,7 +274,7 @@ def _markdown_report(report,root):
         '- [Resumen de ventana](../results/early_training/window_auc_summary.csv)\n'
         '- [Configuración y fuentes canónicas](../configs/early_training_analysis.json)','',
         'Reproducir: `python scripts/analyze_early_training.py`. No se importa JAX ni se modifican entrenamientos guardados.']
-    (root/'reports/early_training.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (root/'pca_preprocessing/reports/early_training.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 
 
 def _notebook(report,root,output,names):
@@ -339,7 +339,10 @@ def _notebook(report,root,output,names):
         'se conservan en el resumen. Reproducir: `python scripts/analyze_early_training.py`. Esta operación no '
         'importa JAX, no cambia los entrenamientos y mantiene cerrados los benchmarks ya documentados.'))
     nb={'cells':cells,'metadata':{'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python'}},'nbformat':4,'nbformat_minor':5}
-    (root/report['configuration']['notebook']).write_text(json.dumps(nb,ensure_ascii=False,indent=1),encoding='utf-8')
+    path = root/report['configuration']['notebook']
+    path.write_text(json.dumps(nb,ensure_ascii=False,indent=1),encoding='utf-8')
+    from .notebook_images import embed_notebook_images
+    embed_notebook_images(path, root)
 
 
 def run_analysis(config,root):

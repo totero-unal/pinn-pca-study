@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "new_runs": 40,
+  "reused_runs": 0,
+  "matched_ranks": true,
+  "matched_background": true,
+  "qr_reconstructions": 100,
+  "common_warmup": true
+}

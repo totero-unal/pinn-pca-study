@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checked_histories": 20,
+  "reconstructed_snapshot_updates": 4,
+  "checks": [
+    "fixed_unique_active_count",
+    "paired_initial_points_and_validation",
+    "paired_first_period",
+    "replacement_count",
+    "best_checkpoint_selected_without_test",
+    "hard_ic_bc",
+    "SVD_QR_pruning_reconstruction"
+  ]
+}

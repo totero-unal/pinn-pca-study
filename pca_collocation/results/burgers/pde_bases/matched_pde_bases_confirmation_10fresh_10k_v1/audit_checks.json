@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_runs": 40,
+  "reused_runs": 0,
+  "matched_ranks": true,
+  "matched_background": true,
+  "qr_reconstructions": 100,
+  "common_warmup": true,
+  "verified_active_sets": 4000,
+  "constraint_checkpoints": 160,
+  "additional_reference_qr": 50,
+  "disjoint_from_development": true
+}

@@ -1,0 +1,13 @@
+{
+  "comparison": "pca_mean_minus_pod_terminal_rmse",
+  "criterion": "paired_bootstrap95_upper_below_zero",
+  "mean_difference": 8.285241201519967e-05,
+  "std": 0.03964418978373034,
+  "wins": 4,
+  "n": 10,
+  "bootstrap95": [
+    -0.02362080467864871,
+    0.023068710393272338
+  ],
+  "criterion_met": false
+}

@@ -261,7 +261,7 @@ def _summary(rows, dimension, model):
 def run_high_dim_advection(config: dict, project_root: str | Path):
     """Run paired baseline/input-PCA PINNs across increasing input dimensions."""
     project_root = Path(project_root).resolve()
-    output_dir = (project_root / "results" / "high_dimensional_advection"
+    output_dir = (project_root / "pca_preprocessing" / "results" / "high_dimensional_advection"
                   / "input_pca_vs_base" / config["run_id"])
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
@@ -466,7 +466,7 @@ def run_high_dim_advection(config: dict, project_root: str | Path):
 def run_misaligned_high_dim_advection(config: dict, project_root: str | Path):
     """Test whether a low-variance but physically active coordinate is discarded."""
     project_root = Path(project_root).resolve()
-    output_dir = (project_root / "results" / "high_dimensional_advection"
+    output_dir = (project_root / "pca_preprocessing" / "results" / "high_dimensional_advection"
                   / "alignment_sensitivity" / config["run_id"])
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()

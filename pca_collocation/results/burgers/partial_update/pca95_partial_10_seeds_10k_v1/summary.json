@@ -1,0 +1,96 @@
+{
+  "methods": {
+    "pca_full": {
+      "test_rmse": {
+        "mean": 0.08319945856928826,
+        "std": 0.011507530306833404
+      },
+      "independent_residual_rms": {
+        "mean": 0.09585572630167008,
+        "std": 0.008691130309337559
+      },
+      "initial_condition_rmse": {
+        "mean": 0.11276228874921798,
+        "std": 0.031754176655928786
+      },
+      "boundary_rms": {
+        "mean": 0.050679050385951996,
+        "std": 0.011314133060086025
+      }
+    },
+    "pca_partial": {
+      "test_rmse": {
+        "mean": 0.1190954402089119,
+        "std": 0.022428276288125115
+      },
+      "independent_residual_rms": {
+        "mean": 0.11090428754687309,
+        "std": 0.030280910571662534
+      },
+      "initial_condition_rmse": {
+        "mean": 0.1584283821284771,
+        "std": 0.04393739084720477
+      },
+      "boundary_rms": {
+        "mean": 0.06680995188653469,
+        "std": 0.022824415581627216
+      }
+    },
+    "sobol_partial": {
+      "test_rmse": {
+        "mean": 0.060763224586844446,
+        "std": 0.017123288266509395
+      },
+      "independent_residual_rms": {
+        "mean": 0.8289136350154876,
+        "std": 0.1587316143769338
+      },
+      "initial_condition_rmse": {
+        "mean": 0.051072312891483305,
+        "std": 0.010578933353056229
+      },
+      "boundary_rms": {
+        "mean": 0.06079538613557815,
+        "std": 0.0240699284384461
+      }
+    },
+    "sobol": {
+      "test_rmse": {
+        "mean": 0.05722300559282303,
+        "std": 0.019612034666138284
+      },
+      "independent_residual_rms": {
+        "mean": 0.31073965430259703,
+        "std": 0.04315682401661052
+      },
+      "initial_condition_rmse": {
+        "mean": 0.06559582129120826,
+        "std": 0.019159735946817066
+      },
+      "boundary_rms": {
+        "mean": 0.04200278986245394,
+        "std": 0.011574325538809284
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "pca_partial",
+      "reference": "pca_full",
+      "mean_difference": 0.03589598163962364,
+      "wins": 0
+    },
+    {
+      "method": "pca_partial",
+      "reference": "sobol_partial",
+      "mean_difference": 0.05833221562206745,
+      "wins": 0
+    },
+    {
+      "method": "sobol_partial",
+      "reference": "sobol",
+      "mean_difference": 0.003540218994021416,
+      "wins": 5
+    }
+  ]
+}

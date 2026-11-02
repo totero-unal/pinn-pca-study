@@ -180,13 +180,15 @@ Los outputs se generan desde los artefactos guardados. No es necesario entrenar 
         "que la arquitectura sea incapaz de resolver la ecuación; una mejora de tiempo con mayor error tampoco demuestra "
         "eficiencia a calidad equivalente. Los errores por frecuencia y la proyección oráculo permiten decidir qué "
         "dificultad conviene estudiar después. No se reajustan componentes ni pérdidas con el conjunto de prueba.\n\n"
-        "Regenerar entrenamiento: `python scripts/run_wave_multiscale.py --config configs/wave_multiscale_pilot.json`. "
+        "Regenerar entrenamiento: `python scripts/run_wave_multiscale.py --config pca_preprocessing/configs/wave_multiscale_pilot.json`. "
         "Regenerar solo figuras y notebook: añadir `--report-only`; esta opción no importa JAX. "
         "CSV, configuración, resumen y figuras SVG/PNG se conservan en la carpeta de resultados.")]
     notebook={"cells":cells,"metadata":{"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},
                "language_info":{"name":"python"}},"nbformat":4,"nbformat_minor":5}
-    path=root/"notebooks/wave/01_multiscale_wave.ipynb"
+    path=root/"pca_preprocessing/notebooks/wave/01_multiscale_wave.ipynb"
     path.parent.mkdir(parents=True,exist_ok=True)
     from .benchmark_summary import apply_benchmark_closure
     apply_benchmark_closure(notebook,root,"wave_multiscale",result["configuration"]["run_id"],path)
     path.write_text(json.dumps(notebook,ensure_ascii=False,indent=1),encoding="utf-8")
+    from .notebook_images import embed_notebook_images
+    embed_notebook_images(path, root)

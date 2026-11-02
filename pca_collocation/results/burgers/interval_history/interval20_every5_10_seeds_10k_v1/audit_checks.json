@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "seeds": 10,
+  "intervals_per_new_method": 100,
+  "common_initial_history": true,
+  "coordinates_consistent": true
+}

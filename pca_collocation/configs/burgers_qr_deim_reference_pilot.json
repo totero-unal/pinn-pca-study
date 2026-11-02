@@ -1,0 +1,18 @@
+{
+  "description": "Scaled Algorithm 1 validation; not reproduction of published benchmark numbers",
+  "output": "pca_collocation/results/burgers/qr_deim_reference/pilot_10_seeds_10k_v1",
+  "notebook": "pca_collocation/notebooks/burgers/14_qr_deim_reference.ipynb",
+  "seeds": [2051, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2059, 2060],
+  "steps": 10000,
+  "period": 100,
+  "active_points": 128,
+  "snapshot_points": 256,
+  "validation_points": 2048,
+  "test_points": 2048,
+  "hidden_layers": 3,
+  "width": 32,
+  "epsilon": 0.005,
+  "learning_rate": 0.001,
+  "budgets": [1000, 5000, 10000],
+  "audit_steps": [100, 1000, 5000, 10000]
+}

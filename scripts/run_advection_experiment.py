@@ -16,7 +16,7 @@ from pinn_pca.advection import run_advection_comparison  # noqa: E402
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/advection_base_vs_pca.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/advection_base_vs_pca.json")
     args = parser.parse_args()
     config_path = ROOT / args.config
     config = json.loads(config_path.read_text(encoding="utf-8"))

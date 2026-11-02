@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "pruning_reconstructions": 40,
+  "active_sets": 1000,
+  "shared_initial_points_and_first_interval": true,
+  "renewed_pools": true,
+  "eligible_qr_reconstructed": true
+}

@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2051,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2051"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2052,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2052"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2053,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2053"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2054,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2054"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2055,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2055"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2056,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2056"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2057,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2057"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2058,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2058"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2059,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2059"
+  },
+  {
+    "id": "sobol",
+    "stage": "control",
+    "method": "sobol",
+    "parameter": 0,
+    "seed": 2060,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2060"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2051"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2052"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2053"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2054"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2055"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2056"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2057"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2058"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2059"
+  },
+  {
+    "id": "fixed_2_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 2,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pod_qr/seed_2060"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2051"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2052"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2053"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2054"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2055"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2056"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2057"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2058"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2059"
+  },
+  {
+    "id": "fixed_2_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 2,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_qr/seed_2060"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "fixed_2_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 2,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_2_pca_mean_qr/seed_2060"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2051,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2051"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2052,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2052"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2053,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2053"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2054,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2054"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2055,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2055"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2056,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2056"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2057,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2057"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2058,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2058"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2059,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2059"
+  },
+  {
+    "id": "fixed_4_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 4,
+    "seed": 2060,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2060"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2051,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2051"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2052,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2052"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2053,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2053"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2054,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2054"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2055,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2055"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2056,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2056"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2057,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2057"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2058,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2058"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2059,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2059"
+  },
+  {
+    "id": "fixed_4_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 4,
+    "seed": 2060,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2060"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2051,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2051"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2052,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2052"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2053,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2053"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2054,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2054"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2055,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2055"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2056,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2056"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2057,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2057"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2058,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2058"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2059,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2059"
+  },
+  {
+    "id": "fixed_4_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 4,
+    "seed": 2060,
+    "reused": true,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/basis_ablation/fixed_dimension4_10_seeds_10k_v1/seed_2060"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2051"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2052"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2053"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2054"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2055"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2056"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2057"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2058"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2059"
+  },
+  {
+    "id": "fixed_8_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 8,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pod_qr/seed_2060"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2051"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2052"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2053"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2054"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2055"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2056"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2057"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2058"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2059"
+  },
+  {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_qr/seed_2060"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "fixed_8_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 8,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_8_pca_mean_qr/seed_2060"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2051"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2052"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2053"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2054"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2055"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2056"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2057"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2058"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2059"
+  },
+  {
+    "id": "fixed_12_pod_qr",
+    "stage": "fixed",
+    "method": "pod_qr",
+    "parameter": 12,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pod_qr/seed_2060"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2051"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2052"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2053"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2054"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2055"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2056"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2057"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2058"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2059"
+  },
+  {
+    "id": "fixed_12_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 12,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_qr/seed_2060"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "fixed_12_pca_mean_qr",
+    "stage": "fixed",
+    "method": "pca_mean_qr",
+    "parameter": 12,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/fixed_12_pca_mean_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p95_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.95,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pod_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p95_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.95,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p95_pca_mean_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p99_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.99,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pod_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p99_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.99,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p99_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.99,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p99_pca_mean_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p999_pod_qr",
+    "stage": "adaptive",
+    "method": "pod_qr",
+    "parameter": 0.999,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pod_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p999_pca_qr",
+    "stage": "adaptive",
+    "method": "pca_qr",
+    "parameter": 0.999,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_qr/seed_2060"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2051,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2051"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2052,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2052"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2053,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2053"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2054,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2054"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2055,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2055"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2056,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2056"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2057,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2057"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2058,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2058"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2059,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2059"
+  },
+  {
+    "id": "adaptive_0p999_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.999,
+    "seed": 2060,
+    "reused": false,
+    "status": "complete",
+    "path": "pca_collocation/results/burgers/rank_study/two_stage_10_seeds_10k_v1/adaptive_0p999_pca_mean_qr/seed_2060"
+  }
+]

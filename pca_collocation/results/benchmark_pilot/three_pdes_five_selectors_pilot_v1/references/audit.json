@@ -1,0 +1,30 @@
+[
+  {
+    "problem": "burgers",
+    "kind": "central_finite_difference_BDF",
+    "refinement_relative_difference": 0.004358051598922273,
+    "passed": true,
+    "intervals": [
+      512,
+      1024
+    ],
+    "note": "Two-grid consistency check, not a rigorous error bound or paper ground truth"
+  },
+  {
+    "problem": "wave",
+    "passed": true,
+    "kind": "analytic",
+    "refinement_relative_difference": 0.0
+  },
+  {
+    "problem": "allen_cahn",
+    "kind": "central_finite_difference_BDF",
+    "refinement_relative_difference": 0.0005632038508150086,
+    "passed": true,
+    "intervals": [
+      512,
+      1024
+    ],
+    "note": "Two-grid consistency check, not a rigorous error bound or paper ground truth"
+  }
+]

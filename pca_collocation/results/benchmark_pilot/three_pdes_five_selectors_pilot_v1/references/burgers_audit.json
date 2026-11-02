@@ -1,0 +1,11 @@
+{
+  "problem": "burgers",
+  "kind": "central_finite_difference_BDF",
+  "refinement_relative_difference": 0.004358051598922273,
+  "passed": true,
+  "intervals": [
+    512,
+    1024
+  ],
+  "note": "Two-grid consistency check, not a rigorous error bound or paper ground truth"
+}

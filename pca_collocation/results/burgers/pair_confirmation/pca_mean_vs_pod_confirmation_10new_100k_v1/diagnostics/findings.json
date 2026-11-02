@@ -1,0 +1,12 @@
+{
+  "mean_guided_overlap": 0.12964809523809523,
+  "saved_history_mean_energy_fraction": 0.9440211592445812,
+  "mean_symmetric_nearest_distance": 0.05587966042706508,
+  "pca_central_fraction": 0.9816971428571429,
+  "pod_central_fraction": 0.9831884523809523,
+  "saved_history_pod_mean_capture": 0.9999997793001978,
+  "qr_reconstructions": 100,
+  "full_training_updates": 10000,
+  "saved_history_comparisons": 100,
+  "latest_saved_history_continuation": 9900
+}

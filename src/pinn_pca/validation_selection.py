@@ -103,7 +103,7 @@ def _select_lambda(validation_records, weights, final_step, relative_tolerance):
 def run_validation_selected_sweep(config: dict, project_root: str | Path):
     """Tune lambda on validation data and use a fixed outer test set once."""
     project_root = Path(project_root).resolve()
-    output_dir = project_root / "results" / "burgers" / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / "burgers" / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     x, t, u = load_burgers_data(project_root / config["data_path"])

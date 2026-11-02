@@ -1,0 +1,242 @@
+[
+  {
+    "method": "pca_partial",
+    "seed": 2071,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2071",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2071,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2071",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2071,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2071",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2071,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2071",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2072,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2072",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2072,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2072",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2072,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2072",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2072,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2072",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2073,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2073",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2073,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2073",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2073,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2073",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2073,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2073",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2074,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2074",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2074,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2074",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2074,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2074",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2074,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2074",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2075,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2075",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2075,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2075",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2075,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2075",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2075,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2075",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2076,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2076",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2076,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2076",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2076,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2076",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2076,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2076",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2077,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2077",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2077,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2077",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2077,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2077",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2077,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2077",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2078,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2078",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2078,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2078",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2078,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2078",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2078,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2078",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2079,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2079",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2079,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2079",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2079,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2079",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2079,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2079",
+    "reused": true
+  },
+  {
+    "method": "pca_partial",
+    "seed": 2080,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/pca_partial/seed_2080",
+    "reused": false
+  },
+  {
+    "method": "sobol_partial",
+    "seed": 2080,
+    "path": "pca_collocation/results/burgers/pde_pruning/pde_only_rank_pruning_10seeds_10k_v1/sobol_partial/seed_2080",
+    "reused": false
+  },
+  {
+    "method": "pca_rebuild",
+    "seed": 2080,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/pca/seed_2080",
+    "reused": true
+  },
+  {
+    "method": "sobol_rebuild",
+    "seed": 2080,
+    "path": "pca_collocation/results/burgers/pde_only/pde_only_hard_10seeds_10k_v1/sobol/seed_2080",
+    "reused": true
+  }
+]

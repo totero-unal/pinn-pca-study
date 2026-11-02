@@ -257,7 +257,7 @@ def _load_field(config, project_root):
 def run_snapshot_study(config: dict, project_root: str | Path):
     """Compare base PINN, PCA-preprocessed labels, ROM-PCA, POD floor, and spline POD."""
     project_root = Path(project_root).resolve()
-    output_dir = project_root / "results" / config["result_family"] / "base_vs_pca" / config["run_id"]
+    output_dir = project_root / "pca_preprocessing" / "results" / config["result_family"] / "base_vs_pca" / config["run_id"]
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.perf_counter()
     equation = config["equation"]

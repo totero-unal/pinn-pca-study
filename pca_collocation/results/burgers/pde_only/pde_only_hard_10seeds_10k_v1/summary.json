@@ -1,0 +1,132 @@
+{
+  "methods": [
+    {
+      "objective": "data_pde",
+      "selector": "pca",
+      "test_rmse": 0.09570969976484775,
+      "test_rmse_std": 0.03993497262539443,
+      "independent_residual_rms": 0.28964162468910215,
+      "independent_residual_rms_std": 0.06082407339369277,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    },
+    {
+      "objective": "data_pde",
+      "selector": "sobol",
+      "test_rmse": 0.08287069350481033,
+      "test_rmse_std": 0.04815278959390894,
+      "independent_residual_rms": 0.598577544093132,
+      "independent_residual_rms_std": 0.1530110055238238,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    },
+    {
+      "objective": "pde_only",
+      "selector": "pca",
+      "test_rmse": 0.13781763538718222,
+      "test_rmse_std": 0.0681587649533915,
+      "independent_residual_rms": 0.2861905798316002,
+      "independent_residual_rms_std": 0.04714873362733981,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    },
+    {
+      "objective": "pde_only",
+      "selector": "sobol",
+      "test_rmse": 0.25193430930376054,
+      "test_rmse_std": 0.11610950378136427,
+      "independent_residual_rms": 0.820126649737358,
+      "independent_residual_rms_std": 0.21307279252748007,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    }
+  ],
+  "paired": [
+    {
+      "comparison": "PCA minus Sobol",
+      "objective": "data_pde",
+      "metric": "test_rmse",
+      "mean_difference": 0.012839006260037422,
+      "std": 0.06928068981540998,
+      "wins": 2,
+      "n": 10,
+      "bootstrap95": [
+        -0.031472939336672424,
+        0.05013814456760883
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "objective": "data_pde",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.30893591940402987,
+      "std": 0.15501179360676023,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.3997233730554581,
+        -0.21956347823143005
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "objective": "pde_only",
+      "metric": "test_rmse",
+      "mean_difference": -0.11411667391657829,
+      "std": 0.1225873693763523,
+      "wins": 7,
+      "n": 10,
+      "bootstrap95": [
+        -0.18472260827198625,
+        -0.04186505526304245
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "objective": "pde_only",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.5339360699057579,
+      "std": 0.22470153900029322,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.6600529285520316,
+        -0.39649883009493425
+      ]
+    },
+    {
+      "comparison": "PDE only minus data+PDE",
+      "selector": "pca",
+      "metric": "test_rmse",
+      "mean_difference": 0.04210793562233448,
+      "std": 0.07969760073184254,
+      "wins": 3,
+      "n": 10,
+      "bootstrap95": [
+        -0.0032110909093171353,
+        0.08975941658951327
+      ]
+    },
+    {
+      "comparison": "PDE only minus data+PDE",
+      "selector": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": 0.16906361579895018,
+      "std": 0.10987742882005397,
+      "wins": 2,
+      "n": 10,
+      "bootstrap95": [
+        0.10175858124159276,
+        0.2295538110565394
+      ]
+    }
+  ]
+}

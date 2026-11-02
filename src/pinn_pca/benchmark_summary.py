@@ -10,7 +10,7 @@ import os
 from pathlib import Path
 from statistics import mean, stdev
 
-REGISTRY = "reports/benchmark_registry.json"
+REGISTRY = "pca_preprocessing/reports/benchmark_registry.json"
 METRICS = (("l2", "test_relative_l2"), ("pde", "test_pde_residual_rms"), ("time", "pipeline_seconds"))
 
 
@@ -34,7 +34,7 @@ def apply_benchmark_closure(notebook, root, benchmark_id, run_id, notebook_path)
         return {"cell_type": "markdown", "metadata": {
             "benchmark_id": benchmark_id, "benchmark_documentation_kind": kind,
             "tags": ["benchmark_" + kind]}, "source": text.splitlines(True)}
-    link = os.path.relpath(root / "BENCHMARKS.md", notebook_path.parent).replace("\\", "/")
+    link = os.path.relpath(root / "pca_preprocessing/BENCHMARKS.md", notebook_path.parent).replace("\\", "/")
     banner = (f'**Estado: {entry["status_label"]}.** Cierre: {entry["closed_on"]}. '
               f'Conclusiones y límites al final del notebook. [Tabla global de benchmarks]({link}).\n')
     notebook["cells"].insert(0, cell(banner, "status"))
@@ -115,7 +115,8 @@ def _anchor(path, label, prefix):
 def overview_html(report, prefix="../"):
     rows = []
     for b in report["registry"]["benchmarks"]:
-        evidence = _anchor(b["notebook"], "Notebook", prefix) if b["notebook"] else "Sin corrida"
+        notebook = b["notebook"].removeprefix("pca_preprocessing/notebooks/") if b["notebook"] else ""
+        evidence = _anchor(notebook, "Notebook", "") if notebook else "Sin corrida"
         rows.append([b["name"], b["status_label"], b["pca_scope"], b["finding"], evidence])
     return _html_table(["Benchmark", "Estado", "Aplicación de PCA", "Resultado y alcance", "Evidencia"], rows, (4,))
 
@@ -129,8 +130,9 @@ def _display_rows(report, benchmark_id, markup, prefix):
     for r in report["comparisons"]:
         if r["benchmark_id"] != benchmark_id:
             continue
-        source_label = (f'{_anchor(r["source"],r["case"],prefix)}<br>{html.escape(r["evidence_role"])}'
-                        if markup == "html" else f'[{r["case"]}]({prefix+r["source"]}); {r["evidence_role"]}')
+        display_source = r["source"].removeprefix("pca_preprocessing/")
+        source_label = (f'{_anchor(display_source,r["case"],prefix)}<br>{html.escape(r["evidence_role"])}'
+                        if markup == "html" else f'[{r["case"]}]({prefix+display_source}); {r["evidence_role"]}')
         rows.append([source_label, f'{r["variant"]}; k={",".join(map(str,r["k_values"]))}',
                      f'{r["seed_count"]} / {r["steps"]}',
                      *[f'{_format_stat(r,"baseline",alias)} → {_format_stat(r,"pca",alias)}' for alias,_ in METRICS],
@@ -164,7 +166,7 @@ def build_summary(root, apply_closures=False):
     comparisons = comparison_records(registry, root)
     main_sources = {r["source"] for r in comparisons}
     paths = sorted(path for family in ("burgers", "advection", "high_dimensional_advection", "wave")
-                   for path in (root / "results" / family).rglob("summary.json"))
+                   for path in (root / "pca_preprocessing" / "results" / family).rglob("summary.json"))
     auxiliary = {root / p for b in registry["benchmarks"] for p in b.get("auxiliary_sources", [])}
     manifest = {path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
                 for path in sorted(set(paths) | auxiliary)}
@@ -180,7 +182,7 @@ def build_summary(root, apply_closures=False):
     report = {"as_of": registry["as_of"], "registry": registry, "comparisons": comparisons,
               "archive": archive, "source_sha256": manifest,
               "comparison_count": len(comparisons), "independent_replication_warning": "Rows share seeds, baselines and historical runs; do not pool as independent trials."}
-    output = root / "results/benchmark_summary"
+    output = root / "pca_preprocessing/results/benchmark_summary"
     output.mkdir(parents=True, exist_ok=True)
     for name, records in (("comparisons.csv", comparisons), ("archive_index.csv", archive),
                           ("benchmark_overview.csv", [{key:b[key] for key in ("id","name","status","status_label","pca_scope","finding","limitation")}
@@ -191,7 +193,7 @@ def build_summary(root, apply_closures=False):
             writer.writerows({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in row.items()} for row in records)
     (output / "summary.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     overview = [[b["name"],b["status_label"],b["pca_scope"],b["finding"],
-                 f'[Notebook]({b["notebook"]})' if b["notebook"] else "Sin implementación o corridas"] for b in registry["benchmarks"]]
+                 f'[Notebook]({b["notebook"].removeprefix("pca_preprocessing/")})' if b["notebook"] else "Sin implementación o corridas"] for b in registry["benchmarks"]]
     intro = (f'# Tabla global de benchmarks\n\nFecha de síntesis: **{registry["as_of"]}**. '
         'Se agregan artefactos existentes; esta operación no entrena modelos.\n\n'
         '## Estados y conclusiones\n\n' + _markdown_table(["Benchmark","Estado","Aplicación de PCA","Conclusión limitada","Evidencia"],overview)
@@ -219,7 +221,7 @@ def build_summary(root, apply_closures=False):
         '- [Cierre de la onda](reports/wave_multiscale_closure.md)\n\n'
         'Regenerar: `python scripts/build_benchmark_summary.py`. Para aplicar los cierres registrados a los notebooks existentes, añadir `--apply-closures`. '
         'Este script usa solo la biblioteca estándar y no importa JAX. Los generadores de reportes de onda conservan el cierre al regenerar las corridas registradas.\n')
-    (root / "BENCHMARKS.md").write_text('\n'.join(sections),encoding="utf-8")
+    (root / "pca_preprocessing/BENCHMARKS.md").write_text('\n'.join(sections),encoding="utf-8")
     def md(text): return {"cell_type":"markdown","metadata":{},"source":text.splitlines(True)}
     def code(text, data=None): return {"cell_type":"code","metadata":{},"execution_count":None,"source":text.splitlines(True),
         "outputs":[{"output_type":"display_data","metadata":{},"data":data}] if data else []}
@@ -228,7 +230,7 @@ def build_summary(root, apply_closures=False):
         f'Las {len(comparisons)} comparaciones numéricas comparten semillas y bases; no constituyen réplicas independientes. '
         "El índice histórico conserva las fases previas. Los outputs son tablas generadas desde resultados guardados.\n\n"
         "La onda se cierra como exploración negativa del protocolo probado."),
-        code("from pathlib import Path\nimport json,sys\nfrom IPython.display import display,HTML\nROOT=Path.cwd()\nwhile not (ROOT/'pyproject.toml').exists() and ROOT!=ROOT.parent:\n    ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'src'))\nfrom pinn_pca.benchmark_summary import overview_html,comparison_html\nREPORT=json.loads((ROOT/'results/benchmark_summary/summary.json').read_text(encoding='utf-8'))"),
+        code("from pathlib import Path\nimport json,sys\nfrom IPython.display import display,HTML\nROOT=Path.cwd()\nwhile not (ROOT/'pyproject.toml').exists() and ROOT!=ROOT.parent:\n    ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'src'))\nfrom pinn_pca.benchmark_summary import overview_html,comparison_html\nREPORT=json.loads((ROOT/'pca_preprocessing/results/benchmark_summary/summary.json').read_text(encoding='utf-8'))"),
         code("display(HTML(overview_html(REPORT)))",{"text/html":overview_html(report)}),
         md("## Comparaciones dentro de cada problema\n\nMedia ± DE; flecha base → PCA. Los conteos indican cuántas semillas tienen menor error, residuo o tiempo. Los tiempos corresponden al pipeline individual, sin incluir búsqueda de hiperparámetros. Los residuos de prueba usan diferencias finitas en Burgers/advección 1D y AD en dimensión alta/onda. Las unidades y protocolos difieren entre PDE: no usar la tabla como clasificación global de tiempos o residuos.")]
     for b in registry["benchmarks"]:
@@ -240,11 +242,11 @@ def build_summary(root, apply_closures=False):
         "El cierre conserva esa incertidumbre y el residuo no nulo de los splines. Los resultados de selección por validación, "
         "exploración de componentes y confirmación con otra condición inicial se distinguen en cada fila.\n\n"
         "Reproducir sin entrenar: `python scripts/build_benchmark_summary.py`. Las tablas CSV/JSON y las huellas de las fuentes "
-        "se guardan en `results/benchmark_summary/`. El registro de estados vive en `reports/benchmark_registry.json`. "
+        "se guardan en `../results/benchmark_summary/`. El registro de estados vive en `../reports/benchmark_registry.json`. "
         "El [análisis temprano](01_early_training_comparison.ipynb) estudia los primeros checkpoints usando validación guardada."))
     notebook = {"cells":cells,"metadata":{"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},
                 "language_info":{"name":"python"}},"nbformat":4,"nbformat_minor":5}
-    (root / "notebooks/00_benchmark_summary.ipynb").write_text(json.dumps(notebook,ensure_ascii=False,indent=1),encoding="utf-8")
+    (root / "pca_preprocessing/notebooks/00_benchmark_summary.ipynb").write_text(json.dumps(notebook,ensure_ascii=False,indent=1),encoding="utf-8")
     if apply_closures:
         for b in registry["benchmarks"]:
             for closed in b.get("closed_notebooks", []):

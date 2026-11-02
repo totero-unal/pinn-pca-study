@@ -1,0 +1,110 @@
+{
+  "methods": {
+    "prune_refresh": {
+      "test_rmse": {
+        "mean": 0.11016211360692978,
+        "std": 0.02592297237120884
+      },
+      "independent_residual_rms": {
+        "mean": 0.09062750488519669,
+        "std": 0.016747003230830657
+      },
+      "initial_condition_rmse": {
+        "mean": 0.12825099900364875,
+        "std": 0.03174174638529794
+      },
+      "boundary_rms": {
+        "mean": 0.0647482682019472,
+        "std": 0.020984123674213588
+      },
+      "pruning": {
+        "accepted": 990,
+        "attempts": 990,
+        "k_min": 2,
+        "k_max": 9,
+        "k_mean": 5.818181818181818
+      }
+    },
+    "prune_fixed": {
+      "test_rmse": {
+        "mean": 0.09869576022028922,
+        "std": 0.022016028323003648
+      },
+      "independent_residual_rms": {
+        "mean": 0.08080462738871574,
+        "std": 0.011569410342398969
+      },
+      "initial_condition_rmse": {
+        "mean": 0.12944083660840988,
+        "std": 0.043446719239042794
+      },
+      "boundary_rms": {
+        "mean": 0.0695096306502819,
+        "std": 0.01911936139000066
+      },
+      "pruning": {
+        "accepted": 990,
+        "attempts": 990,
+        "k_min": 2,
+        "k_max": 10,
+        "k_mean": 6.01010101010101
+      }
+    },
+    "rebuild_fixed": {
+      "test_rmse": {
+        "mean": 0.07143931016325951,
+        "std": 0.009772143233653111
+      },
+      "independent_residual_rms": {
+        "mean": 0.16801142692565918,
+        "std": 0.0286896416486862
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08990704342722892,
+        "std": 0.013346896262059774
+      },
+      "boundary_rms": {
+        "mean": 0.04527518264949322,
+        "std": 0.011320248715493923
+      }
+    },
+    "rebuild_refresh": {
+      "test_rmse": {
+        "mean": 0.07096485123038292,
+        "std": 0.01749138990601972
+      },
+      "independent_residual_rms": {
+        "mean": 0.16187476962804795,
+        "std": 0.015683307758892713
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08389973789453506,
+        "std": 0.01087605806747607
+      },
+      "boundary_rms": {
+        "mean": 0.05071401223540306,
+        "std": 0.010728451590960378
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "prune_refresh",
+      "reference": "prune_fixed",
+      "difference": 0.011466353386640548,
+      "wins": 2
+    },
+    {
+      "method": "prune_refresh",
+      "reference": "rebuild_fixed",
+      "difference": 0.038722803443670274,
+      "wins": 0
+    },
+    {
+      "method": "prune_refresh",
+      "reference": "rebuild_refresh",
+      "difference": 0.03919726237654686,
+      "wins": 1
+    }
+  ]
+}

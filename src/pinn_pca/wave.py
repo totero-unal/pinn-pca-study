@@ -171,7 +171,7 @@ def _write_csv(path, rows):
 
 def run_wave_benchmark(config, project_root):
     root = Path(project_root).resolve()
-    output = root / "results/wave/base_vs_pca" / config["run_id"]
+    output = root / "pca_preprocessing/results/wave/base_vs_pca" / config["run_id"]
     output.mkdir(parents=True, exist_ok=True)
     (output / "config.json").write_text(json.dumps(config, indent=2), encoding="utf-8")
     started = time.perf_counter()

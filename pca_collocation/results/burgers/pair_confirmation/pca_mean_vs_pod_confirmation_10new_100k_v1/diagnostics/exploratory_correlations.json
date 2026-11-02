@@ -1,0 +1,22 @@
+[
+  {
+    "feature": "rank_mean",
+    "spearman_with_final_difference": -0.17575757575757575
+  },
+  {
+    "feature": "guided_overlap",
+    "spearman_with_final_difference": 0.17575757575757575
+  },
+  {
+    "feature": "histogram_total_variation",
+    "spearman_with_final_difference": -0.16363636363636364
+  },
+  {
+    "feature": "pca_central_fraction",
+    "spearman_with_final_difference": 0.28484848484848485
+  },
+  {
+    "feature": "pod_qr_central_fraction",
+    "spearman_with_final_difference": -0.23636363636363633
+  }
+]

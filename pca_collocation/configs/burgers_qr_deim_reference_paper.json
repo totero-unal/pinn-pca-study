@@ -1,0 +1,18 @@
+{
+  "description": "Published main sizes; JAX implementation, validation each period, cosine eta_min=0; full benchmark not yet executed",
+  "output": "pca_collocation/results/burgers/qr_deim_reference/paper_sizes_10_seeds_100k_v1",
+  "notebook": "pca_collocation/notebooks/burgers/15_qr_deim_paper_sizes.ipynb",
+  "seeds": [2051, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2059, 2060],
+  "steps": 100000,
+  "period": 1000,
+  "active_points": 2000,
+  "snapshot_points": 1000,
+  "validation_points": 10000,
+  "test_points": 10000,
+  "hidden_layers": 5,
+  "width": 64,
+  "epsilon": 0.005,
+  "learning_rate": 0.001,
+  "budgets": [25000, 50000, 75000, 100000],
+  "audit_steps": [1000, 25000, 50000, 100000]
+}

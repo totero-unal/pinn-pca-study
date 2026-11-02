@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "same_warmup": true,
+  "checked_selections": 4000,
+  "equal_basis_dimension": true,
+  "fixed_guided_count": true,
+  "mean_preserved": true,
+  "previous_sobol_replay": [
+    {
+      "seed": 2051,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2052,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2053,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2054,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2055,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2056,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2057,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2058,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2059,
+      "max_validation_difference": 0.0
+    },
+    {
+      "seed": 2060,
+      "max_validation_difference": 0.0
+    }
+  ]
+}

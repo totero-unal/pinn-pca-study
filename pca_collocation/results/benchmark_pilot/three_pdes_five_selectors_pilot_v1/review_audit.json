@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "completed_runs": 15,
+  "active_sets_verified": 33,
+  "qr_reconstructions": 6,
+  "embedded_pngs": 2,
+  "max_constraint_error": 0,
+  "best_validation_selection_verified": true,
+  "initial_points_paired": true
+}

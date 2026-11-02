@@ -16,7 +16,7 @@ from pinn_pca.high_dim_advection import run_high_dim_advection  # noqa: E402
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/high_dim_advection.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/high_dim_advection.json")
     args = parser.parse_args()
     config_path = ROOT / args.config
     config = json.loads(config_path.read_text(encoding="utf-8"))

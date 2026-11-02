@@ -1,0 +1,74 @@
+{
+  "methods": {
+    "baseline": {
+      "test_rmse": {
+        "mean": 0.07714862339198589,
+        "std": 0.024358881772221824
+      },
+      "independent_residual_rms": {
+        "mean": 0.1088170863687992,
+        "std": 0.013474537010854281
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08460361883044243,
+        "std": 0.024905619549527032
+      }
+    },
+    "interval_fixed": {
+      "test_rmse": {
+        "mean": 0.07143931016325951,
+        "std": 0.009772143233653111
+      },
+      "independent_residual_rms": {
+        "mean": 0.16801142692565918,
+        "std": 0.0286896416486862
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08990704342722892,
+        "std": 0.013346896262059774
+      }
+    },
+    "interval_refresh": {
+      "test_rmse": {
+        "mean": 0.07096485123038292,
+        "std": 0.01749138990601972
+      },
+      "independent_residual_rms": {
+        "mean": 0.16187476962804795,
+        "std": 0.015683307758892713
+      },
+      "initial_condition_rmse": {
+        "mean": 0.08389973789453506,
+        "std": 0.01087605806747607
+      }
+    },
+    "sobol": {
+      "test_rmse": {
+        "mean": 0.05722300559282303,
+        "std": 0.019612034666138284
+      },
+      "independent_residual_rms": {
+        "mean": 0.31073965430259703,
+        "std": 0.04315682401661052
+      },
+      "initial_condition_rmse": {
+        "mean": 0.06559582129120826,
+        "std": 0.019159735946817066
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "interval_fixed",
+      "reference": "baseline",
+      "difference": -0.005709313228726387,
+      "wins": 6
+    },
+    {
+      "method": "interval_refresh",
+      "reference": "interval_fixed",
+      "difference": -0.00047445893287658694,
+      "wins": 5
+    }
+  ]
+}

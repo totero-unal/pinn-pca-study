@@ -1,0 +1,234 @@
+{
+  "methods": {
+    "pod_qr": {
+      "test_rmse": {
+        "mean": 0.11845652237534524,
+        "std": 0.056885850605899284
+      },
+      "independent_residual_rms": {
+        "mean": 0.30533375442028043,
+        "std": 0.05485447966680444
+      },
+      "initial_condition_rmse": {
+        "mean": 6.601087676472162e-08,
+        "std": 0.0
+      },
+      "boundary_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "pca_qr": {
+      "test_rmse": {
+        "mean": 0.1054286602884531,
+        "std": 0.04106238480106087
+      },
+      "independent_residual_rms": {
+        "mean": 0.31331550180912016,
+        "std": 0.03434070934231534
+      },
+      "initial_condition_rmse": {
+        "mean": 6.601087676472162e-08,
+        "std": 0.0
+      },
+      "boundary_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "pca_mean_qr": {
+      "test_rmse": {
+        "mean": 0.13781763538718222,
+        "std": 0.0681587649533915
+      },
+      "independent_residual_rms": {
+        "mean": 0.2861905798316002,
+        "std": 0.04714873362733981
+      },
+      "initial_condition_rmse": {
+        "mean": 6.601087676472162e-08,
+        "std": 0.0
+      },
+      "boundary_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "sobol": {
+      "test_rmse": {
+        "mean": 0.25193430930376054,
+        "std": 0.11610950378136427
+      },
+      "independent_residual_rms": {
+        "mean": 0.820126649737358,
+        "std": 0.21307279252748007
+      },
+      "initial_condition_rmse": {
+        "mean": 6.601087676472162e-08,
+        "std": 0.0
+      },
+      "boundary_rms": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    }
+  },
+  "paired": [
+    {
+      "method": "pca_mean_qr",
+      "reference": "pod_qr",
+      "metric": "test_rmse",
+      "mean_difference": 0.019361113011837006,
+      "std": 0.054620584966797114,
+      "wins": 4,
+      "n": 10,
+      "bootstrap95": [
+        -0.011082779075950384,
+        0.05311606315895912
+      ]
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pod_qr",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.019143174588680267,
+      "std": 0.05448175125525629,
+      "wins": 9,
+      "n": 10,
+      "bootstrap95": [
+        -0.04867617715150118,
+        0.015362246781587575
+      ]
+    },
+    {
+      "method": "pca_qr",
+      "reference": "pod_qr",
+      "metric": "test_rmse",
+      "mean_difference": -0.013027862086892128,
+      "std": 0.08128083537133489,
+      "wins": 4,
+      "n": 10,
+      "bootstrap95": [
+        -0.06210195281542838,
+        0.033362776041030884
+      ]
+    },
+    {
+      "method": "pca_qr",
+      "reference": "pod_qr",
+      "metric": "independent_residual_rms",
+      "mean_difference": 0.007981747388839722,
+      "std": 0.061892563656810215,
+      "wins": 3,
+      "n": 10,
+      "bootstrap95": [
+        -0.029899394288659092,
+        0.042587730735540355
+      ]
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pca_qr",
+      "metric": "test_rmse",
+      "mean_difference": 0.032388975098729136,
+      "std": 0.09417038651968995,
+      "wins": 4,
+      "n": 10,
+      "bootstrap95": [
+        -0.02133958666585386,
+        0.08992438849993038
+      ]
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "pca_qr",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.02712492197751999,
+      "std": 0.05153950717317301,
+      "wins": 7,
+      "n": 10,
+      "bootstrap95": [
+        -0.05735347732901573,
+        0.002956489510834216
+      ]
+    },
+    {
+      "method": "pod_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": -0.1334777869284153,
+      "std": 0.09088707153428552,
+      "wins": 9,
+      "n": 10,
+      "bootstrap95": [
+        -0.1846571896225214,
+        -0.07899026473984128
+      ]
+    },
+    {
+      "method": "pod_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.5147928953170776,
+      "std": 0.22986130937860166,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.6412918507680297,
+        -0.37347686737775804
+      ]
+    },
+    {
+      "method": "pca_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": -0.14650564901530744,
+      "std": 0.13361887926873628,
+      "wins": 8,
+      "n": 10,
+      "bootstrap95": [
+        -0.2250345792621374,
+        -0.06934462437406184
+      ]
+    },
+    {
+      "method": "pca_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.5068111479282379,
+      "std": 0.23429567670892512,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.639123004451394,
+        -0.36290703833103194
+      ]
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": -0.11411667391657829,
+      "std": 0.1225873693763523,
+      "wins": 7,
+      "n": 10,
+      "bootstrap95": [
+        -0.18472260827198625,
+        -0.04186505526304245
+      ]
+    },
+    {
+      "method": "pca_mean_qr",
+      "reference": "sobol",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.5339360699057579,
+      "std": 0.22470153900029322,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.6600529285520316,
+        -0.39649883009493425
+      ]
+    }
+  ]
+}

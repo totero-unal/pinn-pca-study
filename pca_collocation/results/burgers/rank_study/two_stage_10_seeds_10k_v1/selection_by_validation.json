@@ -1,0 +1,24 @@
+{
+  "fixed": {
+    "id": "fixed_8_pca_qr",
+    "stage": "fixed",
+    "method": "pca_qr",
+    "parameter": 8,
+    "completed": 10,
+    "validation_rmse": 0.08061433658003807,
+    "test_rmse": 0.08700729347765446,
+    "residual": 0.11891037300229072,
+    "mean_rank": 8.0
+  },
+  "adaptive": {
+    "id": "adaptive_0p95_pca_mean_qr",
+    "stage": "adaptive",
+    "method": "pca_mean_qr",
+    "parameter": 0.95,
+    "completed": 10,
+    "validation_rmse": 0.07675956077873707,
+    "test_rmse": 0.08319945856928826,
+    "residual": 0.09585572630167008,
+    "mean_rank": 12.745999999999999
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "methods": [
+    {
+      "conditions": "soft_ic10",
+      "selector": "pca",
+      "test_rmse": 0.061905718967318536,
+      "test_rmse_std": 0.014642211826602487,
+      "independent_residual_rms": 0.24613622725009918,
+      "independent_residual_rms_std": 0.04038885490609704,
+      "initial_condition_rmse": 0.022971489652991294,
+      "initial_condition_rmse_std": 0.004579768440171568,
+      "boundary_rms": 0.014871981553733348,
+      "boundary_rms_std": 0.0036397495193658644
+    },
+    {
+      "conditions": "soft_ic10",
+      "selector": "sobol",
+      "test_rmse": 0.059819222614169124,
+      "test_rmse_std": 0.04082590395237001,
+      "independent_residual_rms": 0.432129043340683,
+      "independent_residual_rms_std": 0.14806956402906235,
+      "initial_condition_rmse": 0.01974394144490361,
+      "initial_condition_rmse_std": 0.004480021537366982,
+      "boundary_rms": 0.013034559553489089,
+      "boundary_rms_std": 0.006469631877118972
+    },
+    {
+      "conditions": "hard",
+      "selector": "pca",
+      "test_rmse": 0.09570969976484775,
+      "test_rmse_std": 0.03993497262539443,
+      "independent_residual_rms": 0.28964162468910215,
+      "independent_residual_rms_std": 0.06082407339369277,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    },
+    {
+      "conditions": "hard",
+      "selector": "sobol",
+      "test_rmse": 0.08287069350481033,
+      "test_rmse_std": 0.04815278959390894,
+      "independent_residual_rms": 0.598577544093132,
+      "independent_residual_rms_std": 0.1530110055238238,
+      "initial_condition_rmse": 6.601087676472162e-08,
+      "initial_condition_rmse_std": 0.0,
+      "boundary_rms": 0.0,
+      "boundary_rms_std": 0.0
+    }
+  ],
+  "paired": [
+    {
+      "comparison": "PCA minus Sobol",
+      "conditions": "soft_ic10",
+      "metric": "test_rmse",
+      "mean_difference": 0.002086496353149414,
+      "std": 0.04637620727105056,
+      "wins": 4,
+      "n": 10,
+      "bootstrap95": [
+        -0.02732824179343879,
+        0.026718605831265434
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "conditions": "soft_ic10",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.1859928160905838,
+      "std": 0.14369866446952712,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.27479482121765614,
+        -0.1069767962023616
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "conditions": "hard",
+      "metric": "test_rmse",
+      "mean_difference": 0.012839006260037422,
+      "std": 0.06928068981540998,
+      "wins": 2,
+      "n": 10,
+      "bootstrap95": [
+        -0.031472939336672424,
+        0.05013814456760883
+      ]
+    },
+    {
+      "comparison": "PCA minus Sobol",
+      "conditions": "hard",
+      "metric": "independent_residual_rms",
+      "mean_difference": -0.30893591940402987,
+      "std": 0.15501179360676023,
+      "wins": 10,
+      "n": 10,
+      "bootstrap95": [
+        -0.3997233730554581,
+        -0.21956347823143005
+      ]
+    },
+    {
+      "comparison": "hard minus soft",
+      "selector": "pca",
+      "metric": "test_rmse",
+      "mean_difference": 0.03380398079752922,
+      "std": 0.04813678921061745,
+      "wins": 3,
+      "n": 10,
+      "bootstrap95": [
+        0.006115458533167839,
+        0.06258166302926838
+      ]
+    },
+    {
+      "comparison": "hard minus soft",
+      "selector": "sobol",
+      "metric": "test_rmse",
+      "mean_difference": 0.02305147089064121,
+      "std": 0.07154458753651058,
+      "wins": 3,
+      "n": 10,
+      "bootstrap95": [
+        -0.018429614929482342,
+        0.06660719327628613
+      ]
+    }
+  ]
+}

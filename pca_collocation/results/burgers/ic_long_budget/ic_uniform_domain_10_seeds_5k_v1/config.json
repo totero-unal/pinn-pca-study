@@ -1,0 +1,95 @@
+{
+  "experiment_name": "burgers_distributed_ic_long_budget",
+  "run_id": "ic_uniform_domain_10_seeds_5k_v1",
+  "data_path": "data/raw/burgers_shock.mat",
+  "seeds": [
+    2051,
+    2052,
+    2053,
+    2054,
+    2055,
+    2056,
+    2057,
+    2058,
+    2059,
+    2060
+  ],
+  "width": 32,
+  "learning_rate": 0.001,
+  "warmup_steps": 100,
+  "train_steps": 5000,
+  "batch_size": 128,
+  "update_every": 100,
+  "candidate_count": 4096,
+  "history_snapshots": 20,
+  "independent_count": 2048,
+  "initial_condition_points": 32,
+  "test_time_count": 20,
+  "validation_time_count": 8,
+  "energy_threshold": 0.99,
+  "max_modes": 20,
+  "qr_point_count": 32,
+  "validation_rmse_target": 0.35,
+  "reference_run_id": "qr_fraction_ablation_10_seeds_2k_v1",
+  "notebook_name": "12_ic_uniform_long_budget.ipynb",
+  "representative_seed": 2051,
+  "field_checkpoints": [
+    100,
+    2100,
+    3100,
+    4100,
+    5100
+  ],
+  "selection_plot_steps": [
+    100,
+    2000,
+    3500,
+    5000
+  ],
+  "grid_x_count": 128,
+  "grid_t_count": 100,
+  "front_abs_x_max": 0.1,
+  "front_time_min": 0.4,
+  "coverage_bins": 8,
+  "profile_times": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "profile_zoom_abs_x": 0.15,
+  "replay_tolerance": 1e-06,
+  "initial_condition_strategy": "uniform_domain",
+  "baseline_diagnostic_run_id": "residual_balance_diagnostics_10_seeds_2k_v1",
+  "reference_ic_run_id": "ic_uniform_domain_10_seeds_2k_v1",
+  "test_checkpoint_steps": [
+    2100,
+    3100,
+    4100,
+    5100
+  ],
+  "regional_test_checkpoints": [
+    2100,
+    3100,
+    4100,
+    5100
+  ],
+  "trend_window_steps": 500,
+  "method_specs": {
+    "sobol": {
+      "base": "sobol",
+      "label": "Sobol"
+    },
+    "pod_qr_32": {
+      "base": "pod_qr",
+      "label": "POD: 32 puntos",
+      "oversample_count": 32
+    },
+    "pca_mean_qr_64": {
+      "base": "pca_mean_qr",
+      "label": "PCA + media: 64 puntos",
+      "oversample_count": 64
+    }
+  },
+  "common_selection_seed": true,
+  "skip_seed_plots": true
+}

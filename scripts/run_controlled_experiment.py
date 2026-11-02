@@ -16,7 +16,7 @@ from pinn_pca.controlled import run_controlled_comparison  # noqa: E402
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", default="configs/burgers_controlled_ad.json")
+    parser.add_argument("--config", default="pca_preprocessing/configs/burgers_controlled_ad.json")
     args = parser.parse_args()
     config_path = ROOT / args.config
     config = json.loads(config_path.read_text(encoding="utf-8"))

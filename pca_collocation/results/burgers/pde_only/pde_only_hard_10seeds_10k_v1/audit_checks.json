@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "new_runs": 20,
+  "reused_runs": 20,
+  "shared_pde_warmup": true,
+  "qr_reconstructions": 50,
+  "constraint_checkpoints": 80
+}

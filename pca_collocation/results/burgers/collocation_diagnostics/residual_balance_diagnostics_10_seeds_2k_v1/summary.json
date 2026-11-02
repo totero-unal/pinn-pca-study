@@ -1,0 +1,470 @@
+{
+  "configuration": {
+    "experiment_name": "burgers_collocation_loss_gradient_diagnostics",
+    "run_id": "residual_balance_diagnostics_10_seeds_2k_v1",
+    "data_path": "data/raw/burgers_shock.mat",
+    "seeds": [
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060
+    ],
+    "width": 32,
+    "learning_rate": 0.001,
+    "warmup_steps": 100,
+    "train_steps": 2000,
+    "batch_size": 128,
+    "update_every": 100,
+    "candidate_count": 4096,
+    "history_snapshots": 20,
+    "independent_count": 2048,
+    "initial_condition_points": 32,
+    "test_time_count": 20,
+    "validation_time_count": 8,
+    "energy_threshold": 0.99,
+    "max_modes": 20,
+    "qr_point_count": 32,
+    "validation_rmse_target": 0.35,
+    "reference_run_id": "qr_fraction_ablation_10_seeds_2k_v1",
+    "notebook_name": "10_residual_balance_diagnostics.ipynb",
+    "representative_seed": 2051,
+    "field_checkpoints": [
+      100,
+      400,
+      1100,
+      2100
+    ],
+    "selection_plot_steps": [
+      100,
+      400,
+      1000,
+      2000
+    ],
+    "grid_x_count": 128,
+    "grid_t_count": 100,
+    "front_abs_x_max": 0.1,
+    "front_time_min": 0.4,
+    "coverage_bins": 8,
+    "profile_times": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "profile_zoom_abs_x": 0.15,
+    "replay_tolerance": 1e-06
+  },
+  "protocol": {
+    "seed": 2051,
+    "initial_points": 32,
+    "spatial_grid_points": 256,
+    "initial_x_min": -1.0,
+    "initial_x_max": -0.7568627595901489,
+    "domain_x_min": -1.0,
+    "domain_x_max": 1.0,
+    "initial_span_fraction": 0.12156862020492554,
+    "boundary_penalty_in_training": false,
+    "loss_weights": {
+      "data": 1.0,
+      "physics": 1.0,
+      "initial": 1.0
+    },
+    "fixed_probe_supervised_points": 128,
+    "probe_rule": "Frozen supervised batch from fit times only; fixed common Sobol residual probe with seed+501. Active probe replaces only residual coordinates with the current training set.",
+    "front_window": {
+      "front_abs_x_max": 0.1,
+      "front_time_min": 0.4
+    }
+  },
+  "methods": [
+    {
+      "method": "sobol",
+      "label": "Sobol",
+      "metrics": {
+        "test_rmse": {
+          "mean": 0.17999697625637054,
+          "std": 0.035926389532837354,
+          "n": 10
+        },
+        "test_relative_l2": {
+          "mean": 0.2948344528675079,
+          "std": 0.05640253591435288,
+          "n": 10
+        },
+        "independent_residual_rms": {
+          "mean": 0.3664107367396355,
+          "std": 0.14740019563552303,
+          "n": 10
+        },
+        "initial_condition_rmse": {
+          "mean": 0.2235337197780609,
+          "std": 0.023470604904167684,
+          "n": 10
+        },
+        "boundary_rms": {
+          "mean": 0.1261569269001484,
+          "std": 0.012170279116263387,
+          "n": 10
+        }
+      },
+      "final_common_probe": {
+        "loss_data": {
+          "mean": 0.030239039659500123,
+          "std": 0.011359984676920083,
+          "n": 10
+        },
+        "loss_physics": {
+          "mean": 0.09896653257310391,
+          "std": 0.09554787067541393,
+          "n": 10
+        },
+        "loss_initial": {
+          "mean": 0.0022355774184688927,
+          "std": 0.000896029899379924,
+          "n": 10
+        },
+        "grad_data": {
+          "mean": 0.5236243635416031,
+          "std": 0.1581331488825653,
+          "n": 10
+        },
+        "grad_physics": {
+          "mean": 7.35931578874588,
+          "std": 7.506248107554854,
+          "n": 10
+        },
+        "grad_initial": {
+          "mean": 0.12118590250611305,
+          "std": 0.06782527617602761,
+          "n": 10
+        },
+        "grad_data_initial": {
+          "mean": 0.48542059063911436,
+          "std": 0.17565598177558778,
+          "n": 10
+        },
+        "cos_physics_data_initial": {
+          "mean": -0.2328992687165737,
+          "std": 0.5198848838775438,
+          "n": 10
+        },
+        "physics_to_data_initial_grad_ratio": {
+          "mean": 19.20435596704483,
+          "std": 21.411247420743372,
+          "n": 10
+        },
+        "gradient_cancellation_ratio": {
+          "mean": 0.7691981106996536,
+          "std": 0.23523211887769827,
+          "n": 10
+        }
+      },
+      "fraction_checkpoints_with_common_gradient_conflict": {
+        "mean": 0.9349999999999999,
+        "std": 0.06258327785172861,
+        "n": 10
+      },
+      "final_common_to_active_physics_loss_ratio": {
+        "mean": 10.57189418442447,
+        "std": 11.095027052249026,
+        "n": 10
+      },
+      "final_coverage": {
+        "front_fraction": {
+          "mean": 0.059375,
+          "std": 0.008398185154477657,
+          "n": 10
+        },
+        "occupied_cell_fraction": {
+          "mean": 1.0,
+          "std": 0.0,
+          "n": 10
+        },
+        "independent_nearest_distance_q95": {
+          "mean": 0.06785605020750904,
+          "std": 0.0031023834676101054,
+          "n": 10
+        }
+      },
+      "regional_test_rmse": {
+        "all_test": {
+          "mean": 0.17999697625637054,
+          "std": 0.035926389532837354,
+          "n": 10
+        },
+        "central_late_test": {
+          "mean": 0.3735691487789154,
+          "std": 0.09760917223250476,
+          "n": 10
+        },
+        "outside_window_test": {
+          "mean": 0.15787352994084358,
+          "std": 0.02932554188195105,
+          "n": 10
+        }
+      }
+    },
+    {
+      "method": "pod_qr_32",
+      "label": "POD: 32 puntos",
+      "metrics": {
+        "test_rmse": {
+          "mean": 0.21241632103919983,
+          "std": 0.05538205877415689,
+          "n": 10
+        },
+        "test_relative_l2": {
+          "mean": 0.3477522790431976,
+          "std": 0.08779441347303164,
+          "n": 10
+        },
+        "independent_residual_rms": {
+          "mean": 0.12360495328903198,
+          "std": 0.014070477424089156,
+          "n": 10
+        },
+        "initial_condition_rmse": {
+          "mean": 0.2525186866521835,
+          "std": 0.029164129726073403,
+          "n": 10
+        },
+        "boundary_rms": {
+          "mean": 0.11699813604354858,
+          "std": 0.011897124993649163,
+          "n": 10
+        }
+      },
+      "final_common_probe": {
+        "loss_data": {
+          "mean": 0.045491122826933864,
+          "std": 0.019812308758598237,
+          "n": 10
+        },
+        "loss_physics": {
+          "mean": 0.016377787478268145,
+          "std": 0.005544833276172452,
+          "n": 10
+        },
+        "loss_initial": {
+          "mean": 0.0020587798964697866,
+          "std": 0.0009533524908037194,
+          "n": 10
+        },
+        "grad_data": {
+          "mean": 0.6903380960226059,
+          "std": 0.19388502577339886,
+          "n": 10
+        },
+        "grad_physics": {
+          "mean": 1.4531541734933853,
+          "std": 1.491762704300429,
+          "n": 10
+        },
+        "grad_initial": {
+          "mean": 0.08465599231421947,
+          "std": 0.030961848943433696,
+          "n": 10
+        },
+        "grad_data_initial": {
+          "mean": 0.6704075127840042,
+          "std": 0.2035217745159314,
+          "n": 10
+        },
+        "cos_physics_data_initial": {
+          "mean": -0.528656455129385,
+          "std": 0.38449998649841843,
+          "n": 10
+        },
+        "physics_to_data_initial_grad_ratio": {
+          "mean": 2.9518770039081574,
+          "std": 4.623897463382378,
+          "n": 10
+        },
+        "gradient_cancellation_ratio": {
+          "mean": 0.49765437096357346,
+          "std": 0.2525186136589429,
+          "n": 10
+        }
+      },
+      "fraction_checkpoints_with_common_gradient_conflict": {
+        "mean": 0.9949999999999999,
+        "std": 0.01581138830084191,
+        "n": 10
+      },
+      "final_common_to_active_physics_loss_ratio": {
+        "mean": 1.1517550837962542,
+        "std": 0.6044051692953712,
+        "n": 10
+      },
+      "final_coverage": {
+        "front_fraction": {
+          "mean": 0.16015625,
+          "std": 0.018135922235916823,
+          "n": 10
+        },
+        "occupied_cell_fraction": {
+          "mean": 1.0,
+          "std": 0.0,
+          "n": 10
+        },
+        "independent_nearest_distance_q95": {
+          "mean": 0.07684023884011806,
+          "std": 0.0017925626480956311,
+          "n": 10
+        }
+      },
+      "regional_test_rmse": {
+        "all_test": {
+          "mean": 0.21241632103919983,
+          "std": 0.05538205877415689,
+          "n": 10
+        },
+        "central_late_test": {
+          "mean": 0.4351645320653915,
+          "std": 0.15879002546210214,
+          "n": 10
+        },
+        "outside_window_test": {
+          "mean": 0.1873071387410164,
+          "std": 0.04330078146446332,
+          "n": 10
+        }
+      }
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "label": "PCA + media: 64 puntos",
+      "metrics": {
+        "test_rmse": {
+          "mean": 0.22984155267477036,
+          "std": 0.057237065696919505,
+          "n": 10
+        },
+        "test_relative_l2": {
+          "mean": 0.3763069182634354,
+          "std": 0.09088975633909825,
+          "n": 10
+        },
+        "independent_residual_rms": {
+          "mean": 0.12405685558915139,
+          "std": 0.01591588513397134,
+          "n": 10
+        },
+        "initial_condition_rmse": {
+          "mean": 0.26562227457761767,
+          "std": 0.028634881299409578,
+          "n": 10
+        },
+        "boundary_rms": {
+          "mean": 0.10540536269545556,
+          "std": 0.01200532337853865,
+          "n": 10
+        }
+      },
+      "final_common_probe": {
+        "loss_data": {
+          "mean": 0.05291111171245575,
+          "std": 0.02390725303486151,
+          "n": 10
+        },
+        "loss_physics": {
+          "mean": 0.015384228527545929,
+          "std": 0.004017784441706476,
+          "n": 10
+        },
+        "loss_initial": {
+          "mean": 0.0025531598599627613,
+          "std": 0.0018907740156657753,
+          "n": 10
+        },
+        "grad_data": {
+          "mean": 0.7428355246782303,
+          "std": 0.24719344086859804,
+          "n": 10
+        },
+        "grad_physics": {
+          "mean": 0.6820406138896942,
+          "std": 0.20333731699726468,
+          "n": 10
+        },
+        "grad_initial": {
+          "mean": 0.08598776459693909,
+          "std": 0.025138860235714985,
+          "n": 10
+        },
+        "grad_data_initial": {
+          "mean": 0.7318298876285553,
+          "std": 0.26167375810314353,
+          "n": 10
+        },
+        "cos_physics_data_initial": {
+          "mean": -0.7680998921394349,
+          "std": 0.17435869465513765,
+          "n": 10
+        },
+        "physics_to_data_initial_grad_ratio": {
+          "mean": 1.0019620031118393,
+          "std": 0.2905804372112687,
+          "n": 10
+        },
+        "gradient_cancellation_ratio": {
+          "mean": 0.32942034155130384,
+          "std": 0.1300467308546184,
+          "n": 10
+        }
+      },
+      "fraction_checkpoints_with_common_gradient_conflict": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n": 10
+      },
+      "final_common_to_active_physics_loss_ratio": {
+        "mean": 0.9477336243728361,
+        "std": 0.16116092624221476,
+        "n": 10
+      },
+      "final_coverage": {
+        "front_fraction": {
+          "mean": 0.2171875,
+          "std": 0.03715845621195202,
+          "n": 10
+        },
+        "occupied_cell_fraction": {
+          "mean": 1.0,
+          "std": 0.0,
+          "n": 10
+        },
+        "independent_nearest_distance_q95": {
+          "mean": 0.08702351273373797,
+          "std": 0.0036274958559993757,
+          "n": 10
+        }
+      },
+      "regional_test_rmse": {
+        "all_test": {
+          "mean": 0.22984155267477036,
+          "std": 0.057237065696919505,
+          "n": 10
+        },
+        "central_late_test": {
+          "mean": 0.4699378803372383,
+          "std": 0.16718003444134966,
+          "n": 10
+        },
+        "outside_window_test": {
+          "mean": 0.20220454782247543,
+          "std": 0.044055533646437786,
+          "n": 10
+        }
+      }
+    }
+  ],
+  "max_replay_difference": 0.0,
+  "max_trajectory_replay_difference": 0.0,
+  "interpretation_limit": "Observational replay: Euclidean gradients on frozen probes do not identify a causal effect or the effective Adam step. No boundary penalty is present; initial-condition supervision covers only the first spatial nodes. Full-field maps include fit and held-out times; regional error tables use held-out test times only."
+}

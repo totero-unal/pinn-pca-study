@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "shared_partial_initialization": true,
+  "reconstructed_pruning_updates": 80,
+  "reference_replay": [
+    {
+      "seed": 2051,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2052,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2053,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2054,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2055,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2056,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2057,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2058,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2059,
+      "pca_reference_difference": 0.0
+    },
+    {
+      "seed": 2060,
+      "pca_reference_difference": 0.0
+    }
+  ]
+}

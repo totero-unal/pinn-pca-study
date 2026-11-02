@@ -1,0 +1,1013 @@
+{
+  "configuration": {
+    "experiment_name": "burgers_initial_condition_coverage_control",
+    "run_id": "ic_uniform_domain_10_seeds_2k_v1",
+    "data_path": "data/raw/burgers_shock.mat",
+    "seeds": [
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060
+    ],
+    "width": 32,
+    "learning_rate": 0.001,
+    "warmup_steps": 100,
+    "train_steps": 2000,
+    "batch_size": 128,
+    "update_every": 100,
+    "candidate_count": 4096,
+    "history_snapshots": 20,
+    "independent_count": 2048,
+    "initial_condition_points": 32,
+    "test_time_count": 20,
+    "validation_time_count": 8,
+    "energy_threshold": 0.99,
+    "max_modes": 20,
+    "qr_point_count": 32,
+    "validation_rmse_target": 0.35,
+    "reference_run_id": "qr_fraction_ablation_10_seeds_2k_v1",
+    "notebook_name": "11_ic_coverage_control.ipynb",
+    "representative_seed": 2051,
+    "field_checkpoints": [
+      100,
+      400,
+      1100,
+      2100
+    ],
+    "selection_plot_steps": [
+      100,
+      400,
+      1000,
+      2000
+    ],
+    "grid_x_count": 128,
+    "grid_t_count": 100,
+    "front_abs_x_max": 0.1,
+    "front_time_min": 0.4,
+    "coverage_bins": 8,
+    "profile_times": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "profile_zoom_abs_x": 0.15,
+    "replay_tolerance": 1e-06,
+    "initial_condition_strategy": "uniform_domain",
+    "baseline_diagnostic_run_id": "residual_balance_diagnostics_10_seeds_2k_v1"
+  },
+  "baseline_run_id": "residual_balance_diagnostics_10_seeds_2k_v1",
+  "intervention": "Same 32 IC nodes: original first spatial indices versus rounded equally spaced indices including both endpoints; applied throughout warmup and continuation.",
+  "unchanged_configuration": {
+    "data_path": "data/raw/burgers_shock.mat",
+    "seeds": [
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060
+    ],
+    "width": 32,
+    "learning_rate": 0.001,
+    "warmup_steps": 100,
+    "train_steps": 2000,
+    "batch_size": 128,
+    "update_every": 100,
+    "candidate_count": 4096,
+    "history_snapshots": 20,
+    "independent_count": 2048,
+    "initial_condition_points": 32,
+    "test_time_count": 20,
+    "validation_time_count": 8,
+    "energy_threshold": 0.99,
+    "max_modes": 20,
+    "qr_point_count": 32,
+    "validation_rmse_target": 0.35,
+    "representative_seed": 2051,
+    "field_checkpoints": [
+      100,
+      400,
+      1100,
+      2100
+    ],
+    "selection_plot_steps": [
+      100,
+      400,
+      1000,
+      2000
+    ],
+    "grid_x_count": 128,
+    "grid_t_count": 100,
+    "front_abs_x_max": 0.1,
+    "front_time_min": 0.4,
+    "coverage_bins": 8,
+    "profile_times": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "profile_zoom_abs_x": 0.15
+  },
+  "pairing_audit": [
+    {
+      "seed": 2051,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "3e47af6b641d387ddf5be9ce4e1a6163b0ae0f46bdaba096fa284c2dbee976e6"
+    },
+    {
+      "seed": 2052,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "e4382d0e2f79b218ed3534087b6cc1ff7de5b0642cdf2a527847d00404c3593e"
+    },
+    {
+      "seed": 2053,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "af66a6893343e0ca75cf624a62627c732e34efb2619750d5c574bd895998d76f"
+    },
+    {
+      "seed": 2054,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "07c807564c43bc263994a641235a107856647dc32f2e959af6a23a12ff5ba895"
+    },
+    {
+      "seed": 2055,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "3a1cac016d301485182d3537ff3d7d0f12ad44281947d3871206ca7e779abb4f"
+    },
+    {
+      "seed": 2056,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "25d663b772846ce0a393fd48d7c066cfc91bdec68fad8569509a115f3c812908"
+    },
+    {
+      "seed": 2057,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "1782061386faf606113a01591e5164676ae17094037554af3ed3c3cde15cb8b7"
+    },
+    {
+      "seed": 2058,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "23b2eb79c6737ecf10e2ce510c3653d94f7c7c881d0d0e169959f56eb2b7e8c3"
+    },
+    {
+      "seed": 2059,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "f09fab2c5aa4e94f507a4fb945f313dc655d10718e870a98fcc6b16183dc3976"
+    },
+    {
+      "seed": 2060,
+      "verified": [
+        "x",
+        "t",
+        "reference",
+        "fit_time_indices",
+        "validation_time_indices",
+        "test_time_indices",
+        "common_probe_points",
+        "probe_data_x",
+        "probe_data_t",
+        "probe_data_u",
+        "candidate_pool",
+        "same_ic_count",
+        "changed_ic_placement",
+        "ic_domain_endpoints",
+        "shared_warmup_within_treatment"
+      ],
+      "baseline_metrics_sha256": "b937da25d5a1e66dceb50f23662f86729b0e7b610be7c36c95bb31276538c2fc"
+    }
+  ],
+  "methods": [
+    {
+      "method": "sobol",
+      "label": "Sobol",
+      "metrics": {
+        "test_rmse": {
+          "before": {
+            "mean": 0.17999697625637054,
+            "std": 0.035926389532837354,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.17339763343334197,
+            "std": 0.03618302064890573,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.006599342823028565,
+            "std": 0.04486759792835792,
+            "n": 10
+          },
+          "improved_seed_count": 6
+        },
+        "test_relative_l2": {
+          "before": {
+            "mean": 0.2948344528675079,
+            "std": 0.05640253591435288,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.2843124195933342,
+            "std": 0.05787442742655412,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.010522033274173736,
+            "std": 0.07338881970710395,
+            "n": 10
+          },
+          "improved_seed_count": 6
+        },
+        "independent_residual_rms": {
+          "before": {
+            "mean": 0.3664107367396355,
+            "std": 0.14740019563552303,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.512386417388916,
+            "std": 0.13813242370991557,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": 0.14597568064928054,
+            "std": 0.18786175298779964,
+            "n": 10
+          },
+          "improved_seed_count": 2
+        },
+        "initial_condition_rmse": {
+          "before": {
+            "mean": 0.2235337197780609,
+            "std": 0.023470604904167684,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.15250423103570937,
+            "std": 0.018277211115606325,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.07102948874235153,
+            "std": 0.02757733959061983,
+            "n": 10
+          },
+          "improved_seed_count": 10
+        },
+        "boundary_rms": {
+          "before": {
+            "mean": 0.1261569269001484,
+            "std": 0.012170279116263387,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.11824880093336106,
+            "std": 0.018557945785675465,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.007908125966787338,
+            "std": 0.02020372664486122,
+            "n": 10
+          },
+          "improved_seed_count": 6
+        }
+      },
+      "regional_test_rmse": {
+        "central_late_test": {
+          "before": {
+            "mean": 0.3735691487789154,
+            "std": 0.09760917223250476,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.47386497259140015,
+            "std": 0.12480172695088214,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": 0.10029582381248474,
+            "std": 0.1582771906551633,
+            "n": 10
+          }
+        },
+        "outside_window_test": {
+          "before": {
+            "mean": 0.15787352994084358,
+            "std": 0.02932554188195105,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.12759823128581047,
+            "std": 0.03020921076682733,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": -0.03027529865503311,
+            "std": 0.03196316326040052,
+            "n": 10
+          }
+        }
+      }
+    },
+    {
+      "method": "pod_qr_32",
+      "label": "POD: 32 puntos",
+      "metrics": {
+        "test_rmse": {
+          "before": {
+            "mean": 0.21241632103919983,
+            "std": 0.05538205877415689,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.18637145757675172,
+            "std": 0.04316601632816111,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.02604486346244812,
+            "std": 0.03805681260578544,
+            "n": 10
+          },
+          "improved_seed_count": 8
+        },
+        "test_relative_l2": {
+          "before": {
+            "mean": 0.3477522790431976,
+            "std": 0.08779441347303164,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.30534510165452955,
+            "std": 0.06876869620848135,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.04240717738866806,
+            "std": 0.06291353569973697,
+            "n": 10
+          },
+          "improved_seed_count": 8
+        },
+        "independent_residual_rms": {
+          "before": {
+            "mean": 0.12360495328903198,
+            "std": 0.014070477424089156,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.21600472182035446,
+            "std": 0.021795222950726872,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": 0.09239976853132248,
+            "std": 0.021895935279774775,
+            "n": 10
+          },
+          "improved_seed_count": 0
+        },
+        "initial_condition_rmse": {
+          "before": {
+            "mean": 0.2525186866521835,
+            "std": 0.029164129726073403,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.17135450690984727,
+            "std": 0.017128295069123178,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.08116417974233628,
+            "std": 0.02577534382078449,
+            "n": 10
+          },
+          "improved_seed_count": 10
+        },
+        "boundary_rms": {
+          "before": {
+            "mean": 0.11699813604354858,
+            "std": 0.011897124993649163,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.10255337506532669,
+            "std": 0.016821788853201198,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.014444760978221893,
+            "std": 0.01896466653242023,
+            "n": 10
+          },
+          "improved_seed_count": 9
+        }
+      },
+      "regional_test_rmse": {
+        "central_late_test": {
+          "before": {
+            "mean": 0.4351645320653915,
+            "std": 0.15879002546210214,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.44296828508377073,
+            "std": 0.11936121895899847,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": 0.007803753018379211,
+            "std": 0.10071111722056326,
+            "n": 10
+          }
+        },
+        "outside_window_test": {
+          "before": {
+            "mean": 0.1873071387410164,
+            "std": 0.04330078146446332,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.15379591882228852,
+            "std": 0.03349792622676231,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": -0.03351121991872787,
+            "std": 0.03153090926764933,
+            "n": 10
+          }
+        }
+      }
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "label": "PCA + media: 64 puntos",
+      "metrics": {
+        "test_rmse": {
+          "before": {
+            "mean": 0.22984155267477036,
+            "std": 0.057237065696919505,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.2051425501704216,
+            "std": 0.032237367264713095,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.024699002504348755,
+            "std": 0.053212305322386216,
+            "n": 10
+          },
+          "improved_seed_count": 7
+        },
+        "test_relative_l2": {
+          "before": {
+            "mean": 0.3763069182634354,
+            "std": 0.09088975633909825,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.3364750802516937,
+            "std": 0.052250702957304364,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.03983183801174164,
+            "std": 0.08732395677485455,
+            "n": 10
+          },
+          "improved_seed_count": 7
+        },
+        "independent_residual_rms": {
+          "before": {
+            "mean": 0.12405685558915139,
+            "std": 0.01591588513397134,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.21083398759365082,
+            "std": 0.021695800839901122,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": 0.08677713200449944,
+            "std": 0.022609340454332844,
+            "n": 10
+          },
+          "improved_seed_count": 0
+        },
+        "initial_condition_rmse": {
+          "before": {
+            "mean": 0.26562227457761767,
+            "std": 0.028634881299409578,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.18631414622068404,
+            "std": 0.013793016462127161,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.0793081283569336,
+            "std": 0.02603286829470377,
+            "n": 10
+          },
+          "improved_seed_count": 10
+        },
+        "boundary_rms": {
+          "before": {
+            "mean": 0.10540536269545556,
+            "std": 0.01200532337853865,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.08804880641400814,
+            "std": 0.01697267446349136,
+            "n": 10
+          },
+          "paired_change": {
+            "mean": -0.01735655628144741,
+            "std": 0.02192284959354791,
+            "n": 10
+          },
+          "improved_seed_count": 7
+        }
+      },
+      "regional_test_rmse": {
+        "central_late_test": {
+          "before": {
+            "mean": 0.4699378803372383,
+            "std": 0.16718003444134966,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.47326650023460387,
+            "std": 0.10022051185354067,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": 0.00332861989736557,
+            "std": 0.15635682892538633,
+            "n": 10
+          }
+        },
+        "outside_window_test": {
+          "before": {
+            "mean": 0.20220454782247543,
+            "std": 0.044055533646437786,
+            "n": 10
+          },
+          "after": {
+            "mean": 0.171397465467453,
+            "std": 0.023146022847780473,
+            "n": 10
+          },
+          "after_minus_before": {
+            "mean": -0.03080708235502243,
+            "std": 0.04097334204064964,
+            "n": 10
+          }
+        }
+      }
+    }
+  ],
+  "method_gaps_vs_sobol": [
+    {
+      "method": "pod_qr_32",
+      "metric": "test_rmse",
+      "before_gap": {
+        "mean": 0.03241934478282928,
+        "std": 0.0371799668733582,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.012973824143409729,
+        "std": 0.04077341098424274,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.019445520639419556,
+        "std": 0.054926720154444414,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 4
+    },
+    {
+      "method": "pod_qr_32",
+      "metric": "test_relative_l2",
+      "before_gap": {
+        "mean": 0.0529178261756897,
+        "std": 0.060526220875879624,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.021032682061195372,
+        "std": 0.06678940119618135,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.03188514411449432,
+        "std": 0.08962881511656193,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 4
+    },
+    {
+      "method": "pod_qr_32",
+      "metric": "independent_residual_rms",
+      "before_gap": {
+        "mean": -0.2428057834506035,
+        "std": 0.15650383960470496,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": -0.29638169556856153,
+        "std": 0.13906504995660415,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.05357591211795807,
+        "std": 0.18713075485374,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 10
+    },
+    {
+      "method": "pod_qr_32",
+      "metric": "initial_condition_rmse",
+      "before_gap": {
+        "mean": 0.02898496687412262,
+        "std": 0.02438689991145282,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.01885027587413788,
+        "std": 0.02090564421649426,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.01013469099998474,
+        "std": 0.03452771575706092,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 1
+    },
+    {
+      "method": "pod_qr_32",
+      "metric": "boundary_rms",
+      "before_gap": {
+        "mean": -0.009158790856599808,
+        "std": 0.015187166520906513,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": -0.015695425868034362,
+        "std": 0.020878754347560737,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.006536635011434555,
+        "std": 0.026330887528775427,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 8
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "metric": "test_rmse",
+      "before_gap": {
+        "mean": 0.04984457641839981,
+        "std": 0.03445163514011331,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.03174491673707962,
+        "std": 0.04918436689187362,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.018099659681320192,
+        "std": 0.06517704425815544,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 2
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "metric": "test_relative_l2",
+      "before_gap": {
+        "mean": 0.08147246539592742,
+        "std": 0.05617100736500501,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.052162660658359526,
+        "std": 0.08041975921951845,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.0293098047375679,
+        "std": 0.10604563703116185,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 2
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "metric": "independent_residual_rms",
+      "before_gap": {
+        "mean": -0.2423538811504841,
+        "std": 0.15661065592660905,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": -0.3015524297952652,
+        "std": 0.1469541632164085,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.059198548644781114,
+        "std": 0.1884760602417003,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 10
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "metric": "initial_condition_rmse",
+      "before_gap": {
+        "mean": 0.042088554799556734,
+        "std": 0.013060163338065579,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": 0.03380991518497467,
+        "std": 0.02634487321359082,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.008278639614582061,
+        "std": 0.03343047232033508,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 1
+    },
+    {
+      "method": "pca_mean_qr_64",
+      "metric": "boundary_rms",
+      "before_gap": {
+        "mean": -0.02075156420469284,
+        "std": 0.013135157859373955,
+        "n": 10
+      },
+      "after_gap": {
+        "mean": -0.030199994519352912,
+        "std": 0.02294495602900278,
+        "n": 10
+      },
+      "change_in_gap": {
+        "mean": -0.009448430314660073,
+        "std": 0.025234961647377204,
+        "n": 10
+      },
+      "after_better_than_sobol_count": 9
+    }
+  ],
+  "protocol_before": {
+    "seed": 2051,
+    "initial_points": 32,
+    "spatial_grid_points": 256,
+    "initial_x_min": -1.0,
+    "initial_x_max": -0.7568627595901489,
+    "domain_x_min": -1.0,
+    "domain_x_max": 1.0,
+    "initial_span_fraction": 0.12156862020492554,
+    "boundary_penalty_in_training": false,
+    "loss_weights": {
+      "data": 1.0,
+      "physics": 1.0,
+      "initial": 1.0
+    },
+    "fixed_probe_supervised_points": 128,
+    "probe_rule": "Frozen supervised batch from fit times only; fixed common Sobol residual probe with seed+501. Active probe replaces only residual coordinates with the current training set.",
+    "front_window": {
+      "front_abs_x_max": 0.1,
+      "front_time_min": 0.4
+    }
+  },
+  "protocol_after": {
+    "seed": 2051,
+    "initial_points": 32,
+    "spatial_grid_points": 256,
+    "initial_condition_strategy": "uniform_domain",
+    "initial_indices": [
+      0,
+      8,
+      16,
+      25,
+      33,
+      41,
+      49,
+      58,
+      66,
+      74,
+      82,
+      90,
+      99,
+      107,
+      115,
+      123,
+      132,
+      140,
+      148,
+      156,
+      165,
+      173,
+      181,
+      189,
+      197,
+      206,
+      214,
+      222,
+      230,
+      239,
+      247,
+      255
+    ],
+    "initial_x_min": -1.0,
+    "initial_x_max": 1.0,
+    "domain_x_min": -1.0,
+    "domain_x_max": 1.0,
+    "initial_span_fraction": 1.0,
+    "boundary_penalty_in_training": false,
+    "loss_weights": {
+      "data": 1.0,
+      "physics": 1.0,
+      "initial": 1.0
+    },
+    "fixed_probe_supervised_points": 128,
+    "probe_rule": "Frozen supervised batch from fit times only; fixed common Sobol residual probe with seed+501. Active probe replaces only residual coordinates with the current training set.",
+    "front_window": {
+      "front_abs_x_max": 0.1,
+      "front_time_min": 0.4
+    }
+  },
+  "limitations": "Ten reused seeds on Burgers; paired descriptive statistics. Training can change selected collocation points through the changed residual history. No separate boundary penalty is introduced. IC is imposed at 32 discrete nodes, not at every spatial point. Instrumented timings are not used to claim acceleration."
+}
