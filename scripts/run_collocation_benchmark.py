@@ -40,19 +40,20 @@ def main():
         with redirect_stdout(Tee(sys.stdout,log)),redirect_stderr(Tee(sys.stderr,log)):
             try:
                 if not args.aggregate and not args.report_only:
-                    from exchange_benchmark_results import code_digest
+                    from exchange_benchmark_results import code_digest, compatible_environment
                     from pinn_pca.benchmark_pilot import write_json
                     environment=dict(code_sha256=code_digest(),python=sys.version,platform=platform.platform(),
                         packages={name:importlib.metadata.version(name) for name in ('jax','jaxlib','numpy','scipy','matplotlib')})
                     provenance=target/'environment.json'
-                    if provenance.exists() and json.loads(provenance.read_text())!=environment:
-                        raise ValueError('Environment/code changed inside this problem: use the original environment or a new run_id')
+                    if provenance.exists():
+                        environment=compatible_environment(json.loads(provenance.read_text()),environment)
                     write_json(provenance,environment)
                     run_experiments(ROOT,c,problem_only=args.problem)
                 report(ROOT,c,None if args.aggregate else args.problem)
             except BaseException:
                 details=traceback.format_exc()
-                (target/'last_error.txt').write_text(details,encoding='utf-8')
+                try:(target/'last_error.txt').write_text(details,encoding='utf-8')
+                except OSError:pass
                 print(details,file=sys.stderr,flush=True)
                 raise
 

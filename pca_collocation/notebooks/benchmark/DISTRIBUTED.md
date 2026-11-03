@@ -2,6 +2,14 @@
 
 Usar la misma revisión de Git en las tres computadoras y en la que reúne los datos. No iniciar entrenamiento desde notebooks y scripts a la vez. Estos pasos no necesitan escribir en GitHub desde los equipos de cálculo.
 
+### Corrección de bloqueos de progreso en Windows/OneDrive
+
+El escritor JSON reintenta reemplazos bloqueados, utiliza temporales únicos y conserva intacto el archivo anterior si falla. `status.json` es informativo: si sigue bloqueado, se emite un aviso y continúa el entrenamiento. Configuraciones y marcadores de finalización siguen siendo obligatorios; un fallo persistente al guardar esos datos sí se informa como error. El manejo de errores conserva la excepción original aunque tampoco pueda escribir el estado.
+
+La corrección cambia solo escritura de progreso y manejo de errores, sin modificar pérdida, selección, Adam ni semillas. Se permite explícitamente compatibilidad entre las huellas de código originales y esta corrección revisada. Se conserva la huella original en `environment.json` y se registran las revisiones compatibles utilizadas al retomar. Cambios de versiones de bibliotecas o de código ajenos a esa pareja se siguen rechazando. Así pueden reunirse resultados de equipos que terminaron con la versión original y equipos con esta corrección, usando el importador actualizado.
+
+Si un estudio se detuvo por `PermissionError` en `status.tmp -> status.json`, repetir su comando tras actualizar el código: conserva las corridas completas y reproduce la incompleta desde el principio. No restaura automáticamente el checkpoint intermedio. Un equipo que sigue entrenando puede terminar con su código original; no necesita actualizar durante su ejecución.
+
 ## 1. Preparar cada computadora
 
 Instalar Git y Python 3.12 o posterior compatible con las versiones fijadas. En terminal:

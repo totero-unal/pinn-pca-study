@@ -17,15 +17,10 @@ from .collocation import _save_csv
 from .collocation_basis_ablation import read_rows
 from .collocation_rank_study import adaptive_basis
 from .notebook_images import embed_notebook_images
+from .atomic_io import write_json
 
 METHODS=('random','hammersley','random_r','rad','pca_mean')
 PROBLEMS=('burgers','wave','allen_cahn')
-
-
-def write_json(path, data):
-    path=Path(path);temporary=path.with_suffix('.tmp')
-    temporary.write_text(json.dumps(data,indent=2,ensure_ascii=False),encoding='utf-8')
-    temporary.replace(path)
 
 
 def uniform(n, seed):
@@ -191,7 +186,7 @@ def run_experiments(root,c,problem_only=None):
                         marker=json.loads((folder/'completed.json').read_text())
                         assert marker['passed'] and marker['steps']==steps
                         done+=1;print(f'SKIP {problem} {method} seed={seed}',flush=True);continue
-                    write_json(status_folder/'status.json',dict(state='running',problem=problem,method=method,seed=seed,completed_runs=done,total_runs=total))
+                    write_json(status_folder/'status.json',dict(state='running',problem=problem,method=method,seed=seed,completed_runs=done,total_runs=total),critical=False)
                     params=init;state=adam_init(params);best=None;best_loss=np.inf;best_step=0
                     active=hammersley(c['active_count'],seed) if method=='hammersley' else uniform(c['active_count'],seed)
                     starting=active.copy();history=[];traces=[];selection=[];histories={};point_sets={'step_0':active.copy()}
@@ -209,7 +204,7 @@ def run_experiments(root,c,problem_only=None):
                             traces.append(dict(problem=problem,method=method,seed=seed,step=step,validation_residual_mse=val,elapsed_seconds=time.perf_counter()-start))
                             _save_csv(folder/'trace.csv',traces)
                             print(f'PROGRESS {problem} {method} seed={seed} {step}/{steps}',flush=True)
-                            write_json(status_folder/'status.json',dict(state='running',problem=problem,method=method,seed=seed,step=step,completed_runs=done,total_runs=total))
+                            write_json(status_folder/'status.json',dict(state='running',problem=problem,method=method,seed=seed,step=step,completed_runs=done,total_runs=total),critical=False)
                         if full and step in c['state_checkpoints']:
                             save_state(folder/f'state_{step}.npz',params,state,step)
                         if step and step%c['update_every']==0 and step<steps:
@@ -255,11 +250,14 @@ def run_experiments(root,c,problem_only=None):
                     write_json(folder/'completed.json',dict(passed=True,steps=steps,active_count=len(active)))
                     done+=1
         if not full:report(root,c)
-        write_json(status_folder/'status.json',dict(state='complete',completed_runs=done,total_runs=total))
+        write_json(status_folder/'status.json',dict(state='complete',completed_runs=done,total_runs=total),critical=False)
     except BaseException as exc:
         import traceback
-        write_json(status_folder/'status.json',dict(state='interrupted' if isinstance(exc,KeyboardInterrupt) else 'failed',completed_runs=done,total_runs=total,error=str(exc)))
-        (status_folder/'last_error.txt').write_text(traceback.format_exc(),encoding='utf-8');raise
+        details=traceback.format_exc()
+        write_json(status_folder/'status.json',dict(state='interrupted' if isinstance(exc,KeyboardInterrupt) else 'failed',completed_runs=done,total_runs=total,error=str(exc)),critical=False)
+        try:(status_folder/'last_error.txt').write_text(details,encoding='utf-8')
+        except OSError:pass
+        raise
     return out
 
 

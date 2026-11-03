@@ -72,5 +72,21 @@ class ExchangeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Checksum failed'):self.call(self.receiver,['import',str(bad)])
         self.assertFalse((self.receiver/'pca_collocation/results/benchmark/fixture').exists())
 
+    def test_only_reviewed_io_revision_is_compatible(self):
+        old,new=sorted(exchange.IO_FIX_CODE_GROUP)
+        self.assertTrue(exchange.compatible_code(old,new))
+        self.assertTrue(exchange.compatible_code(new,old))
+        self.assertFalse(exchange.compatible_code(old,'arbitrary-edit'))
+
+    def test_resume_preserves_original_provenance_and_rejects_environment_change(self):
+        old,new=sorted(exchange.IO_FIX_CODE_GROUP)
+        previous=dict(code_sha256=old,python='same',platform='same',packages={'jax':'same'})
+        current=dict(previous,code_sha256=new)
+        merged=exchange.compatible_environment(previous,current)
+        self.assertEqual(merged['code_sha256'],old)
+        self.assertEqual(set(merged['execution_code_revisions']),{old,new})
+        with self.assertRaisesRegex(ValueError,'Environment changed'):
+            exchange.compatible_environment(previous,dict(current,packages={'jax':'changed'}))
+
 
 if __name__=='__main__':unittest.main()
